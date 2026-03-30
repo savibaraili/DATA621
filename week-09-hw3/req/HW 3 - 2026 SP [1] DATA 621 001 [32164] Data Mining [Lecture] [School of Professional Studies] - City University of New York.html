@@ -1,0 +1,1521 @@
+<!doctype html>
+<html data-userprofile-context="{&quot;hasProfileCardAccess&quot;:true}" data-mathjax-context="{&quot;renderLatex&quot;:true,&quot;outputScale&quot;:1.5}" data-logging-endpoint="/d2l/lp/logger/provision?sessionToken=NjYwNiwxNzg3NTY" lang="en-us" data-lang-default="en-us" data-intl-overrides="{&quot;number&quot;:{&quot;patterns&quot;:{&quot;decimal&quot;:{&quot;negativePattern&quot;:&quot;-{number}&quot;},&quot;percent&quot;:{&quot;positivePattern&quot;:&quot;{number} %&quot;,&quot;negativePattern&quot;:&quot;-{number} %&quot;}},&quot;symbols&quot;:{&quot;decimal&quot;:&quot;.&quot;,&quot;group&quot;:&quot;,&quot;,&quot;negative&quot;:&quot;-&quot;,&quot;percent&quot;:&quot;%&quot;},&quot;groupSize&quot;:[3]},&quot;date&quot;:{&quot;hour24&quot;:false,&quot;calendar&quot;:{&quot;firstDayOfWeek&quot;:0,&quot;dayPeriods&quot;:{&quot;am&quot;:&quot;AM&quot;,&quot;pm&quot;:&quot;PM&quot;},&quot;months&quot;:{&quot;short&quot;:[&quot;Jan&quot;,&quot;Feb&quot;,&quot;Mar&quot;,&quot;Apr&quot;,&quot;May&quot;,&quot;Jun&quot;,&quot;Jul&quot;,&quot;Aug&quot;,&quot;Sep&quot;,&quot;Oct&quot;,&quot;Nov&quot;,&quot;Dec&quot;,&quot;&quot;],&quot;long&quot;:[&quot;January&quot;,&quot;February&quot;,&quot;March&quot;,&quot;April&quot;,&quot;May&quot;,&quot;June&quot;,&quot;July&quot;,&quot;August&quot;,&quot;September&quot;,&quot;October&quot;,&quot;November&quot;,&quot;December&quot;,&quot;&quot;]},&quot;days&quot;:{&quot;short&quot;:[&quot;Sun&quot;,&quot;Mon&quot;,&quot;Tue&quot;,&quot;Wed&quot;,&quot;Thu&quot;,&quot;Fri&quot;,&quot;Sat&quot;]}},&quot;formats&quot;:{&quot;dateFormats&quot;:{&quot;short&quot;:&quot;M/d/yyyy&quot;},&quot;timeFormats&quot;:{&quot;short&quot;:&quot;h:mm tt&quot;,&quot;medium&quot;:&quot;h:mm tt&quot;,&quot;full&quot;:&quot;h:mm tt ZZZ&quot;}}}}" data-oslo="{&quot;batch&quot;:&quot;/d2l/api/oslo/1/batch&quot;,&quot;collection&quot;:&quot;/d2l/api/oslo/1/collection&quot;,&quot;version&quot;:&quot;W/\&quot;20.26.3.22348.638396676610101010\&quot;&quot;}" data-timezone="{&quot;name&quot;:&quot;United States - New York&quot;,&quot;identifier&quot;:&quot;America/New_York&quot;}" data-terminology="{&quot;outcomes&quot;:&quot;outcomes&quot;,&quot;educator&quot;:&quot;educator&quot;,&quot;moduleHierarchy&quot;:&quot;unit&quot;}" data-app-version="20.26.3" dir="ltr" data-telemetry-endpoint="https://prd.us-east-1.telemetryservice.brightspace.com/api/events/" data-cdn="https://s.brightspace.com/apps/brightspace/20.26.3.22348/" data-global-context="{&quot;orgUnitId&quot;:&quot;1154245&quot;,&quot;orgId&quot;:&quot;6606&quot;,&quot;userId&quot;:&quot;178756&quot;}" data-he-context="{&quot;activeOrgEnrollment&quot;:true,&quot;applySandboxing&quot;:false,&quot;bcsansFontAllowed&quot;:false,&quot;contentStyler&quot;:false,&quot;contentStylerCssOverride&quot;:&quot;&quot;,&quot;disablePointerEvents&quot;:true,&quot;enableLmsPathChecking&quot;:false,&quot;generativeAIEndpoint&quot;:&quot;&quot;,&quot;h5pContext&quot;:null,&quot;h5pLtiDeploymentLinkId&quot;:null,&quot;insertElement&quot;:false,&quot;insertPractice&quot;:false,&quot;layouts&quot;:false,&quot;mathRenderScale&quot;:1.5,&quot;maxFileSize&quot;:2147483648,&quot;mentions&quot;:true,&quot;orgUnitId&quot;:&quot;1154245&quot;,&quot;orgUnitPath&quot;:&quot;/content/enforced/1154245-SPS01_DATA_621_1262_1_32164/&quot;,&quot;pasteFormatting&quot;:&quot;prompt&quot;,&quot;sourceEditable&quot;:true,&quot;uploadFiles&quot;:false,&quot;useNewTinyMCEVersion&quot;:false,&quot;viewFiles&quot;:false,&quot;wmodeOpaque&quot;:true}" data-css-vars="{&quot;--d2l-branding-primary-color&quot;:&quot;#004489&quot;}">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>HW 3 - 2026 SP [1] DATA 621 001 [32164] Data Mining [Lecture] [School of Professional Studies] - City University of New York</title>
+		<link rel="preconnect" href="https://s.brightspace.com/lib/bsi/2026.3.232/" crossorigin>
+		<link rel="dns-prefetch" href="https://s.brightspace.com/lib/bsi/2026.3.232/">
+		<link rel="modulepreload" href="https://s.brightspace.com/lib/bsi/2026.3.232/unbundled/bsi-unbundled.js" as="script" crossorigin="anonymous">
+		<link rel="modulepreload" href="https://s.brightspace.com/lib/bsi/2026.3.232/unbundled/floating-buttons.js" as="script" crossorigin="anonymous">
+		<link rel="modulepreload" href="https://s.brightspace.com/lib/bsi/2026.3.232/unbundled/icon.js" as="script" crossorigin="anonymous">
+		<link rel="modulepreload" href="https://s.brightspace.com/lib/bsi/2026.3.232/unbundled/html-block.js" as="script" crossorigin="anonymous">
+		<link rel="modulepreload" href="https://s.brightspace.com/lib/bsi/2026.3.232/unbundled/htmleditor.js" as="script" crossorigin="anonymous">
+		<link rel="modulepreload" href="https://s.brightspace.com/lib/bsi/2026.3.232/unbundled/navigation.js" as="script" crossorigin="anonymous">
+		<link rel="modulepreload" href="https://s.brightspace.com/lib/bsi/2026.3.232/unbundled/navigation-main-header.js" as="script" crossorigin="anonymous">
+		<link rel="modulepreload" href="https://s.brightspace.com/lib/bsi/2026.3.232/unbundled/navigation-button-icon.js" as="script" crossorigin="anonymous">
+		<link rel="modulepreload" href="https://s.brightspace.com/lib/bsi/2026.3.232/unbundled/navigation-link-icon.js" as="script" crossorigin="anonymous">
+		<link rel="modulepreload" href="https://s.brightspace.com/lib/bsi/2026.3.232/unbundled/navigation-separator.js" as="script" crossorigin="anonymous">
+		<link rel="modulepreload" href="https://s.brightspace.com/lib/bsi/2026.3.232/unbundled/navigation-link-image.js" as="script" crossorigin="anonymous">
+		<link rel="modulepreload" href="https://s.brightspace.com/lib/bsi/2026.3.232/unbundled/navigation-dropdown-button-icon.js" as="script" crossorigin="anonymous">
+		<link rel="modulepreload" href="https://s.brightspace.com/lib/bsi/2026.3.232/unbundled/dropdown-content.js" as="script" crossorigin="anonymous">
+		<link rel="modulepreload" href="https://s.brightspace.com/lib/bsi/2026.3.232/unbundled/navigation-dropdown-button-custom.js" as="script" crossorigin="anonymous">
+		<link rel="modulepreload" href="https://s.brightspace.com/lib/bsi/2026.3.232/unbundled/d2l-profile-image-base.js" as="script" crossorigin="anonymous">
+		<link rel="modulepreload" href="https://s.brightspace.com/lib/bsi/2026.3.232/unbundled/navigation-main-footer.js" as="script" crossorigin="anonymous">
+		<link rel="modulepreload" href="https://s.brightspace.com/lib/bsi/2026.3.232/unbundled/dropdown.js" as="script" crossorigin="anonymous">
+		<link rel="modulepreload" href="https://s.brightspace.com/lib/bsi/2026.3.232/unbundled/dropdown-menu.js" as="script" crossorigin="anonymous">
+		<link rel="modulepreload" href="https://s.brightspace.com/lib/bsi/2026.3.232/unbundled/menu.js" as="script" crossorigin="anonymous">
+		<link rel="modulepreload" href="https://s.brightspace.com/lib/bsi/2026.3.232/unbundled/menu-item-link.js" as="script" crossorigin="anonymous">
+		<link rel="modulepreload" href="https://s.brightspace.com/lib/bsi/2026.3.232/unbundled/menu-item.js" as="script" crossorigin="anonymous">
+		<link rel="modulepreload" href="https://s.brightspace.com/lib/bsi/2026.3.232/unbundled/navigation-band.js" as="script" crossorigin="anonymous">
+		<link rel="modulepreload" href="https://s.brightspace.com/lib/bsi/2026.3.232/unbundled/button-icon.js" as="script" crossorigin="anonymous">
+		<link rel="modulepreload" href="https://s.brightspace.com/lib/bsi/2026.3.232/unbundled/breadcrumbs.js" as="script" crossorigin="anonymous">
+		<link rel="modulepreload" href="https://s.brightspace.com/lib/bsi/2026.3.232/unbundled/breadcrumb.js" as="script" crossorigin="anonymous">
+		<link rel="modulepreload" href="https://s.brightspace.com/lib/bsi/2026.3.232/unbundled/breadcrumb-current-page.js" as="script" crossorigin="anonymous">
+		<script>
+		(function(){var client;var errors = [];window.addEventListener('d2l-logging-loaded', function(e) {client = e.detail.createClient('uncaught-errors', { shouldThrottle: true });if (errors.length > 0) {client.legacyErrorBatch(errors);}});var handleError = function(data) {if (!data.message) return;if (data.error && data.error.stack && (data.error.stack.includes('/content/') || data.error.stack.includes('/shared/'))) return;if (client) {client.legacyError(data.message, data.source, data.lineno, data.colno, data.error);} else {errors.push(data);}};window.addEventListener('error', function(e) {handleError({ message: e.message, source: e.source, lineno: e.lineno, colno: e.colno, error: e.error });});window.addEventListener('unhandledrejection', function(e) {handleError({message: e.reason ? (e.reason.message ? e.reason.message : e.reason) : '',error: e.reason});});})();
+		(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','TEMP-GTM-PVF86RP8');
+		(function(){try { localStorage.setItem('XSRF.Token','qaaruwD3hIvnNXJZflst2bi9RRn8ojvy');localStorage.setItem('Session.UserId','178756');} catch(e) {}})();
+		(function(){if(window['FontFace'] === undefined) { window.d2lFontsLoaded = true; return; }window.d2lFontsLoaded = false;Promise.all(['400','700'].map(function(w) {return new FontFace('Lato','url(https://s.brightspace.com/lib/fonts/0.6.1/assets/Lato-' + w + '.woff2) format("woff2")', {style:'normal',weight: w}).load();})).then(function() {window.d2lFontsLoaded = true;if(window['D2L'] && window.D2L['FontsLoaded']) { window.D2L.FontsLoaded(); }});})();
+		(function(){
+				D2L = window.D2L || {}; D2L.LP = D2L.LP || {}; D2L.LP.Web = D2L.LP.Web || {}; D2L.LP.Web.UI = D2L.LP.Web.UI || {};
+				D2L.LP.Web.UI.Flags = {
+					ListedFlags: {"ACC-5-dashboard":false,"award-enable-copy-workflow":false,"awards-increase-string-fields-length":true,"LURV-6105-update-public-awards-fields":true,"awards-summary-date-localization-fix":true,"create-space-experimental-brightspace-object-types":false,"MAV-5508-welcome-widget-create-new":true,"ipsis-sourcesystem-migration":true,"ipsis-provider-oldstandardcsv":false,"ipsis-oneroster-csv-powerschool":false,"ipsis-oneroster-full-sync-implicit-unenrollments":false,"ipsis-esb-lis":false,"f17778-oneroster-psur":false,"f19471-gg4l-oneroster-grades-passback":true,"hyrl-1999-oneroster-rest-1p2":false,"hyrl-2561-ipsis-lms-invoke-aws-lambdas":true,"hyrl-2962-cancel-batch":false,"hyrl-3638-user-default-inactive-option":true,"hyrl-3587-hylia-data-pond":false,"F16988-add-to-calendar":true,"advanced-assessments-groups":true,"PHNX-2361-lti-activity-usage":false,"nim-3228-ce-multi-eval-tab-skeleton-fix":true,"nim-5386-modify-activity-display-return-to":true,"nim-5487-fix-assigned-actor-counts":true,"nim-5395-update-org-unit-id-on-activity-iteration":true,"nim-5243-consolidate-evaluator-and-publisher-patch-actions":true,"nim-5229-add-targeted-class-to-explicit-evaluation-subentities":true,"PHNX-3264-unavailable-content-visibility-setting":true,"F18735-lti-special-access-ui-feature-flag":false,"F19162-enable-content-face-releaseconditions":true,"F21912-enable-content-face-competencies":true,"F19163-enable-content-face-standards":true,"IDCS-15-edit-content-file-descriptions":true,"IDCS-17-edit-weblink-descriptions":true,"PHNX-1554-enable-refactored-completion-summary":true,"PHNX-2629-access-unlimited-depth":true,"IDCS-283-edit-lti-descriptions":true,"EP-1169-use-content-search":true,"EP-1097-edit-scorm-descriptions":true,"EP-1432-enable-description-scrolling-hovering":true,"EP-1580-enable-url-updating-in-lessons-next-prev":true,"PHNX-2357-user-guided-grade-associations":true,"PHNX-2649-lessons-course-overview":true,"PHNX-3198-respect-availability-window":true,"PHNX-3065-lessons-quicklink-current-window-navigation":true,"PHNX-2766-lazy-load-content":true,"PHNX-2988-lessons-full-date-tooltip-and-aria":true,"PHNX-3063-support-availability-types":true,"PHNX-4040-improved-file-topic-uploader":false,"PHNX-3190-valence-get-user-topic-completions-ignores-classlist-presence":true,"EP-1454-enable-module-level-outcome-alignment":false,"MAV-5811-practice-subpath-course-import":false,"usa-1243-discussions-due-date":true,"lti-asset-processor-groups":false,"FED-3067-Annual-Consumption":true,"cpd-add-record-from-award":true,"cpd-utc-dates":true,"cpd-default-attachments":true,"cpd-save-targets-dialog":true,"LURV-6016-CPD-Submission-Alert":true,"nim-3661-new-alerts-on-incorrect-file-extenstion-assignment-submission":true,"fed-54-in-progress":false,"FED-4668-lift-outcomes":true,"FED-4649-content-gen-import-expand":true,"FED-4285-content-templates":true,"HAI-1593-content-picker-quiz":true,"HAI-1591-content-picker-ideas":true,"HAI-1592-content-picker-summary":true,"HAI-1821-content-picker-lss":true,"HAI-596-Interventions":true,"HAI-2303-lcg-bulk-template":false,"FED-6732-quiz-custom-instructions":false,"FED-6876-idea-custom-instructions":false,"rpc-recalculate-all-users-fix":true,"oad-include-asn":true,"EP-1443-enable-lightcast-skills":false,"rename-programs-to-outcome-sets":true,"outcome-sets-organization":true,"outcomes-set-course-dataset":true,"outcomes-set-org-dataset":true,"EP-1420-enable-createspace-picker":false,"outcome-sets-scales":false,"de44716-lti-iframe-resize-limit":false,"lti-apps":false,"uce-eula-dialog":true,"BORG-4318-hide-quiz-question-points":true,"BORG-5230-zero-point-questions":true,"BORG-6211-jobify-survey-export":true,"BORG-5429-Hotspot-Question-Type":false,"BORG-3975-quizzing-h5p-improvements":false,"BORG-5624-question-pools-validate-numquestions":true,"BORG-5894-Incorrect-Filter-and-Feedback-Field-Update":false,"EP-1126-edit-lor-descriptions":true,"FED-2493-Docs-PDF":true,"HAI-2170-study-notebook":false,"shield-14201-update-prismjs-1-30":false,"MAV-5203-createspace-h5p-library":false,"GAUD-7472-dropdown-popover":true,"GAUD-7355-tooltip-popover":true,"GAUD-7146-tabs-new-structure":true,"GAUD-8351-dialog-resize-telemetry":true,"PHNX-3234-dialog-alignment-fix":true,"legacy-fullscreen-dialog-handle-fix":true,"GAUD-8228-8186-improved-table-col-sync":true,"lurv-6209-user-merge":true,"rubrics-clear-selections-option-and-menu-improvements":true,"unique-reoffer-code":true,"MAV-5177-source-courses-in-createspace":false,"MAV-4591-welcome-window-no-context-override":false,"MAV-5258-mpw-profile-dropdown":true,"shield-4811-enter-grades-scrolling-fix":false,"workforce-learning-groups":false,"scheduled-learning":false},
+					Flag: function(feature, defaultValue) {
+						const featureValue = D2L.LP.Web.UI.Flags.ListedFlags[feature];
+						return featureValue !== undefined ? featureValue : defaultValue;
+					}
+				};
+			})();
+		</script>
+		<meta name="robots" content="noindex" />
+		<link rel="icon" href="/d2l/lp/web/faviconView?variant=0&amp;version=1" />
+		<link rel="stylesheet" type="text/css" href="https://s.brightspace.com/lib/bsi/2026.3.232/bsi.css" />
+		<link rel="stylesheet" type="text/css" href="https://s.brightspace.com/apps/brightspace/20.26.3.22348/web-packages/D2L.LP.Web.Core.css" />
+		<style>
+			html { font-size:20px; }
+			html { --d2l-branding-primary-color: #004489; }
+		</style>
+		<link rel="stylesheet" type="text/css" href="/d2l/lms/dropbox/static/include/dropboxuser.css?v=20.26.3.22348" />
+		<style>
+			.cDark { background-color:#242424;}
+			.cDark a, .cDark a:link, .cDark a:visited, .cDark a:hover {color:#ffffff;font-weight:normal;}
+			.cLight { background-color:#242424;}
+			.cLight a, .cLight a:link, .cLight a:visited, .cLight a:hover {color:#ffffff;font-weight:normal;}
+			.cSoft { background-color:#e7e7e2;}
+			.cSoft a, .cSoft a:link, .cSoft a:visited, .cSoft a:hover {color:#666666;font-weight:normal;}
+			.d2l-branding-navigation-background-color {background-color: #004489;}
+			.d2l_1_5_239 {margin:10px;}
+			.d2l_1_90_566 {width:500px;}
+			.d2l_1_91_848 {background-position:left top;}
+			.d2l_1_92_615 {padding:1em;}
+			.d2l_1_93_925 {background-image:url('https://s.brightspace.com/lib/bsi/2026.3.232/images/tier1/alert.svg');}
+			.d2l_1_94_302 {background-position:right top;}
+			.d2l_1_95_504 {padding-right:31px;}
+			.d2l_1_96_195 {min-height:18px;}
+			.d2l_1_97_650 {background-image:url('https://s.brightspace.com/lib/bsi/2026.3.232/images/tier1/check.svg');}
+			.d2l_1_98_695 {padding:3.4em;}
+			.d2l_1_99_846 {margin-bottom:10px;}
+		</style>
+		<script>
+			var Global = {OrgUnitId:1154245,OrgId:6606,OrgName:'City University of New York',OrgUnitName:'2026 SP [1] DATA 621 001 [32164] Data Mining [Lecture] [School of Professional Studies]',OrgUnitCode:'SPS01_DATA_621_1262_1_32164',OrgUnitTypeId:3,OrgDefinedId:'23777314',OrgUnitPath:'\/content\/enforced\/1154245-SPS01_DATA_621_1262_1_32164\/',FirstName:'Sabina',LastName:'Baraili',UserName:'sabina.baraili14',UserId:178756,RoleId:110,RoleCode:'',ImageSetId:0,ImageVersion:'20.26.3.22348',AssemblyVersion:'20.26.3.22348',Language:{LanguageId:1,LanguageVersion:'20.26.3.22348'},Culture:{IsRightToLeft:0},};
+			var BrowserInfo = {browserType:'Chrome',Type:10,MajorVersion:146,MinorVersion:0};
+		</script>
+		<script src="https://s.brightspace.com/lib/jquery/3.7.1/jquery.min.js"></script>
+		<script src="https://s.brightspace.com/lib/jqueryui/1.13.2/jquery-ui.min.js"></script>
+		<script src="https://s.brightspace.com/lib/bsi/2026.3.232/bsi.js"></script>
+		<script>
+		window.__elasticRumOnload = function() {if (!window['elasticApm']) return;var apm = elasticApm.init({serviceName: 'LMS',serverUrl: 'https://d2l-elasticrum.apm.us-east-1.aws.cloud.es.io/',transactionSampleRate: 0.1,disableInstrumentations: ['xmlhttprequest','fetch','eventtarget','history']});apm.addLabels({ "orgName": "cuny"});apm.addLabels({ "instanceName": "cuny"});};
+		</script>
+		<script async="async" onload="window.__elasticRumOnload()" src="https://s.brightspace.com/lib/elastic-apm-rum/5.14.0/elastic-apm-rum.umd.min.js"></script>
+		<script src="https://s.brightspace.com/apps/brightspace/20.26.3.22348/web-packages/D2L.LP.Web.Core.js"></script>
+		<script src="https://s.brightspace.com/apps/brightspace/20.26.3.22348/web-packages/D2L.LP.Web.Controls.Selectors.js"></script>
+		<script src="https://s.brightspace.com/apps/brightspace/20.26.3.22348/web-packages/D2L.LP.Web.Controls.FileSelector.js"></script>
+		<script>
+		window['EUSClientName'] = "CUNY_Support";
+window['EUSDeploymentID'] = "572Mm0000004zuX";
+window['EUSButtonID'] = "573Mm000004jb5z";
+window['EUSLiveAgentDevName'] = "EmbeddedServiceLiveAgent_Parent04IMm0000004i0rMAA_18fbb33e152";
+window['SalesForceDomain'] = "https://d2l.my.salesforce.com";
+window['gslbBaseURL'] = "00D6100000080tO";
+window['BaseliveAgentContentURL'] = "https://c.la1-core1.sfdc-58ktaz.salesforceliveagent.com/content";
+window['BaseLiveAgentURL'] = "https://d.la1-core1.sfdc-58ktaz.salesforceliveagent.com/chat";
+window['CommunityChannelSearchURL'] = "https://community.brightspace.com/";
+window['WorkflowTags'] = "cuny";
+window['CurrentLISRoles'] = "Student";
+window['OrgDefinedId'] = "23777314";
+window['SchoolUrl'] = "brightspace.cuny.edu";
+window['FirstName'] = "Sabina";
+window['LastName'] = "Baraili";
+window['Email'] = "sabina.baraili14@login.cuny.edu";
+window['ClosedWidgetStyleHeight'] = "54";
+window['ClosedWidgetStyleWidth'] = "152";
+window['SalesforceOrgId'] = "00D6100000080tO";
+window['SalesforceMessagingDeployment'] = "AAA_D2L_Messaging_Deployment_Lumi_Chat";
+window['SalesforceMessagingUrl'] = "https://d2l.my.site.com/ESWAAAD2LMessagingDepl1759431068098";
+window['SalesforceScrt2Url'] = "https://d2l.my.salesforce-scrt.com";
+window['Language'] = "en-us";
+window['DisplayInSecondaryPosition'] = false;
+
+		</script>
+		<script src="https://s.brightspace.com/lib/eus-widget/3.1.1/forethoughtscript.js"></script>
+		<script>
+			D2L.Serialization.JsonDeserializerMin.Deserialize(["36b59219bd044459a42f113f2f8c92c4",307,0,[{}],[[]],[[["action",[[["fs_sfiles"],["ctl_25"],"Field",1],[["redt_comments"],["ctl_32"],"Comments",0]]]]],[[],0],["^([\\(-]*(([01234567890123456789]?[01234567890123456789]?([01234567890123456789](,[01234567890123456789][01234567890123456789][01234567890123456789])*)))(\\.[01234567890123456789]+)?[\\)-]*)$|^([\\(-]*[01234567890123456789]*\\.?[01234567890123456789]+[\\)-]*)$","^([\\(-]*(([01234567890123456789]?[01234567890123456789]?([01234567890123456789](,[01234567890123456789][01234567890123456789][01234567890123456789])*)?))[\\)-]*)$|^([\\(-]*[01234567890123456789]+[\\)-]*)$",0,".",1,"-",",",["0","1","2","3","4","5","6","7","8","9"],"%",0,0,0,[3]],[],0,{"ClassName":"D2L.Util.DateTime","Year":2026,"Month":3,"Day":29,"Hour":21,"Minute":26,"Second":41,"Millisecond":936}],D2L.UI);
+			D2L.Language.InitLang({'standard.buttons':{'btnadd':'Add','btnreset':'Reset','btnreplace':'Replace','btnrename':'Rename','btnremoveselected':'Remove Selected','btnremove':'Remove','btnrefresh':'Refresh','btnrecord':'Record','btnpublishprocessing':'Publishing...','btnpublish1':'Publish','btnpublish':'Publish to LOR','btnproceed':'Proceed','btnprint':'Print','btnprevious':'Previous ','btnpreview':'Preview','btnoverwrite':'Overwrite','btnokay':'OK','btnok':'OK','btnresetprocessing':'Resetting...','btnretract':'Retract','btnreturn':'Return','btnrevert':'Undo Unsaved Changes','btnupload':'Upload','btnupdateprocessing':'Updating...','btnupdate':'Update','btnsubmit':'Submit','btnstart':'Start','btnskip':'Skip','btnshowall':'Show All','btnset':'Set','btnno':'No','btnsend':'Send','btnsearch':'Search','btnsaveprocessing':'Saving...','btnsavedraft':'Save Draft','btnsaveandnew':'Save and New','btnsaveandcopy':'Save and Copy','btnsaveandclose':'Save and Close','btnsave':'Save','btnrun':'Run','btnselectcurrentfolder':'Select Current Folder','btnnext':'Next','btnnew':'New','btnlistall':'List All','btnclearlist':'Clear List','btnclearchanges':'Clear Changes','btnclearall':'Clear All','btnclear':'Clear','btnchangepassword':'Change Password','btnchangelanguage':'Change Language','btnchange':'Change','btncancelprocessing':'Canceling...','btnclose':'Close','btncancel':'Cancel','btnback':'Back','btnapplyprocessing':'Applying...','btnapply':'Apply','btnadmin':'Admin','btnaddselected':'Add Selected','btnaddprocessing':'Adding...','btnaddanother':'Add Another','btnaddandnew':'Add and New','btnbrowse':'Browse','btnview':'View','btnconfirm':'Confirm','btncopy':'Copy','btninsert':'Insert','btnimport':'Import','btnhome':'Home','btnhistory':'History','btngoback':'Go Back','btngo':'Go','btnfinish':'Finish','btnexport':'Export','btncontinue':'Continue','btnedit':'Edit','btndontsave':'Don\u0027t Save','btndone':'Done','btndeleteselected':'Delete Selected','btndeleteprocessing':'Deleting...','btndelete':'Delete','btncustomize':'Customize','btncreateprocessing':'Creating...','btncreate':'Create','btndownload':'Download','btnyes':'Yes'},'framework.dialog':{'altclosedialog':'Close this Dialog','altjumpbottom':'Jump to bottom of [0] dialog','altjumptop':'Jump to top of [0] dialog','altresizedialog':'Resize this Dialog','lblsaveconfirmationprimary':'This page has been edited.','lblsaveconfirmationsecondary':'Do you want to save the changes?','titconfirmation':'Confirmation','titerror':'Error','titinformation':'Information','titinputrequested':'Choose a Value','titprocessing':'Processing...','titsavechanges':'Save Changes','titwarning':'Warning'},'framework.messagearea':{'hdrerrors':'Errors','lblstatus7':'Exported successfully','lblstatus6':'Imported successfully','lblstatus5':'Copied successfully','lblstatus4':'Reordered successfully','lblstatus3':'Created successfully','lblstatus2':'Deleted successfully','lblstatus17':'Restored successfully','lblstatus8':'Moved successfully','lblstatus16':'Rubric saved - Grade not published since the course end date is in the past','lblstatus14':'Rubric saved - Grade not published since the course is in an in-active state','lblstatus13':'Sent successfully','lblstatus12':'Unenrolled successfully','lblstatus11':'Enrolled successfully','lblstatus10':'Removed successfully','lblstatus1':'Saved successfully','lblerrors':'There were [0] error(s) found in the information you submitted:','lblstatus15':'Rubric saved - Grade not published since the course start date is in the future','lblstatus9':'Added successfully'},'framework.fileselector':{'altopenfile':'Open [0]','btnaddfile':'Add a File','btnaddimage':'Insert an Image','btnfile':'File','errtotalsizebreached':'You are nearing the maximum file capacity. You have [0] of storage left. Remove one or more files and retry.','jsisrequiredfailuretext':'You must select at least one file.','lblrequired':'{subject} is required. Select at least one file.','lblsource':'Source: '},'frameworkwebpages.submitfiledialog':{'altareacoursegridsummary':'List of folders and files for the current location.','lblnoareas':'You do not have permission to see any file areas.','lblselectapath':'Select a path.','lblselectfilestoupload':'Select the file(s) to upload from your computer:','lblsize':'Size','lblstatusmessage':'[0] folder(s), [1] file(s) - [2] selected','lblstatusuploading':'Uploading file(s)...','lblsubmitfrom':'Submit From','lbluploadfiles':'Upload files from your computer.','lblmycomputer':'My Computer','optaddasattachment':'Add as an attachment','tbareagrouplocker':'Group Locker','tbareamycomputer':'My Computer','tbareamylocker':'My Locker','titsubmitafile':'Add a File','txtinvaliddirectory':'Invalid org unit path','txtmedialibrary':'Media Library','txtoutypenamefiles':'[0] Files','txtsharedfiles':'Public Files','optstoreincoursefiles':'Store in course files','txturl':'URL','lblmovingfile':'Moving file into course files...','lblfilesoftype':'Files of Type','altcreatenewfolder':'Create a New Folder','altshowextensioninfo':'View extension list for this file type.','altuponelevel':'Up One Level','btnselectfile':'Select File','btnselectfiles':'Select File(s)','btnselectpath':'Select Path','btnupload':'Upload','errunknownmove':'An unknown error occurred while moving your file into course files.','lblgoogledrive':'Google Drive','lblcheckingfileexists':'Checking if the file exists...','lblextensionallinfo':'Files with any extension are displayed.','lblextensioninfo':'Files that have one of the following extensions: [0].','lblfileexists1':'A file with that name already exists at the location you\u0027ve chosen.','lblfileexists2':'Would you like to overwrite the existing file?','lblfilelocation':'Choose a location in which to store the file:','lblfilelocationuseattachmentwarning':'Files with private or sensitive information such as user feedback should be added as an attachment. Do [u][b]NOT[\/b][\/u] upload private or sensitive information such as user feedback to course files.','lblfilelocationwarning':'Do [u][b]NOT[\/b][\/u] upload private or sensitive\u00a0information such as user feedback\u00a0to this location.','lblfilename':'File Name','lblenterurl':'Enter the URL of an existing file:','txtvideonotesearch':'Video Note Search'},'framework.customselector':{'altiteminfo':'Item information','altremove':'Remove {subject}','altrestore':'Restore {subject}','btnadd':'Add','btnreorder':'Reorder','lbldeleteall':'Delete All Items','lblnoitems':'There are no items.'},'framework.validation':{'dateinvalid':'{subject} is an invalid date.','invalidemailfield':'Invalid email address','invalidurlfield':'Invalid URL','lessthaninvalid':'The value supplied for [0] is greater than the maximum value allowed.','listempty':'[0] list cannot be empty.','notnull':'The value supplied for [0] cannot be null.','numberbetweenbothinclusive':'{subject} must be greater than or equal to [0] and less than or equal to [1].','numberbetweenmaxinclusive':'{subject} must be greater than [0] and less than or equal to [1].','numberbetweenmininclusive':'{subject} must be greater than or equal to [0] and less than [1].','numberbetweennoneinclusive':'{subject} must be greater than [0] and less than [1].','numberhigher':'{subject} must be a number greater than [0].','numberhigherinclusive':'{subject} must be a number greater than or equal to [0].','numberlower':'{subject} must be a number less than [0].','numberlowerinclusive':'{subject} must be a number less than or equal to [0].','paddinginvalid':'The value supplied for [0] cannot contain leading or trailing whitespace.','integerinvalid64':'{subject} must be a valid integer between [0] and [1].','pathcontainsbadchars':'[0] cannot contain the following characters: <, >, :, \", \\, |, ?, *, %, &, #, \u0027, spaces, or newlines','pathdirendsinspace':'[0] cannot contain a directory name that ends in a space','pathempty':'[0] cannot be empty','pathmustendwithslash':'[0] must end with a slash','pathmuststartwithslash':'[0] must start with a slash','pathnull':'[0] cannot be null','pathtoolong':'[0] cannot be more than 255 characters long','rangemaxinvalid':'[0] was greater than the maximum value allowed.','rangemininvalid':'[0] was less than the minimum value allowed.','regexinvalid':'[0] did not pass the regular expression used for validation.','required':'{subject} is required.','requiredfield':'[0] is required.','roleinvalid':'The role provided does not exist.','stringmaxcharacters':'{subject} cannot have more than [0] characters.','stringmaxcharactersnew':'[0] cannot have more than [1] characters.','pathdirendsindot':'[0] cannot contain a directory name that ends in a dot','integerinvalid32':'{subject} must be a valid integer between [0] and [1].','integerinvalid':'{subject} must be a valid integer.','inputnumberrangeminexclusive':'Number must be greater than [0] and less than or equal to [1].','daterangeendinvalid':'{subject} has an invalid end date.','daterangeinvalid':'{subject} is an invalid date range. Start date must be before end date.','daterangeinvalidnosubject':'[0] is an invalid date range. Start date must be before end date.','daterangemaxinvalid':'[0] is after the maximum date allowed. Maximum date allowed: [1].','daterangemininvalid':'[0] is before the minimum date allowed. Minimum date allowed: [1].','daterangestartinvalid':'{subject} has an invalid start date.','decimalinvalid':'{subject} must be a valid number.','decimalinvalidrange':'{subject} must be a valid number between [0] and [1].','defaultlabel':'Number','defaultsubject':'Field','emailinvalid':'{subject} is not a valid email address.','equalsinvalid':'The value supplied for [0] does not match the expected value.','filenameinvalid':'{subject} may not end with a \u0027.\u0027 character and may not contain: [0]','filenamereserved':'{subject} is a reserved file name.','filesetfilenametoolong':'{subject}\u0027s file name cannot exceed [0] characters.','filesetfilenametoolong1':'The length of a file name cannot exceed [0] characters.','filesetfilenametoolong2':'Would you like to truncate file names that exceed this limit?','inputnumberrangemaxexclusive':'Number must be greater than or equal to [0] and less than [1].','inputnumberrangeinclusive':'Number must be greater than or equal to [0] and less than or equal to [1].','inputnumberrangeexclusive':'Number must be greater than [0] and less than [1].','inputnumbermininclusive':'Number must be greater than or equal to [0].','inputnumberminexclusive':'Number must be greater than [0].','inputnumbermaxinclusive':'Number must be less than or equal to [0].','stringmincharacters':'[0] cannot have less than [1] characters.','inputnumbermaxexclusive':'Number must be less than [0].','genericinvalid':'{subject} is invalid.','foldernamereserved':'{subject} is a reserved folder name.','foldernameinvalid':'{subject} may not end with a \u0027.\u0027 character, and may not contain: [0]','filesetrestrictedextension':'{subject} has a restricted extension.','filesetmaxtotalfilesizeexceeded':'{subject} is nearing the maximum file capacity. You have [0] of storage left. Remove one or more files and retry.','filesetinvalidextension':'{subject} does not have a valid extension. It must be one of: [0].','greaterthaninvalid':'The value supplied for [0] is less than the minimum value allowed.','stringnullvalue':'[0] cannot be a null value.'},'standard.filesizeunitshort':{'txtbytesstring':'[0] Bytes','txtbytestring':'[0] Byte','txtgigabytesstring':'[0] GB','txtkilobytesstring':'[0] KB','txtmegabytesstring':'[0] MB'}},{'standard.misc.txtloading':'Loading...','standard.misc.txtcopyright':'Powered by D2L Incorporated'});
+			D2L.Language.InitImg({'framework.messagearea':{'actstatus11':["0\/Framework.MessageArea.actStatus11.gif"],'actstatus12':["0\/Framework.MessageArea.actStatus12.gif"],'actstatus13':["0\/Framework.MessageArea.actStatus13.gif"],'actstatus3':["https:\/\/s.brightspace.com\/lib\/bsi\/2026.3.232\/images\/tier1\/file-document.svg",18],'actstatus6':["0\/Framework.MessageArea.actStatus6.gif"],'actstatus7':["0\/Framework.MessageArea.actStatus7.gif"]},'shared.main':{'actexempt':["0\/Shared.Main.actExempt.png"],'actrestore':["0\/Shared.Main.actRestore.gif"],'actreports':["0\/Shared.Main.actReports.gif"],'actreorder':["https:\/\/s.brightspace.com\/lib\/bsi\/2026.3.232\/images\/tier1\/reorder.svg",18],'actremovegrey':["https:\/\/s.brightspace.com\/lib\/bsi\/2026.3.232\/images\/tier1\/close-default.svg",18],'actremovedisabled':["0\/Shared.Main.actRemoveDisabled.gif"],'actremove':["https:\/\/s.brightspace.com\/lib\/bsi\/2026.3.232\/images\/tier1\/close-default.svg",18],'actrefresh':["https:\/\/s.brightspace.com\/lib\/bsi\/2026.3.232\/images\/tier1\/refresh.svg",18],'actrecalculate':["0\/Shared.Main.actRecalculate.gif"],'actquicklink50x50':["0\/Shared.Main.actQuickLink50x50.png",50],'actquicklink':["0\/Shared.Main.actQuickLink.png"],'actpush':["0\/Shared.Main.actPush.gif"],'actprint':["https:\/\/s.brightspace.com\/lib\/bsi\/2026.3.232\/images\/tier1\/print.svg",18],'actpreviewdisabled':["0\/Shared.Main.actPreviewDisabled.gif"],'actpreview':["https:\/\/s.brightspace.com\/lib\/bsi\/2026.3.232\/images\/tier1\/preview.svg",18],'actpager':["https:\/\/s.brightspace.com\/lib\/bsi\/2026.3.232\/images\/tier1\/messages.svg",18],'actmoveupdisabled':["0\/Shared.Main.actMoveUpDisabled.gif"],'actmoveup':["0\/Shared.Main.actMoveUp.gif"],'actrestore_v2':["0\/Shared.Main.actRestore_v2.png"],'actmovetodisabled':["0\/Shared.Main.actMoveToDisabled.gif"],'actsave':["https:\/\/s.brightspace.com\/lib\/bsi\/2026.3.232\/images\/tier1\/save.svg",18],'actshared':["https:\/\/s.brightspace.com\/lib\/bsi\/2026.3.232\/images\/tier1\/share.svg",18],'tbeventlog':["0\/Shared.Main.tbEventLog.gif",24],'tbeditperm':["0\/Shared.Main.tbEditPerm.gif",24],'tbdelete':["0\/Shared.Main.tbDelete.gif",24],'tbbulletlist':["0\/Shared.Main.tbBulletList.gif",24],'infprocessing':["0\/Shared.Main.infProcessing.gif",8,110],'infpixel':["0\/Shared.Main.infPixel.gif",1],'infinfodisabled':["0\/Shared.Main.infInfoDisabled.gif"],'infinfo':["https:\/\/s.brightspace.com\/lib\/bsi\/2026.3.232\/images\/tier1\/help.svg",18],'infincorrect':["https:\/\/s.brightspace.com\/lib\/bsi\/2026.3.232\/images\/tier1\/close-small.svg",18],'infcorrect':["https:\/\/s.brightspace.com\/lib\/bsi\/2026.3.232\/images\/tier1\/check.svg",18],'infconditionalreleasedlight':["0\/Shared.Main.infConditionalReleasedLight.png"],'infconditionalreleased':["https:\/\/s.brightspace.com\/lib\/bsi\/2026.3.232\/images\/tier1\/release-conditions.svg",18],'infcheckblack':["https:\/\/s.brightspace.com\/lib\/bsi\/2026.3.232\/images\/tier1\/check.svg",18],'actview':["0\/Shared.Main.actView.png"],'actstats':["https:\/\/s.brightspace.com\/lib\/bsi\/2026.3.232\/images\/tier1\/reports.svg",18],'actspellcheck':["https:\/\/s.brightspace.com\/lib\/bsi\/2026.3.232\/images\/tier1\/spellcheck.svg",18],'actshow':["https:\/\/s.brightspace.com\/lib\/bsi\/2026.3.232\/images\/tier1\/arrow-expand.svg",18],'actsettings':["https:\/\/s.brightspace.com\/lib\/bsi\/2026.3.232\/images\/tier1\/gear.svg",18],'actmoveto':["0\/Shared.Main.actMoveTo.gif"],'actmoveobject':["0\/Shared.Main.actMoveObject.gif"],'actmoveleft':["0\/Shared.Main.actMoveLeft.gif"],'acteditmultiple':["https:\/\/s.brightspace.com\/lib\/bsi\/2026.3.232\/images\/tier1\/edit-bulk.svg",18],'actedithtmldisabled':["0\/Shared.Main.actEditHtmlDisabled.gif"],'actedithtml':["0\/Shared.Main.actEditHtml.gif"],'acteditdisabled':["0\/Shared.Main.actEditDisabled.gif"],'actedit':["https:\/\/s.brightspace.com\/lib\/bsi\/2026.3.232\/images\/tier1\/edit.svg",18],'actdownload':["https:\/\/s.brightspace.com\/lib\/bsi\/2026.3.232\/images\/tier1\/download.svg",18],'actdeletedisabled':["0\/Shared.Main.actDeleteDisabled.png"],'actdelete':["https:\/\/s.brightspace.com\/lib\/bsi\/2026.3.232\/images\/tier1\/delete.svg",18],'actcustomize':["https:\/\/s.brightspace.com\/lib\/bsi\/2026.3.232\/images\/tier1\/style.svg",18],'actcopy':["0\/Shared.Main.actCopy.png"],'actcollapsed':["0\/Shared.Main.actCollapsed.png"],'actclear':["0\/Shared.Main.actClear.gif"],'actcheckmultiple':["0\/Shared.Main.actCheckMultiple.gif"],'actcancel':["0\/Shared.Main.actCancel.gif"],'actbrowse':["https:\/\/s.brightspace.com\/lib\/bsi\/2026.3.232\/images\/tier1\/chevron-right.svg",18],'actadddisabled':["0\/Shared.Main.actAddDisabled.gif"],'actadd':["https:\/\/s.brightspace.com\/lib\/bsi\/2026.3.232\/images\/tier1\/plus-default.svg",18],'acteditmultipledisabled':["0\/Shared.Main.actEditMultipleDisabled.gif"],'acteditsmall':["https:\/\/s.brightspace.com\/lib\/bsi\/2026.3.232\/images\/tier1\/edit.svg",18],'actemail':["https:\/\/s.brightspace.com\/lib\/bsi\/2026.3.232\/images\/tier1\/email.svg",18],'acteventlog':["0\/Shared.Main.actEventLog.gif"],'actmovedowndisabled':["0\/Shared.Main.actMoveDownDisabled.gif"],'actmovedown':["0\/Shared.Main.actMoveDown.gif"],'actlocked':["https:\/\/s.brightspace.com\/lib\/bsi\/2026.3.232\/images\/tier1\/lock-locked.svg",18],'actloadinglg':["0\/Shared.Main.actLoadingLg.gif",24],'actloadinglarger':["0\/Shared.Main.actLoadingLarger.gif",64],'actloading':["0\/Shared.Main.actLoading.gif"],'acthide':["https:\/\/s.brightspace.com\/lib\/bsi\/2026.3.232\/images\/tier1\/arrow-collapse.svg",18],'acthelp_delete':["0\/Shared.Main.actHelp_delete.gif"],'tbnewdoc':["0\/Shared.Main.tbNewDoc.gif",24],'acthelp':["https:\/\/s.brightspace.com\/lib\/bsi\/2026.3.232\/images\/tier1\/help.svg",18],'actgopreviousdisabled':["0\/Shared.Main.actGoPreviousDisabled.gif"],'actgoprevious':["0\/Shared.Main.actGoPrevious.gif"],'actgonextdisabled':["0\/Shared.Main.actGoNextDisabled.gif"],'actgonext':["0\/Shared.Main.actGoNext.gif"],'actgoback':["https:\/\/s.brightspace.com\/lib\/bsi\/2026.3.232\/images\/tier2\/chevron-left.svg",24],'actfullscreen':["0\/Shared.Main.actFullscreen.png"],'actexport':["https:\/\/s.brightspace.com\/lib\/bsi\/2026.3.232\/images\/tier1\/export.svg",18],'actexpanded':["0\/Shared.Main.actExpanded.png"],'actgrade':["https:\/\/s.brightspace.com\/lib\/bsi\/2026.3.232\/images\/tier1\/grade.svg",18],'tbsystemlogcmc':["0\/Shared.Main.tbSystemLogCmc.png"]}},{});
+			D2L.Files.TypeInfos = {'rtf':new D2L.Files.FileTypeInfo( new D2L.Image.ImageInfo('https:\/\/s.brightspace.com\/lib\/bsi\/2026.3.232\/images\/tier1\/file-document.svg',16,16),'Word Document'),'bmp':new D2L.Files.FileTypeInfo( new D2L.Image.ImageInfo('https:\/\/s.brightspace.com\/lib\/bsi\/2026.3.232\/images\/tier1\/file-image.svg',16,16),'Image'),'xlsb':new D2L.Files.FileTypeInfo( new D2L.Image.ImageInfo('https:\/\/s.brightspace.com\/lib\/bsi\/2026.3.232\/images\/tier1\/file-document.svg',16,16),'Excel Spreadsheet'),'potm':new D2L.Files.FileTypeInfo( new D2L.Image.ImageInfo('https:\/\/s.brightspace.com\/lib\/bsi\/2026.3.232\/images\/tier1\/file-presentation.svg',16,16),'PowerPoint Presentation'),'m4v':new D2L.Files.FileTypeInfo( new D2L.Image.ImageInfo('https:\/\/s.brightspace.com\/lib\/bsi\/2026.3.232\/images\/tier1\/file-video.svg',16,16),'Video File'),'pdf':new D2L.Files.FileTypeInfo( new D2L.Image.ImageInfo('https:\/\/s.brightspace.com\/lib\/bsi\/2026.3.232\/images\/tier1\/file-document.svg',16,16),'PDF document'),'png':new D2L.Files.FileTypeInfo( new D2L.Image.ImageInfo('https:\/\/s.brightspace.com\/lib\/bsi\/2026.3.232\/images\/tier1\/file-image.svg',16,16),'Image'),'url':new D2L.Files.FileTypeInfo( new D2L.Image.ImageInfo('https:\/\/s.brightspace.com\/lib\/bsi\/2026.3.232\/images\/tier1\/browser.svg',16,16),'Web Page'),'mp4':new D2L.Files.FileTypeInfo( new D2L.Image.ImageInfo('https:\/\/s.brightspace.com\/lib\/bsi\/2026.3.232\/images\/tier1\/file-video.svg',16,16),'Video File'),'xml':new D2L.Files.FileTypeInfo( new D2L.Image.ImageInfo('https:\/\/s.brightspace.com\/lib\/bsi\/2026.3.232\/images\/tier1\/file-document.svg',16,16),'XML Document'),'rm':new D2L.Files.FileTypeInfo( new D2L.Image.ImageInfo('https:\/\/s.brightspace.com\/lib\/bsi\/2026.3.232\/images\/tier1\/file-video.svg',16,16),'Video File'),'html':new D2L.Files.FileTypeInfo( new D2L.Image.ImageInfo('https:\/\/s.brightspace.com\/lib\/bsi\/2026.3.232\/images\/tier1\/browser.svg',16,16),'Web Page'),'docx':new D2L.Files.FileTypeInfo( new D2L.Image.ImageInfo('https:\/\/s.brightspace.com\/lib\/bsi\/2026.3.232\/images\/tier1\/file-document.svg',16,16),'Word Document'),'m4a':new D2L.Files.FileTypeInfo( new D2L.Image.ImageInfo('https:\/\/s.brightspace.com\/lib\/bsi\/2026.3.232\/images\/tier1\/file-audio.svg',16,16),'Audio'),'tiff':new D2L.Files.FileTypeInfo( new D2L.Image.ImageInfo('https:\/\/s.brightspace.com\/lib\/bsi\/2026.3.232\/images\/tier1\/file-image.svg',16,16),'Image'),'mpg':new D2L.Files.FileTypeInfo( new D2L.Image.ImageInfo('https:\/\/s.brightspace.com\/lib\/bsi\/2026.3.232\/images\/tier1\/file-video.svg',16,16),'Video File'),'asp':new D2L.Files.FileTypeInfo( new D2L.Image.ImageInfo('https:\/\/s.brightspace.com\/lib\/bsi\/2026.3.232\/images\/tier1\/browser.svg',16,16),'Web Page'),'swf':new D2L.Files.FileTypeInfo( new D2L.Image.ImageInfo('https:\/\/s.brightspace.com\/lib\/bsi\/2026.3.232\/images\/tier1\/file-document.svg',16,16),'Flash File'),'mp3':new D2L.Files.FileTypeInfo( new D2L.Image.ImageInfo('https:\/\/s.brightspace.com\/lib\/bsi\/2026.3.232\/images\/tier1\/file-audio.svg',16,16),'Audio'),'jpeg':new D2L.Files.FileTypeInfo( new D2L.Image.ImageInfo('https:\/\/s.brightspace.com\/lib\/bsi\/2026.3.232\/images\/tier1\/file-image.svg',16,16),'Image'),'wmv':new D2L.Files.FileTypeInfo( new D2L.Image.ImageInfo('https:\/\/s.brightspace.com\/lib\/bsi\/2026.3.232\/images\/tier1\/file-video.svg',16,16),'Video File'),'webm':new D2L.Files.FileTypeInfo( new D2L.Image.ImageInfo('https:\/\/s.brightspace.com\/lib\/bsi\/2026.3.232\/images\/tier1\/file-video.svg',16,16),'Video File'),'psd':new D2L.Files.FileTypeInfo( new D2L.Image.ImageInfo('https:\/\/s.brightspace.com\/lib\/bsi\/2026.3.232\/images\/tier1\/file-document.svg',16,16),'PSD File (Photoshop)'),'pptx':new D2L.Files.FileTypeInfo( new D2L.Image.ImageInfo('https:\/\/s.brightspace.com\/lib\/bsi\/2026.3.232\/images\/tier1\/file-presentation.svg',16,16),'PowerPoint Presentation'),'ogv':new D2L.Files.FileTypeInfo( new D2L.Image.ImageInfo('https:\/\/s.brightspace.com\/lib\/bsi\/2026.3.232\/images\/tier1\/file-video.svg',16,16),'Video File'),'flv':new D2L.Files.FileTypeInfo( new D2L.Image.ImageInfo('https:\/\/s.brightspace.com\/lib\/bsi\/2026.3.232\/images\/tier1\/file-video.svg',16,16),'Video File'),'wav':new D2L.Files.FileTypeInfo( new D2L.Image.ImageInfo('https:\/\/s.brightspace.com\/lib\/bsi\/2026.3.232\/images\/tier1\/file-audio.svg',16,16),'Audio'),'xltx':new D2L.Files.FileTypeInfo( new D2L.Image.ImageInfo('https:\/\/s.brightspace.com\/lib\/bsi\/2026.3.232\/images\/tier1\/file-document.svg',16,16),'Excel Spreadsheet'),'htm':new D2L.Files.FileTypeInfo( new D2L.Image.ImageInfo('https:\/\/s.brightspace.com\/lib\/bsi\/2026.3.232\/images\/tier1\/browser.svg',16,16),'Web Page'),'asf':new D2L.Files.FileTypeInfo( new D2L.Image.ImageInfo('https:\/\/s.brightspace.com\/lib\/bsi\/2026.3.232\/images\/tier1\/file-video.svg',16,16),'Video File'),'mpeg':new D2L.Files.FileTypeInfo( new D2L.Image.ImageInfo('https:\/\/s.brightspace.com\/lib\/bsi\/2026.3.232\/images\/tier1\/file-video.svg',16,16),'Video File'),'dotx':new D2L.Files.FileTypeInfo( new D2L.Image.ImageInfo('https:\/\/s.brightspace.com\/lib\/bsi\/2026.3.232\/images\/tier1\/file-document.svg',16,16),'Word Document'),'3gp':new D2L.Files.FileTypeInfo( new D2L.Image.ImageInfo('https:\/\/s.brightspace.com\/lib\/bsi\/2026.3.232\/images\/tier1\/file-video.svg',16,16),'Video File'),'fla':new D2L.Files.FileTypeInfo( new D2L.Image.ImageInfo('https:\/\/s.brightspace.com\/lib\/bsi\/2026.3.232\/images\/tier1\/file-document.svg',16,16),'Flash File'),'asx':new D2L.Files.FileTypeInfo( new D2L.Image.ImageInfo('https:\/\/s.brightspace.com\/lib\/bsi\/2026.3.232\/images\/tier1\/file-video.svg',16,16),'Video File'),'mkv':new D2L.Files.FileTypeInfo( new D2L.Image.ImageInfo('https:\/\/s.brightspace.com\/lib\/bsi\/2026.3.232\/images\/tier1\/file-video.svg',16,16),'Video File'),'svg':new D2L.Files.FileTypeInfo( new D2L.Image.ImageInfo('https:\/\/s.brightspace.com\/lib\/bsi\/2026.3.232\/images\/tier1\/file-image.svg',16,16),'Image'),'tif':new D2L.Files.FileTypeInfo( new D2L.Image.ImageInfo('https:\/\/s.brightspace.com\/lib\/bsi\/2026.3.232\/images\/tier1\/file-image.svg',16,16),'Image'),'gzip':new D2L.Files.FileTypeInfo( new D2L.Image.ImageInfo('https:\/\/s.brightspace.com\/lib\/bsi\/2026.3.232\/images\/tier1\/file-archive.svg',16,16),'Zip Compressed File'),'mov':new D2L.Files.FileTypeInfo( new D2L.Image.ImageInfo('https:\/\/s.brightspace.com\/lib\/bsi\/2026.3.232\/images\/tier1\/file-video.svg',16,16),'Video File'),'ico':new D2L.Files.FileTypeInfo( new D2L.Image.ImageInfo('https:\/\/s.brightspace.com\/lib\/bsi\/2026.3.232\/images\/tier1\/file-image.svg',16,16),'Image'),'dotm':new D2L.Files.FileTypeInfo( new D2L.Image.ImageInfo('https:\/\/s.brightspace.com\/lib\/bsi\/2026.3.232\/images\/tier1\/file-document.svg',16,16),'Word Document'),'jpg':new D2L.Files.FileTypeInfo( new D2L.Image.ImageInfo('https:\/\/s.brightspace.com\/lib\/bsi\/2026.3.232\/images\/tier1\/file-image.svg',16,16),'Image'),'log':new D2L.Files.FileTypeInfo( new D2L.Image.ImageInfo('https:\/\/s.brightspace.com\/lib\/bsi\/2026.3.232\/images\/tier1\/file-document.svg',16,16),'Text File'),'xlam':new D2L.Files.FileTypeInfo( new D2L.Image.ImageInfo('https:\/\/s.brightspace.com\/lib\/bsi\/2026.3.232\/images\/tier1\/file-document.svg',16,16),'Excel Spreadsheet'),'xltm':new D2L.Files.FileTypeInfo( new D2L.Image.ImageInfo('https:\/\/s.brightspace.com\/lib\/bsi\/2026.3.232\/images\/tier1\/file-document.svg',16,16),'Excel Spreadsheet'),'gif':new D2L.Files.FileTypeInfo( new D2L.Image.ImageInfo('https:\/\/s.brightspace.com\/lib\/bsi\/2026.3.232\/images\/tier1\/file-image.svg',16,16),'Image'),'ppam':new D2L.Files.FileTypeInfo( new D2L.Image.ImageInfo('https:\/\/s.brightspace.com\/lib\/bsi\/2026.3.232\/images\/tier1\/file-presentation.svg',16,16),'PowerPoint Presentation'),'pcx':new D2L.Files.FileTypeInfo( new D2L.Image.ImageInfo('https:\/\/s.brightspace.com\/lib\/bsi\/2026.3.232\/images\/tier1\/file-image.svg',16,16),'Image'),'ppsm':new D2L.Files.FileTypeInfo( new D2L.Image.ImageInfo('https:\/\/s.brightspace.com\/lib\/bsi\/2026.3.232\/images\/tier1\/file-presentation.svg',16,16),'PowerPoint Presentation'),'xlsx':new D2L.Files.FileTypeInfo( new D2L.Image.ImageInfo('https:\/\/s.brightspace.com\/lib\/bsi\/2026.3.232\/images\/tier1\/file-document.svg',16,16),'Excel Spreadsheet'),'potx':new D2L.Files.FileTypeInfo( new D2L.Image.ImageInfo('https:\/\/s.brightspace.com\/lib\/bsi\/2026.3.232\/images\/tier1\/file-presentation.svg',16,16),'PowerPoint Presentation'),'docm':new D2L.Files.FileTypeInfo( new D2L.Image.ImageInfo('https:\/\/s.brightspace.com\/lib\/bsi\/2026.3.232\/images\/tier1\/file-document.svg',16,16),'Word Document'),'xls':new D2L.Files.FileTypeInfo( new D2L.Image.ImageInfo('https:\/\/s.brightspace.com\/lib\/bsi\/2026.3.232\/images\/tier1\/file-document.svg',16,16),'Excel Spreadsheet'),'css':new D2L.Files.FileTypeInfo( new D2L.Image.ImageInfo('https:\/\/s.brightspace.com\/lib\/bsi\/2026.3.232\/images\/tier1\/browser.svg',16,16),'Web Page'),'d2lresource':new D2L.Files.FileTypeInfo( new D2L.Image.ImageInfo('\/d2l\/img\/0\/Images.FileTypeIcons.icnD2LRsrc16x16.png?v=20.26.3.22348',16,16),'D2L Resource File'),'js':new D2L.Files.FileTypeInfo( new D2L.Image.ImageInfo('https:\/\/s.brightspace.com\/lib\/bsi\/2026.3.232\/images\/tier1\/browser.svg',16,16),'Web Page'),'txt':new D2L.Files.FileTypeInfo( new D2L.Image.ImageInfo('https:\/\/s.brightspace.com\/lib\/bsi\/2026.3.232\/images\/tier1\/file-document.svg',16,16),'Text File'),'avi':new D2L.Files.FileTypeInfo( new D2L.Image.ImageInfo('https:\/\/s.brightspace.com\/lib\/bsi\/2026.3.232\/images\/tier1\/file-video.svg',16,16),'Video File'),'zip':new D2L.Files.FileTypeInfo( new D2L.Image.ImageInfo('https:\/\/s.brightspace.com\/lib\/bsi\/2026.3.232\/images\/tier1\/file-archive.svg',16,16),'Zip Compressed File'),'jpe':new D2L.Files.FileTypeInfo( new D2L.Image.ImageInfo('https:\/\/s.brightspace.com\/lib\/bsi\/2026.3.232\/images\/tier1\/file-image.svg',16,16),'Image'),'ppt':new D2L.Files.FileTypeInfo( new D2L.Image.ImageInfo('https:\/\/s.brightspace.com\/lib\/bsi\/2026.3.232\/images\/tier1\/file-presentation.svg',16,16),'PowerPoint Presentation'),'ram':new D2L.Files.FileTypeInfo( new D2L.Image.ImageInfo('https:\/\/s.brightspace.com\/lib\/bsi\/2026.3.232\/images\/tier1\/file-video.svg',16,16),'Video File'),'ra':new D2L.Files.FileTypeInfo( new D2L.Image.ImageInfo('https:\/\/s.brightspace.com\/lib\/bsi\/2026.3.232\/images\/tier1\/file-audio.svg',16,16),'Audio'),'srt':new D2L.Files.FileTypeInfo( new D2L.Image.ImageInfo('https:\/\/s.brightspace.com\/lib\/bsi\/2026.3.232\/images\/tier1\/file-document.svg',16,16),'Video Subtitle'),'xlsm':new D2L.Files.FileTypeInfo( new D2L.Image.ImageInfo('https:\/\/s.brightspace.com\/lib\/bsi\/2026.3.232\/images\/tier1\/file-document.svg',16,16),'Excel Spreadsheet'),'wpd':new D2L.Files.FileTypeInfo( new D2L.Image.ImageInfo('https:\/\/s.brightspace.com\/lib\/bsi\/2026.3.232\/images\/tier1\/file-document.svg',16,16),'Word Perfect Document'),'ppsx':new D2L.Files.FileTypeInfo( new D2L.Image.ImageInfo('https:\/\/s.brightspace.com\/lib\/bsi\/2026.3.232\/images\/tier1\/file-presentation.svg',16,16),'PowerPoint Presentation'),'doc':new D2L.Files.FileTypeInfo( new D2L.Image.ImageInfo('https:\/\/s.brightspace.com\/lib\/bsi\/2026.3.232\/images\/tier1\/file-document.svg',16,16),'Word Document'),'pptm':new D2L.Files.FileTypeInfo( new D2L.Image.ImageInfo('https:\/\/s.brightspace.com\/lib\/bsi\/2026.3.232\/images\/tier1\/file-presentation.svg',16,16),'PowerPoint Presentation'),'*':new D2L.Files.FileTypeInfo( new D2L.Image.ImageInfo('https:\/\/s.brightspace.com\/lib\/bsi\/2026.3.232\/images\/tier1\/file-document.svg',16,16),' File')};
+			function d2l_Onload() {
+				D2L.WebComponentsReady.then(function() {
+					UI.OnPageLoad().Trigger();
+					D2L.C('attachments','ctl_17');
+					D2L.C('hfgFolderInformation','ctl_4');
+					OnLoad();
+					D2L.Control.RichEdit.Initialize('REDT_comments','');
+					FormManager.SetSaveConfirmation('DoUpload');
+					
+					UI.GetControl('ctl_17').SetAttachments([["file",{"FileId":"68955910","FileSystemType":"Database","FileName":"DATA 621- HW_3 (crime) modified.pdf","Description":"","Size":294653,"LastModified":639044648125500000}],["file",{"FileId":"68955911","FileSystemType":"Database","FileName":"crime-training-data_modified.csv","Description":"","Size":26136,"LastModified":639044648125570000}],["file",{"FileId":"68955912","FileSystemType":"Database","FileName":"crime-evaluation-data_modified.csv","Description":"","Size":2204,"LastModified":639044648125630000}]]);
+				});
+			}
+			function d2l_Onunload() {
+				UI.OnPageUnload().Trigger();
+				D2L.GarbageCollection.Dispose();
+			}
+		</script>
+		<script>
+		function DownloadToZip( dwType, aparam, funcGetList ) {
+	var pZip = new d2l_Popup();
+	pZip.height = 350;
+	pZip.width = 750;
+	pZip.title = 'Downloading Files';
+	pZip.bodySource = '/d2l/lms/dropbox/download_files.d2l';
+	pZip.queryString = 'ou=1154245&db=2385709&dwt=' + dwType + '&addp=' + aparam + '&fn=' + funcGetList;
+	pZip.AddCloseButton();
+	pZip.Open();
+}
+
+function IsFileEpArtifact( fileId ) {
+    return new Promise( function( resolve ) {
+        D2L.Rpc.Create('IsFileEpArtifact',
+            function( response ) {
+                resolve( response.GetResult() );
+            }, '/d2l/lms/dropbox/rpc/rpc_functions.d2l').Call( fileId );
+    });
+}
+
+function GetDownloadSubmissionUrl( dropboxId, fileId, entityId, submissionId ) {
+	return new Promise( function( resolve ) {
+		D2L.Rpc.Create( 'GetDownloadSubmissionUrl', function( response ) {
+			resolve( response.GetResult() );
+		}, '/d2l/lms/dropbox/rpc/rpc_functions.d2l').Call( dropboxId, fileId, entityId, submissionId );
+	} );
+}
+
+function DownloadLink(submissionId, linkId, linkUrl) {
+	var callBack = function(rpcResponse) {
+		if (rpcResponse.GetResponseType() == D2L.Rpc.ResponseType.Success) {
+			var controlId = 'L' + linkId;
+			SetAttachmentAsRead( controlId );
+
+			var ni = new D2L.NavInfo();
+			ni.SetNavigation( linkUrl.replace('&amp;', '&') );
+			ni.SetTarget( '_blank' + controlId );
+			Nav.Go( ni );
+		}
+	};
+	var rpc = D2L.Rpc.Create( 'UpdateLinkRead', callBack, '/d2l/lms/dropbox/rpc/rpc_functions.d2l' );
+	rpc.Call( 2385709, submissionId, linkId, true );
+}
+
+function DownloadFile(dropboxId, fileId, entityId, submissionId, dropboxTypeId) {
+	var callBack = function(rpcResponse) {
+		if (rpcResponse.GetResponseType() == D2L.Rpc.ResponseType.Success) {
+			SetFileAsRead('F' + fileId);
+			var ni = new D2L.NavInfo();
+			GetDownloadSubmissionUrl( dropboxId, fileId, entityId, submissionId )
+				.then( function( navigationUrl ) {
+                    ni.SetNavigation( navigationUrl );
+                    Nav.Go( ni );
+				} );
+		}
+	};
+	var rpc = D2L.Rpc.Create( 'UpdateFileRead', callBack, '/d2l/lms/dropbox/rpc/rpc_functions.d2l' );
+	rpc.Call( 2385709, fileId, true, dropboxTypeId, false );
+}
+
+function EvaluateSubmission(dropboxId, entityId, isLink, fileOrLinkId, submissionId, dropboxTypeId) {
+	var ni = new D2L.NavInfo();
+	ni.SetParam('db', dropboxId);
+	ni.SetParam('isLink', isLink)
+	ni.SetParam('fileOrLinkId', fileOrLinkId);
+	ni.SetParam('subId', submissionId);
+	ni.SetAction('Custom');
+	ni.SetActionParam('feedback,' + entityId + ',' + isLink + ',' + fileOrLinkId + ',' + submissionId + "," + dropboxTypeId);
+	ni.SetNavigation('/d2l/lms/dropbox/admin/mark/folder_submissions_users.d2l');
+	Nav.Go(ni);
+}
+
+function IsAttachmentFile(attachment) {
+	return attachment.id && !attachment.isLink;
+}
+
+function GetAttachmentFileId(attachment) {
+	return attachment.id;
+}
+
+function ParseAttachmentControlId(controlId) {
+    var match = controlId.match(/^\s*([fl]?)(\d+)(?:\.(\d+))?\s*$/i);
+	if (!match) {
+		return {};
+	}
+    var isLink = (match[1] || '').toLowerCase() === 'l';
+	return {
+		isLink: isLink,
+		controlId: match[1] + match[2],
+		id: match[2],
+		submissionId: match[3]
+	};
+}
+
+function SetReturnPointAndEvaluateOrDownload(
+    event,
+    dropboxId,
+    fileId,
+    entityId,
+    submissionId,
+    dropboxTypeId,
+    viewFeedback,
+    returnPointKey) {
+
+    event.preventDefault();
+
+    D2L.LP.Web.UI.Html.ReturnPoints.Set(returnPointKey);
+
+    IsFileEpArtifact(fileId)
+        .then( function ( isFileEpArtifact ) {
+        if (isFileEpArtifact) {
+			return GetDownloadSubmissionUrl( dropboxId, fileId, entityId, submissionId )
+                .then( function( navigationUrl ) {
+					var fln = UI.GetByName('fln_' + fileId)
+						|| UI.GetByName('fln_F' + fileId);
+					fln.SetNavigation( navigationUrl );
+					window.open( navigationUrl );
+				} );
+        }
+    }).then( function() {
+        if (viewFeedback.toLowerCase() == 'true') {
+            EvaluateSubmission(dropboxId, entityId, false, fileId, submissionId, dropboxTypeId);
+        } else {
+            DownloadFile(dropboxId, fileId, entityId, submissionId, dropboxTypeId);
+        }
+	} );
+}
+
+function SetReturnPointAndEvaluateOrDownloadLinkAttachment(dropboxId,
+	linkId,
+	linkUrl,
+	entityId,
+	submissionId,
+    dropboxTypeId,
+	viewFeedback,
+	returnPointKey) {
+
+	D2L.LP.Web.UI.Html.ReturnPoints.Set(returnPointKey);
+
+	if (viewFeedback.toLowerCase() == 'true') {
+		EvaluateSubmission(dropboxId, entityId, true, linkId, submissionId, dropboxTypeId);
+	} else {
+		DownloadLink(submissionId, linkId, linkUrl);
+	}
+}
+
+		</script>
+		<script>
+		function MarkAsComplete() {
+				Nav.SubmitAction( 'Custom' );
+			}
+
+			function MarkAsIncomplete() {
+				Nav.SubmitAction( 'Custom', 'setIncomplete' );
+			}
+			
+			function GeneratePreviewDialog(dialogTitle) {
+				var GeneratePreviewCallback = function(response) {
+					if (response.GetResponseType() == D2L.Rpc.ResponseType.Success) {
+						var result = JSON.parse(response.GetResult()[0]);
+						var previewDialog = new D2L.Dialog( 'previewDialog' );
+						previewDialog.SetSize('90%', '90%');
+						previewDialog.SetTitle( dialogTitle );
+						previewDialog.SetSrc(`/d2l/lms/dropbox/user/folder_submit_files_preview_submission.d2l?requestId=${result.RequestId}&conversionId=${result.ConversionId}`);
+						previewDialog.SetFooterText( new D2L.LP.Text.LangTerm('Dropbox.user\\folder_submit_files.txtConversionProblemSolution') );
+						previewDialog.Open();
+						previewDialog.m_footerTextNode.className = 'd2l-page-main-padding';
+					}
+				};
+				D2L.Rpc.CreatePost( 'GeneratePreview', GeneratePreviewCallback ).Call( );
+			}
+			
+			function UpdatePreviewable() {
+				const previewableFileExtensions = [
+					"doc", "docx", "rtf", "odt", "pages",
+					"ppt", "pps", "pptx", "ppsx", "odp",
+					"xls", "xlsx", "txt" ];
+					
+				let fileCount;
+				let fileControl;
+				let fileControlId;
+				if( UI.GetControl( 'FS_sFiles' ) || UI.GetControl( 'FU_sFiles' ) ) {
+					fileControl = UI.GetControl( 'FS_sFiles' ) || UI.GetControl( 'FU_sFiles' );
+					fileCount = fileControl.GetCount();
+				} else if (UI.GetControl( 'MFI_sFiles' ) != null) {
+					fileControl = UI.GetControl( 'MFI_sFiles' );
+					fileControlId = D2L.LP.Web.UI.Html.AbsoluteHtmlId.Create( "MFI_sFiles" );
+					fileCount = GetFIFileCount( fileControlId );
+				} else if (UI.GetControl( 'SFI_sFiles' ) != null) {
+					fileControl = UI.GetControl( 'SFI_sFiles' );
+					fileControlId = D2L.LP.Web.UI.Html.AbsoluteHtmlId.Create( "SFI_sFiles" );
+					fileCount = GetFIFileCount( fileControlId );
+				}
+
+				if (fileCount == 1) {
+					let singleFileExtension;
+					if (UI.GetControl( 'MFI_sFiles' ) || UI.GetControl( 'SFI_sFiles' )) {
+						let files = D2L.LP.Web.UI.Desktop.Controls.FileInput.GetFiles( fileControlId );
+						
+						let firstUnremovedFile = files.find( x => x.GetActionType() === 'Add' );
+						singleFileExtension = firstUnremovedFile?.GetFileName()?.split('.').pop().toLowerCase();
+					} else {
+						singleFileExtension = fileControl.Children().find( x=> !x.IsDeleted())?.GetFile().FileName?.split('.').pop().toLowerCase();
+					}
+					if (previewableFileExtensions.find( x => x === singleFileExtension)) {
+						UI.GetControl('BTN_GeneratePreview').SetIsDisplayed(true);
+						UI.GetControl('TB_conversionWarning').SetIsDisplayed(true);
+						return;
+					}
+				}
+				UI.GetControl('BTN_GeneratePreview').SetIsDisplayed(false);
+				UI.GetControl('TB_conversionWarning').SetIsDisplayed(false);
+			}
+			
+			function DownloadAttachedFiles( fileSetId ) {
+				DownloadToZip( 1, fileSetId, '' );
+			}
+			
+			function ShowTextSubmission() {
+				UI.GetControl('BTN_addTextSubmission').SetIsDisplayed(false);
+				UI.GetControl( 'PH_textSubmission' ).SetIsDisplayed(true);
+			}
+			
+			function DoUpload() {
+				if( isTextFileSubmission ){
+					let fileCount = 0;
+					if( UI.GetControl( 'FS_sFiles' ) || UI.GetControl( 'FU_sFiles' ) ) {
+						let fileControl = UI.GetControl( 'FS_sFiles' ) || UI.GetControl( 'FU_sFiles' );
+						fileCount = fileControl.GetCount();
+					} else if( UI.GetControl( 'MFI_sFiles' ) || UI.GetControl( 'SFI_sFiles' ) ) {
+						let id = UI.GetControl( 'MFI_sFiles' ) ? D2L.LP.Web.UI.Html.AbsoluteHtmlId.Create( "MFI_sFiles" ) :
+							D2L.LP.Web.UI.Html.AbsoluteHtmlId.Create( "SFI_sFiles" );
+						fileCount = GetFIFileCount( id );
+					}
+					
+					let isEmptyText = UI.GetControl('REDT_textSubmission').IsEmpty();
+				
+					if( fileCount == 0 && isEmptyText ){
+						UI.GetControl('PH_cantSubmitWithoutTextOrFile').SetIsDisplayed(true);
+					} else{
+						Upload();
+					}
+				} else {
+					Upload();
+				}
+			}
+			
+			function Upload() {
+				if( hasConfirm ) {
+					var HandleConfirm = function( response ) {
+						if( response.GetType() == D2L.Dialog.ResponseType.Positive ) {
+							Nav.SubmitAction( 'Update' );
+							
+						} else {
+							UI.Warning( 'File Upload - Confirmation', UI.GetControl( 'HID_confirmWarning' ).GetValue() );
+						}
+					};
+					
+					var confirmDialog = new D2L.Dialog.Confirm( 
+						'confirmDialog',
+						HandleConfirm,
+						'File Upload - Confirmation',
+						UI.GetControl( 'HID_confirmMessage' ).GetValue()
+					);
+					confirmDialog.SetIsResizable( true );
+					confirmDialog.SetWidth('90%');
+					confirmDialog.Open();
+				} else if( hasSingleFileConfirm ) {
+					var HandleConfirm = function( response ) {
+						if( response.GetType() == D2L.Dialog.ResponseType.Positive ) {
+							Nav.SubmitAction( 'Update' );
+						}
+					};
+					UI.Confirm( HandleConfirm, 'This submission folder only allows one submission, are you sure you wish to submit?', 'Once a submission is made, no further submissions can be made to this folder.' );
+				} else {
+					Nav.SubmitAction( 'Update' );
+				}
+			}
+
+			function GetFileCount() {
+				var fs = UI.GetControl( 'FS_sFiles' );
+				var fu = UI.GetControl( 'FU_sFiles' );
+				var mfi = UI.GetControl( 'MFI_sFiles' );
+				var sfi = UI.GetControl( 'SFI_sFiles' );
+			
+				var fileCount = 0;
+				if (fs != null) {
+					fileCount = fs.GetCount();
+				} else if (fu != null) {
+					fileCount = fu.GetCount();
+				} else if (mfi != null) {
+					let id = D2L.LP.Web.UI.Html.AbsoluteHtmlId.Create( "MFI_sFiles" );
+					fileCount = GetFIFileCount( id );
+				} else if (sfi != null) {
+					let id = D2L.LP.Web.UI.Html.AbsoluteHtmlId.Create( "SFI_sFiles" );
+					fileCount = GetFIFileCount( id );
+				}
+				
+				return fileCount;
+			}
+			
+			function GetFIFileCount( id ) {
+				var node = D2L.LP.Web.UI.Html.Dom.GetElementById( id.GetValue() );
+				return D2L.LP.Web.UI.Desktop.Controls.FileInput.GetFileCount( node );
+			}
+
+			function UpdateFileNum() {
+				var fileCount = GetFileCount();
+				
+				var hasStartedSubmission = UI.GetControl( 'HID_hasStartedSubmission' ).GetValue();
+				if ( hasStartedSubmission === "false" ) {
+					var callBack = function(rpcResponse) { };
+					if (fileCount > 0 ) {
+						var rpc = D2L.Rpc.Create('RaiseDropboxSubmissionStartEvent', callBack, '/d2l/lms/dropbox/user/folder_submit_files.d2l');
+						rpc.Call( UI.GetControl( 'HID_dropboxId' ).GetValue() );
+						UI.GetControl( 'HID_hasStartedSubmission' ).SetValue( "true" );
+					}
+				}
+				
+				var fileLabel = UI.GetControl( 'LBL_fileNum' );
+				fileLabel.SetText( new D2L.Language.Term( 'Dropbox.user\\folder_submit_files.lblFileNum', fileCount ) );
+				
+				if("False" === "True"){
+					UpdatePreviewable();
+				}
+			}
+			
+			function ShowWarningOnUnsavedSubmission() {
+				
+				
+				var safeUnload = false;
+				var oldShowSaveFn = FormManager.ShowSaveConfirmation.bind(FormManager);
+				FormManager.ShowSaveConfirmation = function (ni) {
+
+					if (isTextFileSubmission) {
+						let isEmptyText = UI.GetControl('REDT_textSubmission').IsEmpty();
+						var fileCount = GetFileCount();
+						if (fileCount !== 0 || !isEmptyText) {
+							safeUnload = oldShowSaveFn(ni);
+							return safeUnload;
+						}
+					}
+					
+					var isFileSubmission = "True" === "True";
+					if (isFileSubmission) {
+						var fileCount = GetFileCount();
+						if (fileCount === 0) {
+							
+							return true;
+						}
+					}
+					safeUnload = oldShowSaveFn(ni);
+					return safeUnload;
+				};
+
+				window.addEventListener( 'beforeunload', function (e) {
+					if (safeUnload) {
+						return;
+					}
+
+					if (FormManager.HasChanged()) {
+						e.preventDefault();
+						e.returnValue = 'You have not uploaded files to the submission folder yet.';
+					}
+				});
+			}
+
+			function OnLoad() {
+				ShowWarningOnUnsavedSubmission();
+				var d = FormManager.GetSaveConfirmationDialog();
+				var isTextSubmission = "False" === "True";								
+				var titleLangTerm = isTextSubmission ? 'lblCancelSubmission' : 'jsSaveConfirmationTitle';
+				var primaryMsgLangTerm = isTextSubmission ? 'lblSubmissionNotCompleted' : 'jsSaveConfirmationPrimaryMessage';
+				var secondaryMsgLangTerm = isTextSubmission ? 'lblSubmitAssignment' : 'jsSaveConfirmationSecondaryMessage';
+				
+				d.SetTitle( new D2L.Language.Term('Dropbox.user\\folder_submit_files.' + titleLangTerm) );
+				d.SetPrimaryMessage( new D2L.Language.Term('Dropbox.user\\folder_submit_files.' + primaryMsgLangTerm) );
+				d.SetSecondaryMessage( new D2L.Language.Term('Dropbox.user\\folder_submit_files.' + secondaryMsgLangTerm) );
+				d.GetSaveButton().SetText( new D2L.Language.Term('Dropbox.user\\folder_submit_files.jsSaveConfirmationSaveBtn') );
+				d.GetDontSaveButton().SetText( new D2L.Language.Term('Dropbox.user\\folder_submit_files.jsSaveConfirmationDontSaveBtn') );
+				d.GetCancelButton().SetText( new D2L.Language.Term('Dropbox.user\\folder_submit_files.jsSaveConfirmationCancelBtn') );
+				
+				var fs = UI.GetControl( 'FS_sFiles' );
+				var fu = UI.GetControl( 'FU_sFiles' );
+				var mfi = UI.GetControl( 'MFI_sFiles' );
+				var sfi = UI.GetControl( 'SFI_sFiles' );
+				
+				if ( fs != null ) { 
+					fs.OnAddRemove.RegisterMethod( UpdateFileNum );
+					UpdateFileNum();
+				} 
+				
+				if ( fu != null ) {
+					fu.OnAddRemove.RegisterMethod( UpdateFileNum );
+					UpdateFileNum();
+				}
+				
+				if ( mfi != null ) {
+					let id = D2L.LP.Web.UI.Html.AbsoluteHtmlId.Create( "MFI_sFiles" );
+					D2L.LP.Web.UI.Desktop.Controls.FileInput.RegisterOnAddRemove( id, UpdateFileNum );
+					UpdateFileNum();
+				} else if ( sfi != null ) {
+					let id = D2L.LP.Web.UI.Html.AbsoluteHtmlId.Create( "SFI_sFiles" );
+					D2L.LP.Web.UI.Desktop.Controls.FileInput.RegisterOnAddRemove( id, UpdateFileNum );
+					UpdateFileNum();
+				}
+
+				AddLtiClose();
+				
+			}
+			
+			function DoOverwrite() {
+
+					var HandleConfirm = function( response ) {
+						if( response.GetType() == D2L.Dialog.ResponseType.Positive ) {
+							DoUpload();
+						}
+					};
+					
+					UI.Confirm( HandleConfirm, 'Are you sure you want to overwrite your previous submissions? ', 'You have already submitted to this folder.  By submitting again, you will overwrite your previous submissions.');
+			}
+			
+			function AddLtiClose(){
+				const eventName = 'lti.close';
+				window.addEventListener('message',
+					function(e) {
+						console.log('Received message from LTI tool', e);
+						if (e.data?.subject === eventName && e?.source?.window?.opener === this){								
+							window.focus();								
+							e.source.window.close();							
+						}
+					});
+			}
+			
+			function LtiEulaNavigation(location){
+				const ltiEulaWindow = window.open(location, "_blank");
+				ltiEulaWindow?.focus();
+			}
+			
+			function ShowLtiEULADialog(){
+				var ShowEulaCallback = function(response) {
+					if (response.GetResponseType() == D2L.Rpc.ResponseType.Success) {
+						var showDialog = response.GetResult();
+						if(!showDialog){
+							DoUpload();
+						} else {
+							const HandleConfirm = function( response ) {
+							if(response.GetType() == D2L.Dialog.ResponseType.Positive ) {
+								DoUpload();
+							}
+							response.GetDialog().Close();
+						};
+						const confirmDialog = new D2L.Dialog( 'confirmDialog', HandleConfirm );
+						confirmDialog.SetSize('580', 'auto');
+						confirmDialog.SetTitle('External Tool Agreement' );
+						confirmDialog.SetSrc('/d2l/lms/dropbox/user/folder_submit_files_lti_eula.d2l');
+						confirmDialog.SetSrcParam('dropboxId', UI.GetControl( 'HID_dropboxId' ).GetValue() );
+						confirmDialog.AddCustomButton('Submit', D2L.Dialog.ButtonPosition.Left, D2L.Dialog.ResponseType.Positive, undefined, undefined, true);
+						confirmDialog.AddButton( D2L.Dialog.ButtonType.Cancel );
+						confirmDialog.Open();
+						}
+					}
+				};
+				var rpc = D2L.Rpc.Create('CheckEulaDialogCount', ShowEulaCallback, '/d2l/lms/dropbox/user/folder_submit_files.d2l');
+				rpc.Call( UI.GetControl( 'HID_dropboxId' ).GetValue() );
+			}
+		</script>
+</head>
+	<body id="d2l_body" onunload="d2l_Onunload();" onload="d2l_Onload();" class="vui-typography d2l-typography daylight d2l-body-unresolved">
+		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=TEMP-GTM-PVF86RP8" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><header><nav class="d2l-navigation-s d2l-branding-navigation-light-foreground-color d2l-navigation-s-linkarea-has-color"><d2l-labs-navigation has-skip-nav><d2l-labs-navigation-main-header><div class="d2l-labs-navigation-header-left" slot="left"><div class="d2l-navigation-s-header-open-button-wrapper"><d2l-labs-navigation-button-icon icon="tier3:menu-hamburger" text="Menu" text-hidden tooltip-offset="0"></d2l-labs-navigation-button-icon></div><div class="d2l-navigation-s-header-logo-area"><d2l-labs-navigation-link-icon class="d2l-navigation-s-home-icon" text="My Home" href="/d2l/lp/ouHome/defaultHome.d2l" text-hidden icon="tier1:home" tooltip-offset="0"></d2l-labs-navigation-link-icon><d2l-labs-navigation-separator class="d2l-navigation-s-logo-divider"></d2l-labs-navigation-separator><d2l-labs-navigation-link-image class="d2l-navigation-s-logo" src="/d2l/lp/navbars/7023/theme/viewimage/33899/view?v=20.26.3.22348" text="" slim tooltip-offset="0"></d2l-labs-navigation-link-image><d2l-labs-navigation-separator class="d2l-navigation-s-title-divider"></d2l-labs-navigation-separator><div class="d2l-navigation-s-title-container"><a class="d2l-navigation-s-link" href="/d2l/home/1154245" title="2026 SP [1] DATA 621 001 [32164] Data Mining [Lecture] [School of Professional Studies]">2026 SP [1] DATA 621 001 [32164] Data Mining [Lecture] [School of Professional Studies]</a></div></div></div><div class="d2l-labs-navigation-header-right" slot="right"><div class="d2l-navigation-s-course-menu"><d2l-labs-navigation-dropdown-button-icon icon="tier3:classes" text="Select a course..." no-auto-open tooltip-offset="0" data-prl="/d2l/lp/courseSelector/1154245/InitPartial" data-prid="d2l_1_2_584"><d2l-dropdown-content max-width="800" min-width="450" no-padding vertical-offset="0"><div id="d2l_1_2_584" class="d2l-placeholder d2l-placeholder-live">
+		</div>
+		</d2l-dropdown-content></d2l-labs-navigation-dropdown-button-icon></div><d2l-labs-navigation-separator class="d2l-navigation-s-course-menu-divider"></d2l-labs-navigation-separator><div class="d2l-navigation-s-notifications"><div class="d2l-navigation-s-notifications-wrapper"><div class="d2l-navigation-s-notification" data-category="alerts" data-aria-message="You have new Subscriptions"><d2l-labs-navigation-dropdown-button-icon icon="tier3:discussions" text="Subscription alerts" no-auto-open tooltip-offset="0" data-prl="/d2l/NavigationArea/1154245/ActivityFeed/GetAlertsDaylight?Category=0" data-prid="d2l_1_3_294"><d2l-dropdown-content no-padding vertical-offset="0"><div id="d2l_1_3_294" class="d2l-placeholder d2l-placeholder-live">
+		</div>
+		</d2l-dropdown-content></d2l-labs-navigation-dropdown-button-icon></div><div class="d2l-navigation-s-notification" data-category="grades" data-aria-message="You have new Updates"><d2l-labs-navigation-dropdown-button-icon icon="tier3:notification-bell" text="Update alerts" no-auto-open tooltip-offset="0" data-prl="/d2l/NavigationArea/1154245/ActivityFeed/GetAlertsDaylight?Category=1" data-prid="d2l_1_4_174"><d2l-dropdown-content no-padding vertical-offset="0"><div id="d2l_1_4_174" class="d2l-placeholder d2l-placeholder-live">
+		</div>
+		</d2l-dropdown-content></d2l-labs-navigation-dropdown-button-icon></div></div><div class="d2l-navigation-s-notifications-div"></div></div><d2l-labs-navigation-separator class="d2l-navigation-s-notifications-divider"></d2l-labs-navigation-separator><div class="d2l-navigation-s-personal-menu"><d2l-labs-navigation-dropdown-button-custom opener-label="Sabina Baraili, avatar"><span class="d2l-navigation-s-personal-menu-wrapper" slot="opener"><d2l-profile-image-base class="d2l-token-receiver" data-token-receiver-scope="core:*:*" href="" first-name="Sabina" last-name="Baraili" color-id="178756" size="medium" aria-hidden="true"></d2l-profile-image-base><span class="d2l-navigation-s-personal-menu-text">Sabina Baraili</span></span><d2l-dropdown-content min-width="300" no-padding vertical-offset="0"><ul class="d2l-personal-tools-list"><li><div class="d2l-personal-tools-category-item d2l-personal-tools-category-item-first"><span style="white-space:nowrap;"><a class="d2l-link" aria-label="" href="/d2l/lp/profile/profile_edit.d2l?ou=1154245" onclick="D2L.O(&quot;__gctl_34&quot;,0)();">Profile</a>
+		</span></div></li><li class="d2l-personal-tools-category-item"><span style="white-space:nowrap;"><a class="d2l-link" aria-label="" href="/d2l/folio/main/Index" onclick="D2L.O(&quot;__gctl_34&quot;,1)();">My Portfolio</a>
+		</span></li><li class="d2l-personal-tools-category-item"><span style="white-space:nowrap;"><a class="d2l-link" aria-label="" href="/d2l/Notifications/Settings?ou=1154245" onclick="D2L.O(&quot;__gctl_34&quot;,2)();">Notifications</a>
+		</span></li><li class="d2l-personal-tools-category-item d2l-personal-tools-category-item-last"><span style="white-space:nowrap;"><a class="d2l-link" aria-label="" href="/d2l/lp/preferences/preferences_main/preferences_main.d2l?ou=1154245" onclick="D2L.O(&quot;__gctl_34&quot;,1)();">Account Settings</a>
+		</span></li><li class="d2l-personal-tools-separated-item"><div class="d2l-personal-tools-category-item d2l-personal-tools-category-item-first d2l-personal-tools-category-item-last"><span style="white-space:nowrap;"><a class="d2l-link" aria-label="" href="/d2l/le/userprogress/178756/1154245/Summary?searchString=&amp;sortField=SortLastName&amp;sortDirection=0">Progress</a>
+		</span></div></li><li class="d2l-personal-tools-separated-item"><span style="white-space:nowrap;"><a class="d2l-link d2l_1_5_239" aria-label="" id="LocaleLinkId" href="javascript:void(0);" onclick="D2L.O(&quot;__gctl_34&quot;,3)();return false;">English (United States)</a>
+		</span></li><li class="d2l-personal-tools-separated-item"><span style="white-space:nowrap;"><a class="d2l-link d2l_1_5_239" aria-label="" href="javascript:void(0);" onclick="D2L.O(&quot;__gctl_34&quot;,4)();return false;">Log Out</a>
+		</span></li></ul></d2l-dropdown-content></d2l-labs-navigation-dropdown-button-custom></div></div></d2l-labs-navigation-main-header><d2l-labs-navigation-main-footer class="d2l-branding-navigation-background-color d2l-visible-on-ancestor-target"><div slot="main"><div class="d2l-navigation-s-main-wrapper" data-loading="1" data-unmeasured="1" role="list"><div class="d2l-navigation-s-item" role="listitem"><a href="/d2l/home/1154245" class="d2l-navigation-s-link">Course Home</a></div>
+		<div class="d2l-navigation-s-item" role="listitem"><a href="/d2l/le/content/1154245/Home" class="d2l-navigation-s-link">Content</a></div>
+		<div class="d2l-navigation-s-item" role="listitem"><a href="/d2l/le/1154245/discussions/List" class="d2l-navigation-s-link">Discussions</a></div>
+		<div class="d2l-navigation-s-item" role="listitem"><d2l-dropdown><button class="d2l-navigation-s-group d2l-dropdown-opener"><span class="d2l-navigation-s-group-wrapper"><span class="d2l-navigation-s-group-text">Activities</span><d2l-icon icon="tier1:chevron-down"></d2l-icon></span></button><d2l-dropdown-menu><d2l-menu label="Activities" class="d2l-menu-mvc">
+			<d2l-menu-item-link text="Assignments" href="/d2l/lms/dropbox/dropbox.d2l?ou=1154245" class="d2l-navigation-s-menu-item-root"></d2l-menu-item-link>
+			<d2l-menu-item-link text="Quizzes" href="/d2l/lms/quizzing/quizzing.d2l?ou=1154245" class="d2l-navigation-s-menu-item-root"></d2l-menu-item-link>
+		</d2l-menu>
+		</d2l-dropdown-menu></d2l-dropdown>
+		</div>
+		<div class="d2l-navigation-s-item" role="listitem"><d2l-dropdown><button class="d2l-navigation-s-group d2l-dropdown-opener"><span class="d2l-navigation-s-group-wrapper"><span class="d2l-navigation-s-group-text">Tools</span><d2l-icon icon="tier1:chevron-down"></d2l-icon></span></button><d2l-dropdown-menu><d2l-menu label="Tools" class="d2l-menu-mvc">
+			<d2l-menu-item-link text="Announcements" href="/d2l/lms/news/main.d2l?ou=1154245" class="d2l-navigation-s-menu-item-root"></d2l-menu-item-link>
+			<d2l-menu-item-link text="Calendar" href="/d2l/le/calendar/1154245" class="d2l-navigation-s-menu-item-root"></d2l-menu-item-link>
+			<d2l-menu-item-link text="Classlist" href="/d2l/lms/classlist/classlist.d2l?ou=1154245" class="d2l-navigation-s-menu-item-root"></d2l-menu-item-link>
+			<d2l-menu-item-link text="Class Progress" href="/d2l/le/userprogress/178756/1154245/Summary?searchString=&amp;sortField=SortLastName&amp;sortDirection=0" class="d2l-navigation-s-menu-item-root"></d2l-menu-item-link>
+			<d2l-menu-item-link text="Email" href="/d2l/lms/email/frame.d2l?ou=1154245" class="d2l-navigation-s-menu-item-root"></d2l-menu-item-link>
+			<d2l-menu-item-link text="Groups" href="/d2l/lms/group/group_list.d2l?ou=1154245" class="d2l-navigation-s-menu-item-root"></d2l-menu-item-link>
+			<d2l-menu-item-link text="Awards" href="/d2l/awards/1154245/" class="d2l-navigation-s-menu-item-root"></d2l-menu-item-link>
+		</d2l-menu>
+		</d2l-dropdown-menu></d2l-dropdown>
+		</div>
+		<div class="d2l-navigation-s-item" role="listitem"><a href="/d2l/lms/grades/index.d2l?ou=1154245" class="d2l-navigation-s-link">Grades</a></div>
+		<div class="d2l-navigation-s-item" role="listitem"><d2l-dropdown><button class="d2l-navigation-s-group d2l-dropdown-opener"><span class="d2l-navigation-s-group-wrapper"><span class="d2l-navigation-s-group-text">Library</span><d2l-icon icon="tier1:chevron-down"></d2l-icon></span></button><d2l-dropdown-menu><d2l-menu label="Library" class="d2l-menu-mvc">
+			<d2l-menu-item text="Library" class="d2l-navigation-s-menu-item-root" id="d2l_1_6_589"></d2l-menu-item>
+			<d2l-menu-item text="E-Reserves" class="d2l-navigation-s-menu-item-root" id="d2l_1_7_941"></d2l-menu-item>
+		</d2l-menu>
+		</d2l-dropdown-menu></d2l-dropdown>
+		</div>
+		<div class="d2l-navigation-s-item" role="listitem"><d2l-dropdown><button class="d2l-navigation-s-group d2l-dropdown-opener"><span class="d2l-navigation-s-group-wrapper"><span class="d2l-navigation-s-group-text">Tutoring</span><d2l-icon icon="tier1:chevron-down"></d2l-icon></span></button><d2l-dropdown-menu><d2l-menu label="Tutoring" class="d2l-menu-mvc">
+			<d2l-menu-item text="Tutoring" class="d2l-navigation-s-menu-item-root" id="d2l_1_8_377"></d2l-menu-item>
+			<d2l-menu-item text="Tutor.com" class="d2l-navigation-s-menu-item-root" id="d2l_1_9_151"></d2l-menu-item>
+		</d2l-menu>
+		</d2l-dropdown-menu></d2l-dropdown>
+		</div>
+		<div class="d2l-navigation-s-item" role="listitem"><d2l-dropdown><button class="d2l-navigation-s-group d2l-dropdown-opener"><span class="d2l-navigation-s-group-wrapper"><span class="d2l-navigation-s-group-text">Help</span><d2l-icon icon="tier1:chevron-down"></d2l-icon></span></button><d2l-dropdown-menu><d2l-menu label="Help" class="d2l-menu-mvc">
+			<d2l-menu-item text="Multi-Factor Authentication (MFA)" class="d2l-navigation-s-menu-item-root" id="d2l_1_10_689"></d2l-menu-item>
+			<d2l-menu-item text="Help Desk" class="d2l-navigation-s-menu-item-root" id="d2l_1_11_341"></d2l-menu-item>
+			<d2l-menu-item text="Brightspace for SPS students" class="d2l-navigation-s-menu-item-root" id="d2l_1_12_129"></d2l-menu-item>
+			<d2l-menu-item text="Overview video for SPS students" class="d2l-navigation-s-menu-item-root" id="d2l_1_13_313"></d2l-menu-item>
+			<d2l-menu-item text="Brightspace Help" class="d2l-navigation-s-menu-item-root" id="d2l_1_14_0"></d2l-menu-item>
+			<d2l-menu-item text="CUNY-dedicated Brightspace Help Line" class="d2l-navigation-s-menu-item-root" id="d2l_1_15_608"></d2l-menu-item>
+			<d2l-menu-item text="Brightspace System Check" class="d2l-navigation-s-menu-item-root" id="d2l_1_16_202"></d2l-menu-item>
+		</d2l-menu>
+		</d2l-dropdown-menu></d2l-dropdown>
+		</div>
+		<div class="d2l-navigation-s-item" role="listitem"><d2l-dropdown><button class="d2l-navigation-s-group d2l-dropdown-opener"><span class="d2l-navigation-s-group-wrapper"><span class="d2l-navigation-s-group-text">Academic Resources</span><d2l-icon icon="tier1:chevron-down"></d2l-icon></span></button><d2l-dropdown-menu><d2l-menu label="Academic Resources" class="d2l-menu-mvc">
+			<d2l-menu-item text="Program Contacts" class="d2l-navigation-s-menu-item-root" id="d2l_1_17_378"></d2l-menu-item>
+			<d2l-menu-item text="EAB Navigate" class="d2l-navigation-s-menu-item-root" id="d2l_1_18_633"></d2l-menu-item>
+			<d2l-menu-item text="Academic Integrity" class="d2l-navigation-s-menu-item-root" id="d2l_1_19_539"></d2l-menu-item>
+			<d2l-menu-item text="Academic Calendar" class="d2l-navigation-s-menu-item-root" id="d2l_1_20_701"></d2l-menu-item>
+			<d2l-menu-item text="All Academic Resources" class="d2l-navigation-s-menu-item-root" id="d2l_1_21_258"></d2l-menu-item>
+		</d2l-menu>
+		</d2l-dropdown-menu></d2l-dropdown>
+		</div>
+		<div class="d2l-navigation-s-item" role="listitem"><d2l-dropdown><button class="d2l-navigation-s-group d2l-dropdown-opener"><span class="d2l-navigation-s-group-wrapper"><span class="d2l-navigation-s-group-text">Services for Students</span><d2l-icon icon="tier1:chevron-down"></d2l-icon></span></button><d2l-dropdown-menu><d2l-menu label="Services for Students" class="d2l-menu-mvc">
+			<d2l-menu-item text="Career Link" class="d2l-navigation-s-menu-item-root" id="d2l_1_22_835"></d2l-menu-item>
+			<d2l-menu-item text="Counseling" class="d2l-navigation-s-menu-item-root" id="d2l_1_23_298"></d2l-menu-item>
+			<d2l-menu-item text="Student Disability Services" class="d2l-navigation-s-menu-item-root" id="d2l_1_24_675"></d2l-menu-item>
+			<d2l-menu-item text="Events" class="d2l-navigation-s-menu-item-root" id="d2l_1_25_495"></d2l-menu-item>
+			<d2l-menu-item text="Military and Veteran Services" class="d2l-navigation-s-menu-item-root" id="d2l_1_26_135"></d2l-menu-item>
+			<d2l-menu-item text="Professional Development Fund" class="d2l-navigation-s-menu-item-root" id="d2l_1_27_25"></d2l-menu-item>
+			<d2l-menu-item text="Student Association and Organizations" class="d2l-navigation-s-menu-item-root" id="d2l_1_28_900"></d2l-menu-item>
+		</d2l-menu>
+		</d2l-dropdown-menu></d2l-dropdown>
+		</div>
+		<div class="d2l-navigation-s-item" role="listitem"><d2l-dropdown><button class="d2l-navigation-s-group d2l-dropdown-opener"><span class="d2l-navigation-s-group-wrapper"><span class="d2l-navigation-s-group-text">Financial Information</span><d2l-icon icon="tier1:chevron-down"></d2l-icon></span></button><d2l-dropdown-menu><d2l-menu label="Financial Information" class="d2l-menu-mvc">
+			<d2l-menu-item text="Important Dates" class="d2l-navigation-s-menu-item-root" id="d2l_1_29_624"></d2l-menu-item>
+			<d2l-menu-item text="Financial Aid Disbursement Calendar" class="d2l-navigation-s-menu-item-root" id="d2l_1_30_840"></d2l-menu-item>
+			<d2l-menu-item text="Short-Term Financial Assistance" class="d2l-navigation-s-menu-item-root" id="d2l_1_31_634"></d2l-menu-item>
+			<d2l-menu-item text="Payment Plan Information" class="d2l-navigation-s-menu-item-root" id="d2l_1_32_183"></d2l-menu-item>
+			<d2l-menu-item text="Scholarships" class="d2l-navigation-s-menu-item-root" id="d2l_1_33_176"></d2l-menu-item>
+		</d2l-menu>
+		</d2l-dropdown-menu></d2l-dropdown>
+		</div>
+		<div class="d2l-navigation-s-item d2l-navigation-s-more" role="listitem"><d2l-dropdown><button class="d2l-navigation-s-group d2l-dropdown-opener"><span class="d2l-navigation-s-group-wrapper"><span class="d2l-navigation-s-group-text">More</span><d2l-icon icon="tier1:chevron-down"></d2l-icon></span></button><d2l-dropdown-menu><d2l-menu label="More" class="d2l-menu-mvc">
+			<d2l-menu-item-link text="Course Home" href="/d2l/home/1154245" class="d2l-navigation-s-menu-item-root"></d2l-menu-item-link>
+			<d2l-menu-item-link text="Content" href="/d2l/le/content/1154245/Home" class="d2l-navigation-s-menu-item-root"></d2l-menu-item-link>
+			<d2l-menu-item-link text="Discussions" href="/d2l/le/1154245/discussions/List" class="d2l-navigation-s-menu-item-root"></d2l-menu-item-link>
+			<d2l-menu-item text="Activities" class="d2l-navigation-s-menu-item-root">
+				<d2l-menu class="d2l-menu-mvc d2l-navigation-s-menu-item-root">
+					<d2l-menu-item-link text="Assignments" href="/d2l/lms/dropbox/dropbox.d2l?ou=1154245"></d2l-menu-item-link>
+					<d2l-menu-item-link text="Quizzes" href="/d2l/lms/quizzing/quizzing.d2l?ou=1154245"></d2l-menu-item-link>
+				</d2l-menu>
+			</d2l-menu-item>
+			<d2l-menu-item text="Tools" class="d2l-navigation-s-menu-item-root">
+				<d2l-menu class="d2l-menu-mvc d2l-navigation-s-menu-item-root">
+					<d2l-menu-item-link text="Announcements" href="/d2l/lms/news/main.d2l?ou=1154245"></d2l-menu-item-link>
+					<d2l-menu-item-link text="Calendar" href="/d2l/le/calendar/1154245"></d2l-menu-item-link>
+					<d2l-menu-item-link text="Classlist" href="/d2l/lms/classlist/classlist.d2l?ou=1154245"></d2l-menu-item-link>
+					<d2l-menu-item-link text="Class Progress" href="/d2l/le/userprogress/178756/1154245/Summary?searchString=&amp;sortField=SortLastName&amp;sortDirection=0"></d2l-menu-item-link>
+					<d2l-menu-item-link text="Email" href="/d2l/lms/email/frame.d2l?ou=1154245"></d2l-menu-item-link>
+					<d2l-menu-item-link text="Groups" href="/d2l/lms/group/group_list.d2l?ou=1154245"></d2l-menu-item-link>
+					<d2l-menu-item-link text="Awards" href="/d2l/awards/1154245/"></d2l-menu-item-link>
+				</d2l-menu>
+			</d2l-menu-item>
+			<d2l-menu-item-link text="Grades" href="/d2l/lms/grades/index.d2l?ou=1154245" class="d2l-navigation-s-menu-item-root"></d2l-menu-item-link>
+			<d2l-menu-item text="Library" class="d2l-navigation-s-menu-item-root">
+				<d2l-menu class="d2l-menu-mvc d2l-navigation-s-menu-item-root">
+					<d2l-menu-item text="Library" id="d2l_1_34_391"></d2l-menu-item>
+					<d2l-menu-item text="E-Reserves" id="d2l_1_35_171"></d2l-menu-item>
+				</d2l-menu>
+			</d2l-menu-item>
+			<d2l-menu-item text="Tutoring" class="d2l-navigation-s-menu-item-root">
+				<d2l-menu class="d2l-menu-mvc d2l-navigation-s-menu-item-root">
+					<d2l-menu-item text="Tutoring" id="d2l_1_36_136"></d2l-menu-item>
+					<d2l-menu-item text="Tutor.com" id="d2l_1_37_233"></d2l-menu-item>
+				</d2l-menu>
+			</d2l-menu-item>
+			<d2l-menu-item text="Help" class="d2l-navigation-s-menu-item-root">
+				<d2l-menu class="d2l-menu-mvc d2l-navigation-s-menu-item-root">
+					<d2l-menu-item text="Multi-Factor Authentication (MFA)" id="d2l_1_38_604"></d2l-menu-item>
+					<d2l-menu-item text="Help Desk" id="d2l_1_39_405"></d2l-menu-item>
+					<d2l-menu-item text="Brightspace for SPS students" id="d2l_1_40_69"></d2l-menu-item>
+					<d2l-menu-item text="Overview video for SPS students" id="d2l_1_41_236"></d2l-menu-item>
+					<d2l-menu-item text="Brightspace Help" id="d2l_1_42_403"></d2l-menu-item>
+					<d2l-menu-item text="CUNY-dedicated Brightspace Help Line" id="d2l_1_43_6"></d2l-menu-item>
+					<d2l-menu-item text="Brightspace System Check" id="d2l_1_44_901"></d2l-menu-item>
+				</d2l-menu>
+			</d2l-menu-item>
+			<d2l-menu-item text="Academic Resources" class="d2l-navigation-s-menu-item-root">
+				<d2l-menu class="d2l-menu-mvc d2l-navigation-s-menu-item-root">
+					<d2l-menu-item text="Program Contacts" id="d2l_1_45_470"></d2l-menu-item>
+					<d2l-menu-item text="EAB Navigate" id="d2l_1_46_5"></d2l-menu-item>
+					<d2l-menu-item text="Academic Integrity" id="d2l_1_47_552"></d2l-menu-item>
+					<d2l-menu-item text="Academic Calendar" id="d2l_1_48_60"></d2l-menu-item>
+					<d2l-menu-item text="All Academic Resources" id="d2l_1_49_510"></d2l-menu-item>
+				</d2l-menu>
+			</d2l-menu-item>
+			<d2l-menu-item text="Services for Students" class="d2l-navigation-s-menu-item-root">
+				<d2l-menu class="d2l-menu-mvc d2l-navigation-s-menu-item-root">
+					<d2l-menu-item text="Career Link" id="d2l_1_50_348"></d2l-menu-item>
+					<d2l-menu-item text="Counseling" id="d2l_1_51_136"></d2l-menu-item>
+					<d2l-menu-item text="Student Disability Services" id="d2l_1_52_503"></d2l-menu-item>
+					<d2l-menu-item text="Events" id="d2l_1_53_564"></d2l-menu-item>
+					<d2l-menu-item text="Military and Veteran Services" id="d2l_1_54_703"></d2l-menu-item>
+					<d2l-menu-item text="Professional Development Fund" id="d2l_1_55_394"></d2l-menu-item>
+					<d2l-menu-item text="Student Association and Organizations" id="d2l_1_56_604"></d2l-menu-item>
+				</d2l-menu>
+			</d2l-menu-item>
+			<d2l-menu-item text="Financial Information" class="d2l-navigation-s-menu-item-root">
+				<d2l-menu class="d2l-menu-mvc d2l-navigation-s-menu-item-root">
+					<d2l-menu-item text="Important Dates" id="d2l_1_57_286"></d2l-menu-item>
+					<d2l-menu-item text="Financial Aid Disbursement Calendar" id="d2l_1_58_617"></d2l-menu-item>
+					<d2l-menu-item text="Short-Term Financial Assistance" id="d2l_1_59_677"></d2l-menu-item>
+					<d2l-menu-item text="Payment Plan Information" id="d2l_1_60_103"></d2l-menu-item>
+					<d2l-menu-item text="Scholarships" id="d2l_1_61_563"></d2l-menu-item>
+				</d2l-menu>
+			</d2l-menu-item>
+		</d2l-menu>
+		</d2l-dropdown-menu></d2l-dropdown>
+		</div>
+		</div></div></d2l-labs-navigation-main-footer><div class="d2l-navigation-s-mobile-menu" data-state="closed" data-cprl="/d2l/lp/courseSelector/1154245/InitPartial"><div class="d2l-navigation-s-mobile-menu-mask"><div class="d2l-navigation-s-mobile-menu-focus-trap-start d2l-offscreen" tabindex="0">Menu Start</div><p class="d2l-navigation-s-mobile-menu-first d2l-offscreen" tabindex="-1">Menu Start</p><div class="d2l-navigation-s-mobile-menu-mask-close"><d2l-button-icon icon="tier1:close-large-thick" text="close"></d2l-button-icon>
+		</div></div><div class="d2l-navigation-s-mobile-menu-content"><d2l-labs-navigation-band></d2l-labs-navigation-band><div class="d2l-navigation-s-mobile-menu-header"><div class="d2l-navigation-s-mobile-menu-branded-header"><div class="d2l-navigation-s-header-logo-area"><d2l-labs-navigation-link-icon class="d2l-navigation-s-home-icon" text="My Home" href="/d2l/lp/ouHome/defaultHome.d2l" text-hidden icon="tier1:home" tooltip-offset="0"></d2l-labs-navigation-link-icon><d2l-labs-navigation-separator class="d2l-navigation-s-logo-divider"></d2l-labs-navigation-separator><d2l-labs-navigation-link-image class="d2l-navigation-s-logo" src="/d2l/lp/navbars/7023/theme/viewimage/33899/view?v=20.26.3.22348" text="" slim tooltip-offset="0"></d2l-labs-navigation-link-image><d2l-labs-navigation-separator class="d2l-navigation-s-title-divider"></d2l-labs-navigation-separator><div class="d2l-navigation-s-title-container"><a class="d2l-navigation-s-link" href="/d2l/home/1154245" title="2026 SP [1] DATA 621 001 [32164] Data Mining [Lecture] [School of Professional Studies]">2026 SP [1] DATA 621 001 [32164] Data Mining [Lecture] [School of Professional Studies]</a></div></div><div class="d2l-navigation-s-gutter"></div><div class="d2l-navigation-s-mobile-menu-course-selector"><d2l-labs-navigation-button-icon icon="tier3:classes" text="Select a course..." text-hidden tooltip-offset="0"></d2l-labs-navigation-button-icon></div></div><div class="d2l-navigation-s-mobile-menu-header-course-menu"><d2l-labs-navigation-button-icon icon="tier1:chevron-left" text="2026 SP [1] DATA 621 001 [32164] Data Mining [Lecture] [School of Professional Studies]" text-hidden tooltip-offset="0"></d2l-labs-navigation-button-icon><div class="d2l-navigation-s-title-container"><span class="d2l-navigation-s-title">2026 SP [1] DATA 621 001 [32164] Data Mining [Lecture] [School of Professional Studies]</span></div></div></div><div class="d2l-navigation-s-title-container d2l-navigation-s-mobile-menu-title-bp d2l-branding-navigation-background-color"><a class="d2l-navigation-s-link" href="/d2l/home/1154245" title="2026 SP [1] DATA 621 001 [32164] Data Mining [Lecture] [School of Professional Studies]">2026 SP [1] DATA 621 001 [32164] Data Mining [Lecture] [School of Professional Studies]</a></div><div class="d2l-navigation-s-mobile-menu-course-menu"></div><div class="d2l-navigation-s-mobile-menu-nav"><d2l-menu label="Menu" class="d2l-menu-mvc">
+			<d2l-menu-item-link text="Course Home" href="/d2l/home/1154245"></d2l-menu-item-link>
+			<d2l-menu-item-link text="Content" href="/d2l/le/content/1154245/Home"></d2l-menu-item-link>
+			<d2l-menu-item-link text="Discussions" href="/d2l/le/1154245/discussions/List"></d2l-menu-item-link>
+			<d2l-menu-item text="Activities">
+				<d2l-menu class="d2l-menu-mvc">
+					<d2l-menu-item-link text="Assignments" href="/d2l/lms/dropbox/dropbox.d2l?ou=1154245"></d2l-menu-item-link>
+					<d2l-menu-item-link text="Quizzes" href="/d2l/lms/quizzing/quizzing.d2l?ou=1154245"></d2l-menu-item-link>
+				</d2l-menu>
+			</d2l-menu-item>
+			<d2l-menu-item text="Tools">
+				<d2l-menu class="d2l-menu-mvc">
+					<d2l-menu-item-link text="Announcements" href="/d2l/lms/news/main.d2l?ou=1154245"></d2l-menu-item-link>
+					<d2l-menu-item-link text="Calendar" href="/d2l/le/calendar/1154245"></d2l-menu-item-link>
+					<d2l-menu-item-link text="Classlist" href="/d2l/lms/classlist/classlist.d2l?ou=1154245"></d2l-menu-item-link>
+					<d2l-menu-item-link text="Class Progress" href="/d2l/le/userprogress/178756/1154245/Summary?searchString=&amp;sortField=SortLastName&amp;sortDirection=0"></d2l-menu-item-link>
+					<d2l-menu-item-link text="Email" href="/d2l/lms/email/frame.d2l?ou=1154245"></d2l-menu-item-link>
+					<d2l-menu-item-link text="Groups" href="/d2l/lms/group/group_list.d2l?ou=1154245"></d2l-menu-item-link>
+					<d2l-menu-item-link text="Awards" href="/d2l/awards/1154245/"></d2l-menu-item-link>
+				</d2l-menu>
+			</d2l-menu-item>
+			<d2l-menu-item-link text="Grades" href="/d2l/lms/grades/index.d2l?ou=1154245"></d2l-menu-item-link>
+			<d2l-menu-item text="Library">
+				<d2l-menu class="d2l-menu-mvc">
+					<d2l-menu-item text="Library" id="d2l_1_62_41"></d2l-menu-item>
+					<d2l-menu-item text="E-Reserves" id="d2l_1_63_751"></d2l-menu-item>
+				</d2l-menu>
+			</d2l-menu-item>
+			<d2l-menu-item text="Tutoring">
+				<d2l-menu class="d2l-menu-mvc">
+					<d2l-menu-item text="Tutoring" id="d2l_1_64_309"></d2l-menu-item>
+					<d2l-menu-item text="Tutor.com" id="d2l_1_65_54"></d2l-menu-item>
+				</d2l-menu>
+			</d2l-menu-item>
+			<d2l-menu-item text="Help">
+				<d2l-menu class="d2l-menu-mvc">
+					<d2l-menu-item text="Multi-Factor Authentication (MFA)" id="d2l_1_66_158"></d2l-menu-item>
+					<d2l-menu-item text="Help Desk" id="d2l_1_67_951"></d2l-menu-item>
+					<d2l-menu-item text="Brightspace for SPS students" id="d2l_1_68_920"></d2l-menu-item>
+					<d2l-menu-item text="Overview video for SPS students" id="d2l_1_69_828"></d2l-menu-item>
+					<d2l-menu-item text="Brightspace Help" id="d2l_1_70_472"></d2l-menu-item>
+					<d2l-menu-item text="CUNY-dedicated Brightspace Help Line" id="d2l_1_71_968"></d2l-menu-item>
+					<d2l-menu-item text="Brightspace System Check" id="d2l_1_72_773"></d2l-menu-item>
+				</d2l-menu>
+			</d2l-menu-item>
+			<d2l-menu-item text="Academic Resources">
+				<d2l-menu class="d2l-menu-mvc">
+					<d2l-menu-item text="Program Contacts" id="d2l_1_73_227"></d2l-menu-item>
+					<d2l-menu-item text="EAB Navigate" id="d2l_1_74_469"></d2l-menu-item>
+					<d2l-menu-item text="Academic Integrity" id="d2l_1_75_465"></d2l-menu-item>
+					<d2l-menu-item text="Academic Calendar" id="d2l_1_76_854"></d2l-menu-item>
+					<d2l-menu-item text="All Academic Resources" id="d2l_1_77_829"></d2l-menu-item>
+				</d2l-menu>
+			</d2l-menu-item>
+			<d2l-menu-item text="Services for Students">
+				<d2l-menu class="d2l-menu-mvc">
+					<d2l-menu-item text="Career Link" id="d2l_1_78_396"></d2l-menu-item>
+					<d2l-menu-item text="Counseling" id="d2l_1_79_205"></d2l-menu-item>
+					<d2l-menu-item text="Student Disability Services" id="d2l_1_80_490"></d2l-menu-item>
+					<d2l-menu-item text="Events" id="d2l_1_81_582"></d2l-menu-item>
+					<d2l-menu-item text="Military and Veteran Services" id="d2l_1_82_963"></d2l-menu-item>
+					<d2l-menu-item text="Professional Development Fund" id="d2l_1_83_389"></d2l-menu-item>
+					<d2l-menu-item text="Student Association and Organizations" id="d2l_1_84_275"></d2l-menu-item>
+				</d2l-menu>
+			</d2l-menu-item>
+			<d2l-menu-item text="Financial Information">
+				<d2l-menu class="d2l-menu-mvc">
+					<d2l-menu-item text="Important Dates" id="d2l_1_85_703"></d2l-menu-item>
+					<d2l-menu-item text="Financial Aid Disbursement Calendar" id="d2l_1_86_130"></d2l-menu-item>
+					<d2l-menu-item text="Short-Term Financial Assistance" id="d2l_1_87_618"></d2l-menu-item>
+					<d2l-menu-item text="Payment Plan Information" id="d2l_1_88_472"></d2l-menu-item>
+					<d2l-menu-item text="Scholarships" id="d2l_1_89_995"></d2l-menu-item>
+				</d2l-menu>
+			</d2l-menu-item>
+		</d2l-menu>
+		</div></div><div class="d2l-navigation-s-mobile-menu-focus-trap-end d2l-offscreen" tabindex="0">Menu End</div></div></d2l-labs-navigation></nav></header><div class="d2l-page-message-container"><div class="d2l-page-message d2l-hidden d2l_1_90_566" id="d2l_sessionExpiryWarning"><div style="display:none;" id="d2l_sessionExpiryAlert" role="alert"><div class="d2l-container-icon d2l_1_91_848 d2l_1_92_615">
+			<div class="d2l-container-icon-inner d2l_1_93_925 d2l_1_94_302 d2l_1_95_504 d2l_1_96_195">
+				<h2 class="d2l-heading vui-heading-2">Are You Still There?</h2>
+				<div class="d2l-textblock">Your session expires after 180 minutes of inactivity, which protects your information in case you&#39;ve left your device without logging out.<br/>
+<br/>
+<strong>Hit a key or click anywhere to stay logged in.</strong></div>
+			</div>
+		</div>
+		</div><div style="display:none;" id="d2l_sessionExpiryCheck" role="alert"><div class="d2l-container-icon d2l_1_91_848 d2l_1_92_615">
+			<div class="d2l-container-icon-inner d2l_1_97_650 d2l_1_94_302 d2l_1_95_504 d2l_1_96_195">
+				<div class="d2l_1_98_695">
+					<h2 class="d2l-heading vui-heading-2 d2l-heading-none">Oh, There You Are!</h2>
+				</div>
+			</div>
+		</div>
+		</div></div>
+		</div>
+		<div id="d_content" class="d2l-page-main d2l-max-width d2l-min-width">
+		<div id="d_content_inner" class="d2l-page-main-padding">
+		<div id="d_page_header" class="d2l-page-header"><div class="d2l-tool-actions d2l-left"><d2l-breadcrumbs class="d2l_1_99_846">
+			<d2l-breadcrumb text="Assignments" href="/d2l/lms/dropbox/user/folders_list.d2l?ou=1154245"></d2l-breadcrumb>
+			<d2l-breadcrumb-current-page text="HW 3"></d2l-breadcrumb-current-page>
+		</d2l-breadcrumbs>
+		<div class="d2l-heading"><h1 id="d_page_title" class="d2l-heading-title"><span class="vui-heading-1">HW 3</span></h1>
+		</div></div><span class="d2l-clear"></span></div><div id="d_content_r_c1">
+				<div id="d_content_r_c2">
+					<div id="d_content_r">
+						<div id="d_content_r_p">
+							<form method="post" action="folder_submit_files.d2l?db=2385709&amp;grpid=1252181&amp;isprv=0&amp;bp=0&amp;ou=1154245" id="d2l_form" enctype="multipart/form-data" onreset="return false;" onsubmit="return false;" >
+								<div>
+									<input type="hidden" name="d2l_action" value="" />
+									<input type="hidden" name="d2l_actionparam" value="" />
+									<input type="hidden" name="d2l_hitCode" value="" />
+									<input type="hidden" name="d2l_rf" value="" />
+									<input type="hidden" name="d2l_controlMapPrev" value="" />
+<input type="hidden" name="confMessage" id="z_c" /><input type="hidden" name="confWarning" id="z_d" /><input type="hidden" name="dropboxId" value="2385709" id="z_e" /><input type="hidden" name="hasStartedSubmission" value="false" id="z_f" /><div class="dco d2l-dropbox-submissiontext"><div class="dco_c"><table class="d_FG" role="presentation"><tr id="z_g"><td class="d_fgh" colspan="2" align="left"><div style="padding: 3px 0px 2px 0px;"><button type="button" class="d2l-hpg-opener" aria-expanded="true" onclick="UI.GC('z_g').Toggle();" data-opened-text="Hide Assignment Information" data-closed-text="Show Assignment Information"><d2l-icon icon="tier1:arrow-collapse"></d2l-icon><span>Hide Assignment Information</span></button><div style="padding: 0.2em 0.2em 0.2em 24px;display: none;"><span class="di_s di_s_icon" ><d2l-icon icon="tier1:help" role="img" class="di_i" alt="" title="" style="width:18px;height:18px;"></d2l-icon></span></div></div></td></tr><tr><td style="width:15%;text-align:left;" class="fl_n fl_top"><label id="ctl_7" class="d2l-label"><span>Group Category</span></label></td><td></td></tr><tr id="z_h"><td class="fct_w" colspan="2"><label>GROUP</label></td></tr><tr><td style="width:15%;text-align:left;" class="fl_n fl_top"><label id="ctl_9" class="d2l-label"><span>Group Name</span></label></td><td></td></tr><tr id="z_i"><td class="fct_w" colspan="2"><label>Data Mining[32164] - 3</label></td></tr><tr><td style="width:15%;text-align:left;" class="fl_n fl_top"><label id="ctl_10" class="d2l-label"><span>Instructions</span></label></td><td></td></tr><tr id="z_j"><td class="fct_w" colspan="2"><div id="" style="display: inline;"><div class="d2l-htmlblock-untrusted d2l-htmlblock-inline" id="ctl_11"><d2l-html-block html="&lt;p>&lt;span style=&quot;text-decoration: underline;&quot;>&lt;strong>OPTION 1&lt;/strong>&lt;/span>&lt;/p>
+&lt;p>Instructions for HW #3 are included in the attached PDF file. This assignment is due by 11/03/2024, 11.59 PM EST. Please submit your report as a PDF file.&amp;#160;&amp;#160;&lt;/p>
+&lt;p>&lt;span style=&quot;text-decoration: underline;&quot;>&lt;strong>OPTION 2&lt;/strong>&lt;/span>&lt;b>&amp;#160; &amp;#160;&lt;/b>&lt;/p>
+&lt;p>Define a concept that you have learned from this week&amp;#39;s readings and videos.&amp;#160; Compare (i,e., Identify similarities) and Contrast (i.e., Identify differences) this concept with another that you have learned throughout the course.&amp;#160; Use R to provide a real-world example of how you would approach solving a problem using the concept that you have learned. Please submit your report as a PDF file.&lt;/p>" inline></d2l-html-block></div></div></td></tr><tr><td style="width:15%;text-align:left;" class="fl_n fl_top"><span id="ctl_14" class="d2l-label d2l-field-label-empty"></span></td><td></td></tr><tr id="z_k"><td class="fct_w" colspan="2"><div class="dco d2l-dates-text-submission-page"><div class="dco_c"><label>Due on Apr 12, 2026 11:59 PM</label></div></div></td></tr><tr><td style="width:15%;text-align:left;" class="fl_n fl_top"><label id="ctl_15" class="d2l-label"><span>Attachments</span></label></td><td></td></tr><tr id="z_l"><td class="fct_w" colspan="2"><table summary="" class="d_t"><tr><td class="d_tl d_tm d_tn"><div><input type="hidden" name="attachments_fsid" value="14552845" /><table id="z_m" class="dcs"></table></div></td></tr><tr><td class="d_tr d_tm d_tn"><button type="button" class="d2l-button" id="z_n" data-onclick="D2L.O(&quot;__gctl_20&quot;,0)();">Download All Files</button></td></tr></table></td></tr></table></div></div><script>
+							function ViewAssociatedQuestions( lobId, qgId ) {
+			var lobDialog = new D2L.Dialog( 'myDialog' );
+			lobDialog.SetSize( 500, 715 );
+			lobDialog.SetTitle( 'Questions associated with learning objective' );
+			lobDialog.AddPrimaryButton( D2L.Control.Button.Type.Close );
+			lobDialog.SetSrc ( "/d2l/lms/qc/admin/question_group.d2l?ou=" + 1154245 + "&lobId=" + lobId  + "&qgId=" + qgId );
+			lobDialog.Open();
+		}
+		
+		function ViewAssociatedSubmittedQuestions(lobId, qgId, qcId, userId ) {
+			var lobDialog = new D2L.Dialog( 'myDialog' );
+			lobDialog.SetSize( 500, 715 );
+			lobDialog.SetTitle( 'Questions associated with learning objective' );
+			lobDialog.AddPrimaryButton( D2L.Control.Button.Type.Close );
+			lobDialog.SetSrc ( "/d2l/lms/quizzing/user/question_group.d2l?ou=" + 1154245 
+				+ "&lobId=" + lobId  + "&qgId=" + qgId + "&qcId=" + qcId + "&userId=" + userId );
+			lobDialog.Open();			
+		}
+							</script>
+							<script>
+							
+var PARENT = 1;
+var CHILD = -1;
+
+var COMPETENCY = 1;
+var LEARNINGOBJECTIVE = 2;
+var ACTIVITY = 3;
+
+function Add() {	
+	
+	
+	Nav.SubmitAction( 'Create' );	
+}	
+
+function Close(){
+	
+	window.parent.opener.Nav.Reload();
+	window.parent.close();	
+}
+		
+function NewCompetencyPopup( ou, objectName, objectId, objectType, relation ) {
+
+	var PopupNewCompetency = new d2l_Popup();
+	var relationString;
+	
+	if (relation == PARENT){
+		relationString = "Add New Parent to";
+	} else {
+		relationString = "Add New Child to";
+	}
+			
+	PopupNewCompetency.width = 700;
+	PopupNewCompetency.height = 500;			
+	PopupNewCompetency.title = relationString + " " + objectName;
+	PopupNewCompetency.AddButton("Add", "Save", "Left", true);
+	PopupNewCompetency.AddCancelButton();
+	PopupNewCompetency.bodySource = "/d2l/lms/competencies/competency_new_popup.d2l";
+	PopupNewCompetency.queryString = "ou=" + ou + "&objectId=" + objectId +"&objectType=" + objectType +"&relation=" + relation;
+	
+	PopupNewCompetency.Open();
+
+}
+
+function NewLOBPopup( ou, objectName, objectId, objectType, relation, activityType ) {
+
+	var PopupNewLOB = new d2l_Popup();
+	var relationString;
+	
+	if (relation == PARENT){
+		relationString = "Add New Parent to";
+	} else {
+		relationString = "Add New Child to";
+	}
+	
+	PopupNewLOB.height = 500;
+	PopupNewLOB.width = 715;
+	PopupNewLOB.title =  relationString + " " + objectName;
+	PopupNewLOB.AddButton("Add", "Save", "Left", true);
+	PopupNewLOB.AddCancelButton();
+	PopupNewLOB.bodySource = "/d2l/lms/competencies/objective_new_popup.d2l";
+	PopupNewLOB.queryString = "ou=" + ou + "&objectId=" + objectId +"&objectType=" + objectType +"&isPopup=1&relation=" + relation + "&activityType=" + activityType;
+	
+	PopupNewLOB.Open();
+
+}
+
+function NewActivityPopup( ou, objectName, objectId, enforce ) {
+
+	var PopupActivity = new d2l_Popup();
+	PopupActivity.height = 500;
+	PopupActivity.width = 715;
+	PopupActivity.title = "Add New Child to " + objectName;
+	PopupActivity.AddCloseButton(true);
+	PopupActivity.bodySource = "/d2l/lms/competencies/activity_new_index_popup.d2l";
+	PopupActivity.queryString = "ou=" + ou + "&isPopup=1&objectId=" + objectId + "&enforce=" + enforce;
+	
+	PopupActivity.Open();
+
+}
+
+function ViewObjectPopup( ou, objectId, objectType ) {
+
+	var PopupActivity = new d2l_Popup();
+	PopupActivity.height = 500;
+	PopupActivity.width = 715;
+
+	if( objectType == COMPETENCY ){
+		PopupActivity.title = "Competency Details";
+		PopupActivity.bodySource = "/d2l/lms/competencies/competency_view_popup.d2l";
+		PopupActivity.queryString = "ou=" + ou + "&competencyId=" + objectId ;
+
+	} else if( objectType == LEARNINGOBJECTIVE ) {
+		PopupActivity.title = "Learning Objective Details";
+		PopupActivity.bodySource = "/d2l/lms/competencies/objective_view_popup.d2l";
+		PopupActivity.queryString = "ou=" + ou + "&objectiveId=" + objectId ;
+		
+	} else {
+		PopupActivity.title = "Activity Details";
+		PopupActivity.bodySource = "/d2l/lms/competencies/activity_view_popup.d2l";
+		PopupActivity.queryString = "ou=" + ou + "&activityId=" + objectId ;
+		
+	}
+	PopupActivity.AddCloseButton(true);
+	PopupActivity.Open();
+
+}
+
+function NavigateFromResultsPage(url) {
+
+    if (url.length > 0) {     
+        var navInfo = new D2L.NavInfo();
+        navInfo.SetNavigation(url);        
+        Nav.Go(navInfo);
+    }
+}
+
+function ViewUserResultsPopup( ou, userId, advancedView, userName, isPopup ) {
+	var PopupResults = new d2l_Popup();
+	PopupResults.height = 500;
+	PopupResults.width = 715;
+	PopupResults.title = "View Competency Results for " + userName;
+	PopupResults.bodySource = "/d2l/lms/competencies/competency_results.d2l";
+	PopupResults.queryString = "ou=" + ou + "&uid=" + userId + "&advancedView=" + advancedView + "&popup=" + isPopup;
+	
+	PopupResults.AddCloseButton(true);
+	PopupResults.Open();
+}
+
+function ViewItemsInUsePopup( ou, objectId, objectType, objName, statId, isAdvancedView ) {
+	var PopupItems = new d2l_Popup();
+	PopupItems.height = 300;
+	PopupItems.width = 500;
+	
+	if ( objectType == 1 && statId >= 3 ) {
+		PopupItems.title = objName;
+	} else {
+		PopupItems.title = "View Items In Use By " + objName;
+	}
+	
+	PopupItems.bodySource = "/d2l/lms/competencies/view_items_popup.d2l";
+	PopupItems.queryString = "ou=" + ou + "&objectId=" + objectId + "&objTypeId=" + objectType + "&objName=" + objName + "&statId=" + statId + "&advancedView=" + isAdvancedView;
+	PopupItems.AddCloseButton(true);
+	PopupItems.Open();
+
+}
+
+
+function ObjectLoad( ou, objectType, objectId ) {
+
+	if (objectType == COMPETENCY) {
+
+		var url = "/d2l/lms/competencies/competency_view_popup.d2l";
+		var title = "Competency Details";
+		var objectIdType = "competencyId";
+		ReloadPopup( url, title, ou, objectIdType, objectId );
+
+	} else if( objectType == LEARNINGOBJECTIVE ) {
+
+		var url = "/d2l/lms/competencies/objective_view_popup.d2l";
+		var title = "Learning Objective Details";
+		var objectIdType = "objectiveId";
+		ReloadPopup(url, title, ou, objectIdType, objectId);
+
+	} else {
+		
+		var url = "/d2l/lms/competencies/activity_view_popup.d2l";
+		var title = "Activity Details";
+		var objectIdType = "activityId";
+		ReloadPopup(url, title, ou, objectIdType, objectId);
+	}
+
+}
+
+function ReloadPopup( navigation, title, ou, objectIdType, objectId) {
+	if (parent.popup) {
+		parent.popup.title = title;
+		parent.popup.bodySource = navigation;
+		parent.popup.queryString = "ou=" + ou + "&" + objectIdType + "=" + objectId;
+		parent.popup.Load();
+	} else {
+		var n = new D2L.NavInfo();
+		n.navigation = navigation;
+		n.SetParam('ou', ou);
+		n.SetParam(objectIdType, objectId);
+		Nav.Go(n);
+	}
+}
+
+
+function AddExistingObjectPopup(
+		ou,
+		objectName,
+		objectId,
+		objectType,
+		addobjectType,
+		relation,
+		activityType,
+		addedKeys,
+		showTreeView
+	) {
+	var relationString;
+	
+	if( relation == PARENT ) {
+		relationString = 'Add Existing Parent to';
+	} else {
+		relationString = 'Add Existing Child to';
+	}
+
+	var PopupObject = new d2l_Popup();
+	PopupObject.height = 500;
+	PopupObject.width = 715;
+	PopupObject.title = relationString + ' ' + objectName;
+	PopupObject.AddButton('Add Selected', 'AddSelected', 'Left', true);
+	PopupObject.AddCancelButton();
+	if (showTreeView) {
+		PopupObject.bodySource = '/d2l/lms/competencies/item_addexisting_parentchildren.d2l';
+	} else {
+		PopupObject.bodySource = '/d2l/lms/competencies/item_addexisting_parentchildren_search.d2l';
+	}
+	PopupObject.queryString = 'ou=' + ou + '&isPopup=1&objectId=' + objectId + '&objectType=' + objectType + '&addobjectType=' + addobjectType + '&relation=' + relation + '&csObjname=' + UI.EncodeUrl(objectName) + '&activityType=' + activityType + '&AddedKeys=' + UI.EncodeUrl(addedKeys);
+
+	PopupObject.Open();
+
+}
+
+function ViewParentChildrenPopup( ou, objectId, objectType, relation, advancedView ) {
+
+	var PopupParentChildren = new d2l_Popup();
+	PopupParentChildren.height = 500;
+	PopupParentChildren.width = 615;
+	if( relation == PARENT ) {
+		PopupParentChildren.title = 'View All Parents';
+	} else {
+		PopupParentChildren.title = 'View All Children';
+	}
+	PopupParentChildren.AddCloseButton(true);
+	PopupParentChildren.bodySource = '/d2l/lms/competencies/item_view_parentchildren.d2l';
+	PopupParentChildren.queryString = 'ou=' + ou + '&isPopup=1&objectId=' + objectId + '&objectType=' + objectType + '&relation=' + relation + '&advancedView=' + advancedView;
+	
+	PopupParentChildren.Open();
+
+}
+
+function ViewParentChildrenDialog(ou, objectId, objectType, relation, advancedView) {
+
+    var Callback = function(dlgResponse) {
+
+        if (dlgResponse.GetType() == D2L.Dialog.ResponseType.Positive) {
+
+            var objectType = dlgResponse.GetData('objectType')
+            var objectId = dlgResponse.GetData('objectId')
+            var parentId = dlgResponse.GetData('parentId')
+
+            var n = new D2L.NavInfo();
+
+            switch (objectType) {
+                case (1):
+                    n.navigation = '/d2l/lms/competencies/competency_new.d2l';
+                    n.SetParam('competencyId', objectId);
+                    n.SetParam('relation', relation);
+                    n.SetParam('advancedView', '');
+                    dlgResponse.GetDialog().Close();
+                    Nav.Go(n);
+                    break;
+                case (2):
+                    n.navigation = '/d2l/lms/competencies/objective_new.d2l';
+                    n.SetParam('objectiveId', objectId);
+                    n.SetParam('relation', relation);
+                    n.SetParam('advancedView', '');
+                    dlgResponse.GetDialog().Close();
+                    Nav.Go(n);
+                    break;
+                case (3):
+                    n.navigation = '/d2l/lms/competencies/activity_new.d2l';
+                    n.SetParam('activityId', objectId);
+                    n.SetParam('relation', relation);
+                    n.SetParam('advancedView', '');
+                    n.SetParam('parent', parentId);
+                    n.SetParam('objectiveId', parentId);
+                    dlgResponse.GetDialog().Close();
+                    Nav.Go(n);
+                    break;
+                default:
+                    dlgResponse.GetDialog().Close();
+            }
+            n.SetParam('activityId', objectId);
+        }
+
+
+    };
+
+  
+    var dlgViewParentChildren = new D2L.Dialog('ParentChildren');
+
+    if (relation == PARENT) {
+        dlgViewParentChildren.SetTitle('View All Parents');
+    } else {
+        dlgViewParentChildren.SetTitle('View All Children');
+    }
+    dlgViewParentChildren.AddPrimaryButton(D2L.Control.Button.Type.Close);
+    dlgViewParentChildren.SetSize(615, 500);
+
+    dlgViewParentChildren.SetCallback(Callback);
+
+    var qs = '/d2l/lms/competencies/item_view_parentchildren.d2l?' + 'ou=' + ou + '&isPopup=1&objectId=' + objectId + '&objectType=' + objectType + '&relation=' + relation + '&advancedView=' + advancedView;
+
+    dlgViewParentChildren.SetSrc(qs, 'SrcCallback');
+
+    dlgViewParentChildren.Open();
+
+}
+
+function ViewRubricPopup( ou, rubricId ){
+
+	var PopupViewRubric = new d2l_Popup();
+	
+	PopupViewRubric.width = 880;
+	
+	PopupViewRubric.title = "Rubric Details";
+	PopupViewRubric.AddCloseButton(true);
+	PopupViewRubric.bodySource = "/d2l/tools/rubrics/rubric/rubric_view.d2l";
+	PopupViewRubric.queryString = "ou=" + ou + "&ri=" + rubricId;
+	
+	PopupViewRubric.Open();	
+}	
+
+function ViewCompetencyOUAchievedPopup( ou, objectId, objectType, userId ) {
+	var PopupViewOUAchieved = new d2l_Popup();
+	
+	PopupViewOUAchieved.width = 430;
+	
+	PopupViewOUAchieved.title = "Competency Structure Element Completed";
+	PopupViewOUAchieved.AddCloseButton(true);
+	PopupViewOUAchieved.bodySource = "/d2l/lms/competencies/competency_ou_achieved_popup.d2l";
+	PopupViewOUAchieved.queryString = "ou=" + ou + "&objectId=" + objectId + "&isPopup=1&objectType=" + objectType + "&uid=" + userId;
+	
+	PopupViewOUAchieved.Open();	
+
+}
+
+function ViewObjectResultsPopup( ou, objectId, objectType, objName ) {
+
+	var PopupActivity = new d2l_Popup();
+	PopupActivity.height = 500;
+	PopupActivity.width = 715;
+	if( objectType == COMPETENCY ){
+		PopupActivity.title = objName + " User Information";
+		PopupActivity.bodySource = "/d2l/lms/competencies/competency_user_information_popup.d2l";
+		PopupActivity.queryString = "ou=" + ou + "&competencyId=" + objectId + "&typeId=1&isPopup=1" ;
+		
+	} else if( objectType == LEARNINGOBJECTIVE ) {
+	
+		PopupActivity.title = objName + " User Information";
+		PopupActivity.bodySource = "/d2l/lms/competencies/competency_user_information_popup.d2l";
+		PopupActivity.queryString = "ou=" + ou + "&objectiveId=" + objectId + "&typeId=2&isPopup=1" ;
+		
+	} else {
+	
+		PopupActivity.title = objName + " Results";
+		PopupActivity.bodySource = "/d2l/lms/competencies/activity_results_popup.d2l";
+		PopupActivity.queryString = "ou=" + ou + "&activityId=" + objectId + "&isPopup=1" ;
+	}
+	
+	PopupActivity.AddCloseButton(true);
+	PopupActivity.Open();
+
+}
+
+							</script>
+							<input type="hidden" name="actlist" id="z_o" /><div class="dco" style="margin-top:0.9em;"><div class="dco_c"></div></div><h2 class="dhdg_1 vui-heading-2">Submit Assignment</h2><div class="dco" id="z_p" style="display:none;margin-top:1.8em;margin-bottom:0.9em;"><div class="dco_c"><label id="z_q"><span class="ds_a">There was an error submitting your text or file to the folder. Please fill in the text submission or re-submit the files.</span></label></div></div><table class="d_FG" role="presentation"><tr><td style="width:15%;text-align:left;" class="fl_n fl_top"><label id="ctl_21" class="d2l-label d2l-label-required"><span>Files to submit</span></label></td><td></td></tr><tr id="z_r"><td class="fct_w" colspan="2"><label id="z_s"><strong>(0) file(s) to submit<br/><br/>After uploading, you must click Submit to complete the submission.</strong></label><div><input type="hidden" name="z_t_fsid" value="0" /><table id="z_t" class="dcs"><tr style="border: none;"><td colspan="3" style="padding-right:0"><button type="button" class="d2l-button" id="z_u" style="float:left;" data-onclick="D2L.O(&quot;__gctl_22&quot;,0)();">Add a File</button><button type="button" class="d2l-button" id="z_v" style="float:left;" data-onclick="D2L.O(&quot;__gctl_23&quot;,0)();">Record Audio</button><button type="button" class="d2l-button" id="z_w" style="float:left;" data-onclick="D2L.O(&quot;__gctl_24&quot;,0)();">Record Video</button></td><td></td></tr></table></div></td></tr><tr><td style="width:15%;text-align:left;" class="fl_n fl_top"><span id="ctl_28" class="d2l-label d2l-field-label-empty"></span></td><td></td></tr><tr id="z_z"><td class="fct_w" colspan="2"></td></tr><tr><td style="width:15%;text-align:left;" class="fl_n fl_top"><label id="ctl_30" class="d2l-label"><span>Comments</span></label></td><td></td></tr><tr id="z_ba"><td class="fct_w" colspan="2"><div id="z_bb" /><span class="d2l-validator" id="d2l_1_1_440"></span>
+							<d2l-htmleditor id="REDT_comments" class="d2l-htmleditor-wc" data-d2l-htmlorgunitid="1154245" label="Comments" label-hidden height="214px" max-length="1048575" html=""><div class="d2l-htmleditor-files" data-d2l-scope="REDT_comments"></div><input type="hidden" name="REDT_comments$id" id="REDT_comments$id" value="REDT_comments" />
+							<input type="hidden" name="REDT_comments$htmlOrgUnitId" id="REDT_comments$htmlOrgUnitId" value="1154245" />
+							<input type="hidden" class="d2l-htmleditor-html" name="REDT_comments$html" id="REDT_comments$html" value="" /></d2l-htmleditor><input type="hidden" id="REDT_comments_hc" name="REDT_comments_hc" value="0" /></div></td></tr></table>
+							<input type="hidden" name="d2l_controlMap" value="[{&quot;btn_submit&quot;:[&quot;z_a&quot;,&quot;Button&quot;,[&quot;ShowLtiEULADialog();return false;&quot;],{},0,0],&quot;btn_close&quot;:[&quot;z_b&quot;,&quot;Button&quot;,[&quot;var n=new D2L.NavInfo();n.navigation=\u0027\\\/d2l\\\/lms\\\/dropbox\\\/user\\\/folders_list.d2l?isprv=0&amp;bp=0\u0027;Nav.Go(n, false, false);return false;&quot;],{},0,0],&quot;hid_confirmmessage&quot;:[&quot;z_c&quot;,&quot;Hidden&quot;,[1],{},0,1],&quot;hid_confirmwarning&quot;:[&quot;z_d&quot;,&quot;Hidden&quot;,[1],{},0,1],&quot;hid_dropboxid&quot;:[&quot;z_e&quot;,&quot;Hidden&quot;,[1],{},0,1],&quot;hid_hasstartedsubmission&quot;:[&quot;z_f&quot;,&quot;Hidden&quot;,[1],{},0,1],&quot;ctl_4&quot;:[&quot;z_g&quot;,&quot;HiddenPropertyGroup&quot;,[1,1,&quot;&quot;,0,0,[1,1,1,1,1],0],{},0,1],&quot;ctl_6&quot;:[&quot;z_h&quot;,&quot;Field&quot;,[],null,1,1],&quot;ctl_8&quot;:[&quot;z_i&quot;,&quot;Field&quot;,[],null,1,1],&quot;fld_instructions&quot;:[&quot;z_j&quot;,&quot;Field&quot;,[0,0,1,0],{},1,1],&quot;ctl_13&quot;:[&quot;z_k&quot;,&quot;Field&quot;,[],null,1,1],&quot;fld_attachments&quot;:[&quot;z_l&quot;,&quot;Field&quot;,[0,0,1,0],{},1,1],&quot;ctl_17&quot;:[&quot;z_m&quot;,&quot;FileSelector&quot;,[1,1,0,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;Framework.CustomSelector.altRestore&quot;,&quot;Framework.CustomSelector.altRemove&quot;,[],&quot;attachments&quot;,1,3,0,0,[0],[&quot;mycomputer&quot;,&quot;mylocker&quot;,&quot;grouplocker&quot;,&quot;videonotesearch&quot;,&quot;newgooglefiledownloader&quot;],&quot;&quot;,&quot;&quot;,0,1,1,null,[]],{},0,1],&quot;ctl_19&quot;:[&quot;z_n&quot;,&quot;Button&quot;,[&quot;DownloadAttachedFiles(14552845);return false;&quot;],{},0,0],&quot;hid_actlist&quot;:[&quot;z_o&quot;,&quot;Hidden&quot;,[1],{},0,1],&quot;ph_cantsubmitwithouttextorfile&quot;:[&quot;z_p&quot;,&quot;Container&quot;,[0,0,1,[1,&quot;#999999&quot;,1],0,0,0,0,&quot;&quot;],{},0,1],&quot;lbl_cantsubmitwithouttextorfile&quot;:[&quot;z_q&quot;,&quot;Label&quot;,[],{},0,1],&quot;fld_filestosubmit&quot;:[&quot;z_r&quot;,&quot;Field&quot;,[0,0,1,1],{},1,1],&quot;lbl_filenum&quot;:[&quot;z_s&quot;,&quot;Label&quot;,[],{},0,1],&quot;fs_sfiles&quot;:[&quot;z_t&quot;,&quot;FileSelector&quot;,[1,1,0,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;Framework.CustomSelector.altRestore&quot;,&quot;Framework.CustomSelector.altRemove&quot;,[],&quot;&quot;,1,3,0,1,[0],[&quot;mycomputer&quot;,&quot;mylocker&quot;,&quot;grouplocker&quot;,&quot;newgooglefiledownloader&quot;],&quot;&quot;,&quot;&quot;,0,1,0,null,[]],{},0,0],&quot;z_t_b0&quot;:[&quot;z_u&quot;,&quot;Button&quot;,[&quot;UI.GC(\u0027z_t\u0027).OpenDialog();;return false;&quot;],{},0,0],&quot;z_t_b1&quot;:[&quot;z_v&quot;,&quot;Button&quot;,[&quot;UI.GC(\u0027z_t\u0027).OpenCustomDialog( \u0027D2L.Dialog.AudioCapture\u0027, \u0027\u0027, \u0027Audio Capture\u0027 );;return false;&quot;],{},0,0],&quot;z_t_b2&quot;:[&quot;z_w&quot;,&quot;Button&quot;,[&quot;UI.GC(\u0027z_t\u0027).OpenCustomDialog( \u0027D2L.Dialog.VideoCapture\u0027, \u0027\/d2l\/wcs\/mp\/dialogs\/VideoCaptureDialog.d2l\u0027, \u0027Video Capture\u0027 );;return false;&quot;],{},0,0],&quot;ctl_26&quot;:[&quot;z_x&quot;,&quot;ValidatorRequired&quot;,[&quot;Framework.FileSelector.jsIsRequiredFailureText&quot;],{},0,1],&quot;ctl_25&quot;:[&quot;z_y&quot;,&quot;ValidatorAnd&quot;,[[[&quot;ctl_26&quot;]]],{},0,1],&quot;ctl_27&quot;:[&quot;z_z&quot;,&quot;Field&quot;,[0,0,1,1],{},1,1],&quot;ctl_29&quot;:[&quot;z_ba&quot;,&quot;Field&quot;,[0,0,1,1],{},1,1],&quot;redt_comments&quot;:[&quot;z_bb&quot;,&quot;RichEdit&quot;,[&quot;REDT_comments&quot;],{},0,0],&quot;ctl_32&quot;:[&quot;z_bc&quot;,&quot;ValidatorAnd&quot;,[[[&quot;ctl_33&quot;]]],{},0,1],&quot;ctl_33&quot;:[&quot;z_bd&quot;,&quot;Validator&quot;,[&quot;D2L.Control.HtmlEditor.ValidateLengthDoesNotExceed&quot;,[&quot;REDT_comments&quot;,1048575],&quot;redt_comments&quot;,&quot;&quot;,&quot;Comments length cannot exceed 1,048,575 characters (including any hidden formatting characters)&quot;],{},0,1],&quot;ctl_messagearea&quot;:[&quot;z_be&quot;,&quot;MessageArea&quot;,[&quot;d_content_inner&quot;,&quot;d_page_header&quot;,0,[],null],{},0,0]},{}]" />
+							<input type="hidden" name="d2l_state" value="[{&quot;3&quot;:[&quot;grid&quot;,&quot;pagesize&quot;,&quot;htmleditor&quot;,&quot;hpg&quot;],&quot;1&quot;:[&quot;gridpagenum&quot;,&quot;search&quot;,&quot;pagenum&quot;],&quot;2&quot;:[&quot;lcs&quot;,&quot;gsf&quot;]},[[&quot;hpg&quot;,[[[&quot;ctl_4&quot;],&quot;&quot;,&quot;&quot;,&quot;hfgFolderInformation&quot;]]]]]" />
+							<input type="hidden" name="d2l_referrer" value="qaaruwD3hIvnNXJZflst2bi9RRn8ojvy" />
+						</div>
+					</form>
+				</div><d2l-floating-buttons style='margin-left: 5px;'>
+						<button type="button" primary class="d2l-button" id="z_a" style="float:left;" data-onclick="D2L.O(&quot;__gctl_2&quot;,0)();">Submit</button><button type="button" class="d2l-button" id="z_b" style="float:left;" data-onclick="D2L.O(&quot;__gctl_3&quot;,0)();">Cancel</button><div class="clear"></div>
+						</d2l-floating-buttons>
+</div>
+		</div>
+	</div>
+</div>
+</div>
+<div class="clear"></div>
+<script>
+	UI.Init();
+	D2L.OR["__gctl_1"] = {};
+	D2L.OR["__gctl_1"]["0"]="{\"_type\":\"func\",\"N\":\"D2L.PT.Auth.SessionTimeout.Init\",\"P\":[\"178756\",180,5,{\"_type\":\"id\",\"Value\":\"d2l_sessionExpiryWarning\"},\"d2l_sessionExpiryAlert\",\"d2l_sessionExpiryCheck\",{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.Rpc.ConnectObject\",\"P\":[\"POST\",{\"_type\":\"url\",\"Url\":\"\/d2l\/lp\/auth\/session\/extend\"}],\"D\":true},{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.Desktop.MasterPages.Dialog.OpenHelper\",\"P\":[{\"_type\":\"call\",\"N\":\"D2L.LP.Web.UI.Html.Dom.GetActiveElement\"},{\"_type\":\"url\",\"Url\":\"\/d2l\/lp\/auth\/session\/Expired?isLogout=0&isUsernamePasswordLogin=0&userId=178756\"}],\"D\":true},{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.Desktop.MasterPages.Dialog.OpenHelper\",\"P\":[{\"_type\":\"call\",\"N\":\"D2L.LP.Web.UI.Html.Dom.GetActiveElement\"},{\"_type\":\"url\",\"Url\":\"\/d2l\/lp\/auth\/session\/Expired?isLogout=1&isUsernamePasswordLogin=0&userId=178756\"}],\"D\":true},{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.Desktop.MasterPages.Dialog.ConfirmDialog\",\"P\":[null,{\"_type\":\"id\",\"Value\":\"d2l_1_0_653\"},\"New User Session\",\"\",\"The current user session has changed, so the links and content on this page may not behave as expected.\",\"OK\",\"\",true,false,false,true,false],\"D\":true},{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.Desktop.MasterPages.Dialog.Confirm.Abort\",\"P\":[{\"_type\":\"id\",\"Value\":\"d2l_1_0_653\"}]}]}";
+	D2L.O("__gctl_1",0)()
+	D2L.OR["__gctl_1"]["1"]="{\"_type\":\"func\",\"N\":\"D2L.LP.Web.Authentication.Xsrf.Init\",\"P\":[\"d2l_referrer\",\"qaaruwD3hIvnNXJZflst2bi9RRn8ojvy\",561202880]}";
+	D2L.O("__gctl_1",1)()
+	D2L.OR["__gctl_1"]["2"]="{\"_type\":\"func\",\"N\":\"D2L.LP.ActivityBar.Init\",\"P\":[{\"_type\":\"url\",\"Url\":\"\/d2l\/activityFeed\/checkForNewAlerts\"},120]}";
+	D2L.O("__gctl_1",2)()
+	D2L.OR["__gctl_1"]["3"]="{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.Desktop.Controls.MessageArea.Init\",\"P\":[\"d2l_messagearea\",{\"_type\":\"url\",\"Url\":\"\/d2l\/lp\/validation\/errors\"}]}";
+	D2L.O("__gctl_1",3)()
+	D2L.OR["__gctl_1"]["4"]="{\"_type\":\"func\",\"N\":\"D2L.LP.Globalization.Locale.Init\",\"P\":[{\"_type\":\"anon\",\"DecimalSeparator\":\".\",\"GroupSeparator\":\",\",\"NumberNegativePattern\":1,\"PercentPositivePattern\":0,\"PercentNegativePattern\":0,\"PercentSymbol\":\"%\",\"NegativeSign\":\"-\",\"NativeDigits\":[\"0\",\"1\",\"2\",\"3\",\"4\",\"5\",\"6\",\"7\",\"8\",\"9\"],\"UseNativeDigits\":false,\"GroupSizes\":[3],\"IntegerRegex\":\"^([\\\\(-]*(([01234567890123456789]?[01234567890123456789]?([01234567890123456789](,[01234567890123456789][01234567890123456789][01234567890123456789])*)?))[\\\\)-]*)$|^([\\\\(-]*[01234567890123456789]+[\\\\)-]*)$\",\"DecimalRegex\":\"^([\\\\(-]*(([01234567890123456789]?[01234567890123456789]?([01234567890123456789](,[01234567890123456789][01234567890123456789][01234567890123456789])*)))(\\\\.[01234567890123456789]+)?[\\\\)-]*)$|^([\\\\(-]*[01234567890123456789]*\\\\.?[01234567890123456789]+[\\\\)-]*)$\"},{\"_type\":\"anon\",\"InputDateFormat\":\"M\/d\/yyyy\",\"Is24HourClock\":false,\"NativeDigits\":[\"0\",\"1\",\"2\",\"3\",\"4\",\"5\",\"6\",\"7\",\"8\",\"9\"],\"UseNativeDigits\":false,\"TimeFormat\":\"h:mm tt\",\"AmDesignator\":\"AM\",\"PmDesignator\":\"PM\",\"FirstDayOfWeek\":0,\"ShortMonthNames\":[\"Jan\",\"Feb\",\"Mar\",\"Apr\",\"May\",\"Jun\",\"Jul\",\"Aug\",\"Sep\",\"Oct\",\"Nov\",\"Dec\",\"\"],\"LongMonthNames\":[\"January\",\"February\",\"March\",\"April\",\"May\",\"June\",\"July\",\"August\",\"September\",\"October\",\"November\",\"December\",\"\"],\"ShortDayOfWeekNames\":[\"Sun\",\"Mon\",\"Tue\",\"Wed\",\"Thu\",\"Fri\",\"Sat\"]},{\"_type\":\"anon\",\"TextDirection\":1},{\"_type\":\"anon\",\"Culture\":\"en-us\"},{\"_type\":\"anon\",\"JustNow\":\"just now\",\"OneMinuteAgo\":\"1 minute ago\",\"TwoMinutesAgo\":\"2 minutes ago\",\"MinutesAgoMany\":\"[0] minutes ago\",\"OneHourAgo\":\"1 hour ago\",\"TwoHoursAgo\":\"2 hours ago\",\"ManyHoursAgo\":\"[0] hours ago\",\"YesterdayTime\":\"yesterday at [0]\",\"DayOfWeekTime\":\"[0] at [1]\",\"MonthDayTime\":\"[0] at [1]\",\"Now\":{\"_type\":\"D2L.LocalDateTime\",\"Year\":2026,\"Month\":3,\"Day\":29,\"Hour\":21,\"Minute\":26,\"Second\":41,\"Millisecond\":825}}]}";
+	D2L.O("__gctl_1",4)()
+	D2L.OR["__gctl_1"]["5"]="{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.Rpc.Initialize\",\"P\":[{\"_type\":\"url\",\"Url\":\"\/d2l\/login?target=%2fd2l%2flms%2fdropbox%2fuser%2ffolder_submit_files.d2l%3fdb%3d2385709%26grpid%3d1252181%26isprv%3d0%26bp%3d0%26ou%3d1154245&sessionExpired=1\"},\"Error: unable to complete your request.\",{\"_type\":\"D2L.LP.Util.Dictionary\"},{\"_type\":\"D2L.LP.Util.Dictionary\",\"flash\":{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.FlashMessages.RpcReceivePayloadProvider\"},\"session\":{\"_type\":\"func\",\"N\":\"D2L.PT.Auth.SessionTimeout.RpcReceivePayloadProvider\"},\"messageArea\":{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.Desktop.Controls.MessageArea.RpcReceivePayloadProvider\"},\"OR\":{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.ObjectRepository.RpcReceivePayloadProvider\"},\"JS\":{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.Html.JavaScript.RpcReceiveJsPayloadProvider\"},\"CSS\":{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.Html.JavaScript.RpcReceiveCssPayloadProvider\"},\"BSI\":{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.Html.Bsi.RpcReceiveJsPayloadProvider\"},\"ariaMessages\":{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.Html.Aria.RpcReceivePayloadProvider\"}}]}";
+	D2L.O("__gctl_1",5)()
+	D2L.OR["__gctl_1"]["6"]="{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.Desktop.Controls.InlineHelp.Init\",\"P\":[{\"_type\":\"url\",\"Url\":\"\/d2l\/lp\/inlineHelp\/1154245\/help\"}]}";
+	D2L.O("__gctl_1",6)()
+	D2L.OR["__gctl_2"] = {};
+	D2L.OR["__gctl_2"]["0"]="{\"_type\":\"func\",\"N\":\"D2L.JavaScriptFunctionOnClickAdapter\",\"P\":[\"\"]}";
+	D2L.OR["__gctl_3"] = {};
+	D2L.OR["__gctl_3"]["0"]="{\"_type\":\"func\",\"N\":\"D2L.JavaScriptFunctionOnClickAdapter\",\"P\":[\"\"]}";
+	D2L.OR["__gctl_20"] = {};
+	D2L.OR["__gctl_20"]["0"]="{\"_type\":\"func\",\"N\":\"D2L.JavaScriptFunctionOnClickAdapter\",\"P\":[\"\"]}";
+	D2L.OR["__gctl_22"] = {};
+	D2L.OR["__gctl_22"]["0"]="{\"_type\":\"func\",\"N\":\"D2L.JavaScriptFunctionOnClickAdapter\",\"P\":[\"\"]}";
+	D2L.OR["__gctl_23"] = {};
+	D2L.OR["__gctl_23"]["0"]="{\"_type\":\"func\",\"N\":\"D2L.JavaScriptFunctionOnClickAdapter\",\"P\":[\"\"]}";
+	D2L.OR["__gctl_24"] = {};
+	D2L.OR["__gctl_24"]["0"]="{\"_type\":\"func\",\"N\":\"D2L.JavaScriptFunctionOnClickAdapter\",\"P\":[\"\"]}";
+	D2L.OR["d2l_1_1_440"] = {};
+	D2L.OR["d2l_1_1_440"]["0"]="[\"REDT_comments\",{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.Desktop.Controls.HtmlEditor.ValidateLengthDoesNotExceed\",\"P\":[{\"_type\":\"id\",\"Value\":\"REDT_comments\"},1048575]},\"Comments length cannot exceed 1,048,575 characters (including any hidden formatting characters)\",null]";
+	D2L.OR["d2l_1_2_584"] = {};
+	D2L.OR["d2l_1_2_584"]["0"]="{\"_type\":\"D2L.LP.Web.UI.Html.PartialRendering.PartialHtmlRenderContext\",\"HeadingLevel\":2,\"ValidClassNames\":[],\"Scope\":\"\"}";
+	D2L.OR["d2l_1_3_294"] = {};
+	D2L.OR["d2l_1_3_294"]["0"]="{\"_type\":\"D2L.LP.Web.UI.Html.PartialRendering.PartialHtmlRenderContext\",\"HeadingLevel\":2,\"ValidClassNames\":[],\"Scope\":\"\"}";
+	D2L.OR["d2l_1_4_174"] = {};
+	D2L.OR["d2l_1_4_174"]["0"]="{\"_type\":\"D2L.LP.Web.UI.Html.PartialRendering.PartialHtmlRenderContext\",\"HeadingLevel\":2,\"ValidClassNames\":[],\"Scope\":\"\"}";
+	D2L.OR["__gctl_34"] = {};
+	D2L.OR["__gctl_34"]["0"]="{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.Html.ReturnPoints.Set\",\"P\":[\"D2L.UXP.Profile.178756\"]}";
+	D2L.OR["__gctl_34"]["1"]="{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.Html.ReturnPoints.Set\",\"P\":[\"D2L.UXP.Preferences.1154245\"]}";
+	D2L.OR["__gctl_34"]["2"]="{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.Html.ReturnPoints.Set\",\"P\":[\"D2L.LP.Notification.Settings.1154245\"]}";
+	D2L.OR["__gctl_34"]["3"]="{\"_type\":\"pipe\",\"P\":[{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.Rpc.Connect\",\"P\":[\"POST\",{\"_type\":\"call\",\"N\":\"D2L.LP.Web.Mvc.RouteLocation.Create\",\"P\":[\"\/d2l\/lp\/personalTools\/{orgUnitId}\/dropdownpartial\/updateLanguage\",{\"_type\":\"D2L.LP.Util.Dictionary\",\"newLocaleId\":{\"_type\":\"call\",\"N\":\"D2L.LP.Web.UI.Desktop.MasterPages.Dialog.Open\",\"P\":[{\"_type\":\"id\",\"Value\":\"LocaleLinkId\"},{\"_type\":\"url\",\"Url\":\"\/d2l\/lp\/personalTools\/1154245\/dropdownpartial\/language?currentLocaleId=0\"}],\"D\":true}},{\"_type\":\"D2L.LP.Util.Dictionary\",\"action\":\"LanguageDialog\"}]}],\"D\":true},{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.Html.Dom.ReloadPage\"}]}";
+	D2L.OR["__gctl_34"]["4"]="{\"_type\":\"func\",\"N\":\"D2L.PT.Auth.Logout\",\"P\":[\"\/d2l\/logout\"]}";
+	D2L.OR["d2l_1_6_589"] = {};
+	D2L.OR["d2l_1_6_589"]["select"]="{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.Html.Dom.OpenWindow\",\"P\":[\"https:\/\/guides.newman.baruch.cuny.edu\/SPS\/\",{\"_type\":\"url\",\"Url\":\"https:\/\/guides.newman.baruch.cuny.edu\/SPS\/\"},0,0,true,true,null,true]}";
+	D2L.OR["d2l_1_7_941"] = {};
+	D2L.OR["d2l_1_7_941"]["select"]="{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.Html.Dom.OpenWindow\",\"P\":[\"\/d2l\/common\/dialogs\/quickLink\/quickLink.d2l?ou=1154245&type=lti&rcode=553F80D6-3EB2-4A0C-B321-7D8FDFC0E4FA-435018&srcou=7023\",{\"_type\":\"url\",\"Url\":\"\/d2l\/common\/dialogs\/quickLink\/quickLink.d2l?ou=1154245&type=lti&rcode=553F80D6-3EB2-4A0C-B321-7D8FDFC0E4FA-435018&srcou=7023\"},0,0,true,true,null,true]}";
+	D2L.OR["d2l_1_8_377"] = {};
+	D2L.OR["d2l_1_8_377"]["select"]="{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.Html.Dom.OpenWindow\",\"P\":[\"https:\/\/sps.cuny.edu\/student-services\/academic-resources\/tutoring\",{\"_type\":\"url\",\"Url\":\"https:\/\/sps.cuny.edu\/student-services\/academic-resources\/tutoring\"},0,0,true,true,null,true]}";
+	D2L.OR["d2l_1_9_151"] = {};
+	D2L.OR["d2l_1_9_151"]["select"]="{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.Html.Dom.OpenWindow\",\"P\":[\"\/d2l\/common\/dialogs\/quickLink\/quickLink.d2l?ou=1154245&type=lti&rcode=553F80D6-3EB2-4A0C-B321-7D8FDFC0E4FA-77032&srcou=7023\",{\"_type\":\"url\",\"Url\":\"\/d2l\/common\/dialogs\/quickLink\/quickLink.d2l?ou=1154245&type=lti&rcode=553F80D6-3EB2-4A0C-B321-7D8FDFC0E4FA-77032&srcou=7023\"},0,0,true,true,null,true]}";
+	D2L.OR["d2l_1_10_689"] = {};
+	D2L.OR["d2l_1_10_689"]["select"]="{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.Html.Dom.OpenWindow\",\"P\":[\"https:\/\/www.sps.cuny.edu\/about\/directory\/office-information-technology\/multifactor-authentication-cunyfirst-applications-and-resources\",{\"_type\":\"url\",\"Url\":\"https:\/\/www.sps.cuny.edu\/about\/directory\/office-information-technology\/multifactor-authentication-cunyfirst-applications-and-resources\"},0,0,true,true,null,true]}";
+	D2L.OR["d2l_1_11_341"] = {};
+	D2L.OR["d2l_1_11_341"]["select"]="{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.Html.Dom.OpenWindow\",\"P\":[\"https:\/\/sps.cuny.edu\/about\/directory\/office-information-technology\/help-desk\",{\"_type\":\"url\",\"Url\":\"https:\/\/sps.cuny.edu\/about\/directory\/office-information-technology\/help-desk\"},0,0,true,true,null,true]}";
+	D2L.OR["d2l_1_12_129"] = {};
+	D2L.OR["d2l_1_12_129"]["select"]="{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.Html.Dom.OpenWindow\",\"P\":[\"https:\/\/sps.cuny.edu\/about\/directory\/office-information-technology\/brightspace-students\",{\"_type\":\"url\",\"Url\":\"https:\/\/sps.cuny.edu\/about\/directory\/office-information-technology\/brightspace-students\"},0,0,true,true,null,true]}";
+	D2L.OR["d2l_1_13_313"] = {};
+	D2L.OR["d2l_1_13_313"]["select"]="{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.Html.Dom.OpenWindow\",\"P\":[\"https:\/\/cunysps.hosted.panopto.com\/Panopto\/Pages\/Viewer.aspx?id=8c3cdb07-3032-4511-bcc6-b165013f2554\",{\"_type\":\"url\",\"Url\":\"https:\/\/cunysps.hosted.panopto.com\/Panopto\/Pages\/Viewer.aspx?id=8c3cdb07-3032-4511-bcc6-b165013f2554\"},0,0,true,true,null,true]}";
+	D2L.OR["d2l_1_14_0"] = {};
+	D2L.OR["d2l_1_14_0"]["select"]="{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.Html.Dom.OpenWindow\",\"P\":[\"https:\/\/community.d2l.com\/brightspace\/categories\/higher-ed-postsecondary\",{\"_type\":\"url\",\"Url\":\"https:\/\/community.d2l.com\/brightspace\/categories\/higher-ed-postsecondary\"},0,0,true,true,null,true]}";
+	D2L.OR["d2l_1_15_608"] = {};
+	D2L.OR["d2l_1_15_608"]["select"]="{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.Html.Dom.OpenWindow\",\"P\":[\"https:\/\/openlab.sps.cuny.edu\/cuny-sps-lms-transition\/2024\/06\/20\/dedicated-toll-free-number-for-brightspace-support\/\",{\"_type\":\"url\",\"Url\":\"https:\/\/openlab.sps.cuny.edu\/cuny-sps-lms-transition\/2024\/06\/20\/dedicated-toll-free-number-for-brightspace-support\/\"},0,0,true,true,null,true]}";
+	D2L.OR["d2l_1_16_202"] = {};
+	D2L.OR["d2l_1_16_202"]["select"]="{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.Html.Dom.OpenWindow\",\"P\":[\"https:\/\/community.desire2learn.com\/d2l\/systemCheck\",{\"_type\":\"url\",\"Url\":\"https:\/\/community.desire2learn.com\/d2l\/systemCheck\"},0,0,true,true,null,true]}";
+	D2L.OR["d2l_1_17_378"] = {};
+	D2L.OR["d2l_1_17_378"]["select"]="{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.Html.Dom.OpenWindow\",\"P\":[\"https:\/\/openlab.sps.cuny.edu\/academic-affairs\/program-contacts\/\",{\"_type\":\"url\",\"Url\":\"https:\/\/openlab.sps.cuny.edu\/academic-affairs\/program-contacts\/\"},0,0,true,true,null,true]}";
+	D2L.OR["d2l_1_18_633"] = {};
+	D2L.OR["d2l_1_18_633"]["select"]="{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.Html.Dom.OpenWindow\",\"P\":[\"https:\/\/sps-cuny.campus.eab.com\/home\",{\"_type\":\"url\",\"Url\":\"https:\/\/sps-cuny.campus.eab.com\/home\"},0,0,true,true,null,true]}";
+	D2L.OR["d2l_1_19_539"] = {};
+	D2L.OR["d2l_1_19_539"]["select"]="{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.Html.Dom.OpenWindow\",\"P\":[\"https:\/\/sps.cuny.edu\/about\/policies\/academic-and-student-policies\/academic-integrity\",{\"_type\":\"url\",\"Url\":\"https:\/\/sps.cuny.edu\/about\/policies\/academic-and-student-policies\/academic-integrity\"},0,0,true,true,null,true]}";
+	D2L.OR["d2l_1_20_701"] = {};
+	D2L.OR["d2l_1_20_701"]["select"]="{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.Html.Dom.OpenWindow\",\"P\":[\"https:\/\/sps.cuny.edu\/academics\/academic-calendar\",{\"_type\":\"url\",\"Url\":\"https:\/\/sps.cuny.edu\/academics\/academic-calendar\"},0,0,true,true,null,true]}";
+	D2L.OR["d2l_1_21_258"] = {};
+	D2L.OR["d2l_1_21_258"]["select"]="{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.Html.Dom.OpenWindow\",\"P\":[\"https:\/\/sps.cuny.edu\/student-services\/academic-resources\",{\"_type\":\"url\",\"Url\":\"https:\/\/sps.cuny.edu\/student-services\/academic-resources\"},0,0,true,true,null,true]}";
+	D2L.OR["d2l_1_22_835"] = {};
+	D2L.OR["d2l_1_22_835"]["select"]="{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.Html.Dom.OpenWindow\",\"P\":[\"https:\/\/sps.cuny.edu\/student-services\/career-services\/cuny-sps-careerlink\",{\"_type\":\"url\",\"Url\":\"https:\/\/sps.cuny.edu\/student-services\/career-services\/cuny-sps-careerlink\"},0,0,true,true,null,true]}";
+	D2L.OR["d2l_1_23_298"] = {};
+	D2L.OR["d2l_1_23_298"]["select"]="{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.Html.Dom.OpenWindow\",\"P\":[\"https:\/\/sps.cuny.edu\/student-services\/student-counseling-services\",{\"_type\":\"url\",\"Url\":\"https:\/\/sps.cuny.edu\/student-services\/student-counseling-services\"},0,0,true,true,null,true]}";
+	D2L.OR["d2l_1_24_675"] = {};
+	D2L.OR["d2l_1_24_675"]["select"]="{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.Html.Dom.OpenWindow\",\"P\":[\"https:\/\/sps.cuny.edu\/student-services\/disability-services\",{\"_type\":\"url\",\"Url\":\"https:\/\/sps.cuny.edu\/student-services\/disability-services\"},0,0,true,true,null,true]}";
+	D2L.OR["d2l_1_25_495"] = {};
+	D2L.OR["d2l_1_25_495"]["select"]="{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.Html.Dom.OpenWindow\",\"P\":[\"https:\/\/sps.cuny.edu\/about\/events\",{\"_type\":\"url\",\"Url\":\"https:\/\/sps.cuny.edu\/about\/events\"},0,0,true,true,null,true]}";
+	D2L.OR["d2l_1_26_135"] = {};
+	D2L.OR["d2l_1_26_135"]["select"]="{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.Html.Dom.OpenWindow\",\"P\":[\"https:\/\/sps.cuny.edu\/student-services\/military-veteran\",{\"_type\":\"url\",\"Url\":\"https:\/\/sps.cuny.edu\/student-services\/military-veteran\"},0,0,true,true,null,true]}";
+	D2L.OR["d2l_1_27_25"] = {};
+	D2L.OR["d2l_1_27_25"]["select"]="{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.Html.Dom.OpenWindow\",\"P\":[\"https:\/\/sps.cuny.edu\/student-services\/student-life\/professional-development-grant\",{\"_type\":\"url\",\"Url\":\"https:\/\/sps.cuny.edu\/student-services\/student-life\/professional-development-grant\"},0,0,true,true,null,true]}";
+	D2L.OR["d2l_1_28_900"] = {};
+	D2L.OR["d2l_1_28_900"]["select"]="{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.Html.Dom.OpenWindow\",\"P\":[\"https:\/\/sps.cuny.edu\/student-services\/student-life\",{\"_type\":\"url\",\"Url\":\"https:\/\/sps.cuny.edu\/student-services\/student-life\"},0,0,true,true,null,true]}";
+	D2L.OR["d2l_1_29_624"] = {};
+	D2L.OR["d2l_1_29_624"]["select"]="{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.Html.Dom.OpenWindow\",\"P\":[\"https:\/\/sps.cuny.edu\/financial-aid-and-tuition\/important-dates\",{\"_type\":\"url\",\"Url\":\"https:\/\/sps.cuny.edu\/financial-aid-and-tuition\/important-dates\"},0,0,true,true,null,true]}";
+	D2L.OR["d2l_1_30_840"] = {};
+	D2L.OR["d2l_1_30_840"]["select"]="{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.Html.Dom.OpenWindow\",\"P\":[\"https:\/\/sps.cuny.edu\/financial-aid-and-tuition\/financial-aid\/disbursement-calendar\",{\"_type\":\"url\",\"Url\":\"https:\/\/sps.cuny.edu\/financial-aid-and-tuition\/financial-aid\/disbursement-calendar\"},0,0,true,true,null,true]}";
+	D2L.OR["d2l_1_31_634"] = {};
+	D2L.OR["d2l_1_31_634"]["select"]="{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.Html.Dom.OpenWindow\",\"P\":[\"https:\/\/sps.cuny.edu\/financial-aid-and-tuition\/short-term-assistance\",{\"_type\":\"url\",\"Url\":\"https:\/\/sps.cuny.edu\/financial-aid-and-tuition\/short-term-assistance\"},0,0,true,true,null,true]}";
+	D2L.OR["d2l_1_32_183"] = {};
+	D2L.OR["d2l_1_32_183"]["select"]="{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.Html.Dom.OpenWindow\",\"P\":[\"https:\/\/mycollegepaymentplan.com\/cuny\/\",{\"_type\":\"url\",\"Url\":\"https:\/\/mycollegepaymentplan.com\/cuny\/\"},0,0,true,true,null,true]}";
+	D2L.OR["d2l_1_33_176"] = {};
+	D2L.OR["d2l_1_33_176"]["select"]="{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.Html.Dom.OpenWindow\",\"P\":[\"https:\/\/sps.cuny.edu\/financial-aid-and-tuition\/scholarships\",{\"_type\":\"url\",\"Url\":\"https:\/\/sps.cuny.edu\/financial-aid-and-tuition\/scholarships\"},0,0,true,true,null,true]}";
+	D2L.OR["d2l_1_34_391"] = {};
+	D2L.OR["d2l_1_34_391"]["select"]="{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.Html.Dom.OpenWindow\",\"P\":[\"https:\/\/guides.newman.baruch.cuny.edu\/SPS\/\",{\"_type\":\"url\",\"Url\":\"https:\/\/guides.newman.baruch.cuny.edu\/SPS\/\"},0,0,true,true,null,true]}";
+	D2L.OR["d2l_1_35_171"] = {};
+	D2L.OR["d2l_1_35_171"]["select"]="{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.Html.Dom.OpenWindow\",\"P\":[\"\/d2l\/common\/dialogs\/quickLink\/quickLink.d2l?ou=1154245&type=lti&rcode=553F80D6-3EB2-4A0C-B321-7D8FDFC0E4FA-435018&srcou=7023\",{\"_type\":\"url\",\"Url\":\"\/d2l\/common\/dialogs\/quickLink\/quickLink.d2l?ou=1154245&type=lti&rcode=553F80D6-3EB2-4A0C-B321-7D8FDFC0E4FA-435018&srcou=7023\"},0,0,true,true,null,true]}";
+	D2L.OR["d2l_1_36_136"] = {};
+	D2L.OR["d2l_1_36_136"]["select"]="{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.Html.Dom.OpenWindow\",\"P\":[\"https:\/\/sps.cuny.edu\/student-services\/academic-resources\/tutoring\",{\"_type\":\"url\",\"Url\":\"https:\/\/sps.cuny.edu\/student-services\/academic-resources\/tutoring\"},0,0,true,true,null,true]}";
+	D2L.OR["d2l_1_37_233"] = {};
+	D2L.OR["d2l_1_37_233"]["select"]="{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.Html.Dom.OpenWindow\",\"P\":[\"\/d2l\/common\/dialogs\/quickLink\/quickLink.d2l?ou=1154245&type=lti&rcode=553F80D6-3EB2-4A0C-B321-7D8FDFC0E4FA-77032&srcou=7023\",{\"_type\":\"url\",\"Url\":\"\/d2l\/common\/dialogs\/quickLink\/quickLink.d2l?ou=1154245&type=lti&rcode=553F80D6-3EB2-4A0C-B321-7D8FDFC0E4FA-77032&srcou=7023\"},0,0,true,true,null,true]}";
+	D2L.OR["d2l_1_38_604"] = {};
+	D2L.OR["d2l_1_38_604"]["select"]="{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.Html.Dom.OpenWindow\",\"P\":[\"https:\/\/www.sps.cuny.edu\/about\/directory\/office-information-technology\/multifactor-authentication-cunyfirst-applications-and-resources\",{\"_type\":\"url\",\"Url\":\"https:\/\/www.sps.cuny.edu\/about\/directory\/office-information-technology\/multifactor-authentication-cunyfirst-applications-and-resources\"},0,0,true,true,null,true]}";
+	D2L.OR["d2l_1_39_405"] = {};
+	D2L.OR["d2l_1_39_405"]["select"]="{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.Html.Dom.OpenWindow\",\"P\":[\"https:\/\/sps.cuny.edu\/about\/directory\/office-information-technology\/help-desk\",{\"_type\":\"url\",\"Url\":\"https:\/\/sps.cuny.edu\/about\/directory\/office-information-technology\/help-desk\"},0,0,true,true,null,true]}";
+	D2L.OR["d2l_1_40_69"] = {};
+	D2L.OR["d2l_1_40_69"]["select"]="{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.Html.Dom.OpenWindow\",\"P\":[\"https:\/\/sps.cuny.edu\/about\/directory\/office-information-technology\/brightspace-students\",{\"_type\":\"url\",\"Url\":\"https:\/\/sps.cuny.edu\/about\/directory\/office-information-technology\/brightspace-students\"},0,0,true,true,null,true]}";
+	D2L.OR["d2l_1_41_236"] = {};
+	D2L.OR["d2l_1_41_236"]["select"]="{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.Html.Dom.OpenWindow\",\"P\":[\"https:\/\/cunysps.hosted.panopto.com\/Panopto\/Pages\/Viewer.aspx?id=8c3cdb07-3032-4511-bcc6-b165013f2554\",{\"_type\":\"url\",\"Url\":\"https:\/\/cunysps.hosted.panopto.com\/Panopto\/Pages\/Viewer.aspx?id=8c3cdb07-3032-4511-bcc6-b165013f2554\"},0,0,true,true,null,true]}";
+	D2L.OR["d2l_1_42_403"] = {};
+	D2L.OR["d2l_1_42_403"]["select"]="{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.Html.Dom.OpenWindow\",\"P\":[\"https:\/\/community.d2l.com\/brightspace\/categories\/higher-ed-postsecondary\",{\"_type\":\"url\",\"Url\":\"https:\/\/community.d2l.com\/brightspace\/categories\/higher-ed-postsecondary\"},0,0,true,true,null,true]}";
+	D2L.OR["d2l_1_43_6"] = {};
+	D2L.OR["d2l_1_43_6"]["select"]="{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.Html.Dom.OpenWindow\",\"P\":[\"https:\/\/openlab.sps.cuny.edu\/cuny-sps-lms-transition\/2024\/06\/20\/dedicated-toll-free-number-for-brightspace-support\/\",{\"_type\":\"url\",\"Url\":\"https:\/\/openlab.sps.cuny.edu\/cuny-sps-lms-transition\/2024\/06\/20\/dedicated-toll-free-number-for-brightspace-support\/\"},0,0,true,true,null,true]}";
+	D2L.OR["d2l_1_44_901"] = {};
+	D2L.OR["d2l_1_44_901"]["select"]="{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.Html.Dom.OpenWindow\",\"P\":[\"https:\/\/community.desire2learn.com\/d2l\/systemCheck\",{\"_type\":\"url\",\"Url\":\"https:\/\/community.desire2learn.com\/d2l\/systemCheck\"},0,0,true,true,null,true]}";
+	D2L.OR["d2l_1_45_470"] = {};
+	D2L.OR["d2l_1_45_470"]["select"]="{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.Html.Dom.OpenWindow\",\"P\":[\"https:\/\/openlab.sps.cuny.edu\/academic-affairs\/program-contacts\/\",{\"_type\":\"url\",\"Url\":\"https:\/\/openlab.sps.cuny.edu\/academic-affairs\/program-contacts\/\"},0,0,true,true,null,true]}";
+	D2L.OR["d2l_1_46_5"] = {};
+	D2L.OR["d2l_1_46_5"]["select"]="{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.Html.Dom.OpenWindow\",\"P\":[\"https:\/\/sps-cuny.campus.eab.com\/home\",{\"_type\":\"url\",\"Url\":\"https:\/\/sps-cuny.campus.eab.com\/home\"},0,0,true,true,null,true]}";
+	D2L.OR["d2l_1_47_552"] = {};
+	D2L.OR["d2l_1_47_552"]["select"]="{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.Html.Dom.OpenWindow\",\"P\":[\"https:\/\/sps.cuny.edu\/about\/policies\/academic-and-student-policies\/academic-integrity\",{\"_type\":\"url\",\"Url\":\"https:\/\/sps.cuny.edu\/about\/policies\/academic-and-student-policies\/academic-integrity\"},0,0,true,true,null,true]}";
+	D2L.OR["d2l_1_48_60"] = {};
+	D2L.OR["d2l_1_48_60"]["select"]="{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.Html.Dom.OpenWindow\",\"P\":[\"https:\/\/sps.cuny.edu\/academics\/academic-calendar\",{\"_type\":\"url\",\"Url\":\"https:\/\/sps.cuny.edu\/academics\/academic-calendar\"},0,0,true,true,null,true]}";
+	D2L.OR["d2l_1_49_510"] = {};
+	D2L.OR["d2l_1_49_510"]["select"]="{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.Html.Dom.OpenWindow\",\"P\":[\"https:\/\/sps.cuny.edu\/student-services\/academic-resources\",{\"_type\":\"url\",\"Url\":\"https:\/\/sps.cuny.edu\/student-services\/academic-resources\"},0,0,true,true,null,true]}";
+	D2L.OR["d2l_1_50_348"] = {};
+	D2L.OR["d2l_1_50_348"]["select"]="{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.Html.Dom.OpenWindow\",\"P\":[\"https:\/\/sps.cuny.edu\/student-services\/career-services\/cuny-sps-careerlink\",{\"_type\":\"url\",\"Url\":\"https:\/\/sps.cuny.edu\/student-services\/career-services\/cuny-sps-careerlink\"},0,0,true,true,null,true]}";
+	D2L.OR["d2l_1_51_136"] = {};
+	D2L.OR["d2l_1_51_136"]["select"]="{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.Html.Dom.OpenWindow\",\"P\":[\"https:\/\/sps.cuny.edu\/student-services\/student-counseling-services\",{\"_type\":\"url\",\"Url\":\"https:\/\/sps.cuny.edu\/student-services\/student-counseling-services\"},0,0,true,true,null,true]}";
+	D2L.OR["d2l_1_52_503"] = {};
+	D2L.OR["d2l_1_52_503"]["select"]="{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.Html.Dom.OpenWindow\",\"P\":[\"https:\/\/sps.cuny.edu\/student-services\/disability-services\",{\"_type\":\"url\",\"Url\":\"https:\/\/sps.cuny.edu\/student-services\/disability-services\"},0,0,true,true,null,true]}";
+	D2L.OR["d2l_1_53_564"] = {};
+	D2L.OR["d2l_1_53_564"]["select"]="{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.Html.Dom.OpenWindow\",\"P\":[\"https:\/\/sps.cuny.edu\/about\/events\",{\"_type\":\"url\",\"Url\":\"https:\/\/sps.cuny.edu\/about\/events\"},0,0,true,true,null,true]}";
+	D2L.OR["d2l_1_54_703"] = {};
+	D2L.OR["d2l_1_54_703"]["select"]="{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.Html.Dom.OpenWindow\",\"P\":[\"https:\/\/sps.cuny.edu\/student-services\/military-veteran\",{\"_type\":\"url\",\"Url\":\"https:\/\/sps.cuny.edu\/student-services\/military-veteran\"},0,0,true,true,null,true]}";
+	D2L.OR["d2l_1_55_394"] = {};
+	D2L.OR["d2l_1_55_394"]["select"]="{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.Html.Dom.OpenWindow\",\"P\":[\"https:\/\/sps.cuny.edu\/student-services\/student-life\/professional-development-grant\",{\"_type\":\"url\",\"Url\":\"https:\/\/sps.cuny.edu\/student-services\/student-life\/professional-development-grant\"},0,0,true,true,null,true]}";
+	D2L.OR["d2l_1_56_604"] = {};
+	D2L.OR["d2l_1_56_604"]["select"]="{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.Html.Dom.OpenWindow\",\"P\":[\"https:\/\/sps.cuny.edu\/student-services\/student-life\",{\"_type\":\"url\",\"Url\":\"https:\/\/sps.cuny.edu\/student-services\/student-life\"},0,0,true,true,null,true]}";
+	D2L.OR["d2l_1_57_286"] = {};
+	D2L.OR["d2l_1_57_286"]["select"]="{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.Html.Dom.OpenWindow\",\"P\":[\"https:\/\/sps.cuny.edu\/financial-aid-and-tuition\/important-dates\",{\"_type\":\"url\",\"Url\":\"https:\/\/sps.cuny.edu\/financial-aid-and-tuition\/important-dates\"},0,0,true,true,null,true]}";
+	D2L.OR["d2l_1_58_617"] = {};
+	D2L.OR["d2l_1_58_617"]["select"]="{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.Html.Dom.OpenWindow\",\"P\":[\"https:\/\/sps.cuny.edu\/financial-aid-and-tuition\/financial-aid\/disbursement-calendar\",{\"_type\":\"url\",\"Url\":\"https:\/\/sps.cuny.edu\/financial-aid-and-tuition\/financial-aid\/disbursement-calendar\"},0,0,true,true,null,true]}";
+	D2L.OR["d2l_1_59_677"] = {};
+	D2L.OR["d2l_1_59_677"]["select"]="{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.Html.Dom.OpenWindow\",\"P\":[\"https:\/\/sps.cuny.edu\/financial-aid-and-tuition\/short-term-assistance\",{\"_type\":\"url\",\"Url\":\"https:\/\/sps.cuny.edu\/financial-aid-and-tuition\/short-term-assistance\"},0,0,true,true,null,true]}";
+	D2L.OR["d2l_1_60_103"] = {};
+	D2L.OR["d2l_1_60_103"]["select"]="{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.Html.Dom.OpenWindow\",\"P\":[\"https:\/\/mycollegepaymentplan.com\/cuny\/\",{\"_type\":\"url\",\"Url\":\"https:\/\/mycollegepaymentplan.com\/cuny\/\"},0,0,true,true,null,true]}";
+	D2L.OR["d2l_1_61_563"] = {};
+	D2L.OR["d2l_1_61_563"]["select"]="{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.Html.Dom.OpenWindow\",\"P\":[\"https:\/\/sps.cuny.edu\/financial-aid-and-tuition\/scholarships\",{\"_type\":\"url\",\"Url\":\"https:\/\/sps.cuny.edu\/financial-aid-and-tuition\/scholarships\"},0,0,true,true,null,true]}";
+	D2L.OR["d2l_1_62_41"] = {};
+	D2L.OR["d2l_1_62_41"]["select"]="{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.Html.Dom.OpenWindow\",\"P\":[\"https:\/\/guides.newman.baruch.cuny.edu\/SPS\/\",{\"_type\":\"url\",\"Url\":\"https:\/\/guides.newman.baruch.cuny.edu\/SPS\/\"},0,0,true,true,null,true]}";
+	D2L.OR["d2l_1_63_751"] = {};
+	D2L.OR["d2l_1_63_751"]["select"]="{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.Html.Dom.OpenWindow\",\"P\":[\"\/d2l\/common\/dialogs\/quickLink\/quickLink.d2l?ou=1154245&type=lti&rcode=553F80D6-3EB2-4A0C-B321-7D8FDFC0E4FA-435018&srcou=7023\",{\"_type\":\"url\",\"Url\":\"\/d2l\/common\/dialogs\/quickLink\/quickLink.d2l?ou=1154245&type=lti&rcode=553F80D6-3EB2-4A0C-B321-7D8FDFC0E4FA-435018&srcou=7023\"},0,0,true,true,null,true]}";
+	D2L.OR["d2l_1_64_309"] = {};
+	D2L.OR["d2l_1_64_309"]["select"]="{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.Html.Dom.OpenWindow\",\"P\":[\"https:\/\/sps.cuny.edu\/student-services\/academic-resources\/tutoring\",{\"_type\":\"url\",\"Url\":\"https:\/\/sps.cuny.edu\/student-services\/academic-resources\/tutoring\"},0,0,true,true,null,true]}";
+	D2L.OR["d2l_1_65_54"] = {};
+	D2L.OR["d2l_1_65_54"]["select"]="{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.Html.Dom.OpenWindow\",\"P\":[\"\/d2l\/common\/dialogs\/quickLink\/quickLink.d2l?ou=1154245&type=lti&rcode=553F80D6-3EB2-4A0C-B321-7D8FDFC0E4FA-77032&srcou=7023\",{\"_type\":\"url\",\"Url\":\"\/d2l\/common\/dialogs\/quickLink\/quickLink.d2l?ou=1154245&type=lti&rcode=553F80D6-3EB2-4A0C-B321-7D8FDFC0E4FA-77032&srcou=7023\"},0,0,true,true,null,true]}";
+	D2L.OR["d2l_1_66_158"] = {};
+	D2L.OR["d2l_1_66_158"]["select"]="{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.Html.Dom.OpenWindow\",\"P\":[\"https:\/\/www.sps.cuny.edu\/about\/directory\/office-information-technology\/multifactor-authentication-cunyfirst-applications-and-resources\",{\"_type\":\"url\",\"Url\":\"https:\/\/www.sps.cuny.edu\/about\/directory\/office-information-technology\/multifactor-authentication-cunyfirst-applications-and-resources\"},0,0,true,true,null,true]}";
+	D2L.OR["d2l_1_67_951"] = {};
+	D2L.OR["d2l_1_67_951"]["select"]="{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.Html.Dom.OpenWindow\",\"P\":[\"https:\/\/sps.cuny.edu\/about\/directory\/office-information-technology\/help-desk\",{\"_type\":\"url\",\"Url\":\"https:\/\/sps.cuny.edu\/about\/directory\/office-information-technology\/help-desk\"},0,0,true,true,null,true]}";
+	D2L.OR["d2l_1_68_920"] = {};
+	D2L.OR["d2l_1_68_920"]["select"]="{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.Html.Dom.OpenWindow\",\"P\":[\"https:\/\/sps.cuny.edu\/about\/directory\/office-information-technology\/brightspace-students\",{\"_type\":\"url\",\"Url\":\"https:\/\/sps.cuny.edu\/about\/directory\/office-information-technology\/brightspace-students\"},0,0,true,true,null,true]}";
+	D2L.OR["d2l_1_69_828"] = {};
+	D2L.OR["d2l_1_69_828"]["select"]="{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.Html.Dom.OpenWindow\",\"P\":[\"https:\/\/cunysps.hosted.panopto.com\/Panopto\/Pages\/Viewer.aspx?id=8c3cdb07-3032-4511-bcc6-b165013f2554\",{\"_type\":\"url\",\"Url\":\"https:\/\/cunysps.hosted.panopto.com\/Panopto\/Pages\/Viewer.aspx?id=8c3cdb07-3032-4511-bcc6-b165013f2554\"},0,0,true,true,null,true]}";
+	D2L.OR["d2l_1_70_472"] = {};
+	D2L.OR["d2l_1_70_472"]["select"]="{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.Html.Dom.OpenWindow\",\"P\":[\"https:\/\/community.d2l.com\/brightspace\/categories\/higher-ed-postsecondary\",{\"_type\":\"url\",\"Url\":\"https:\/\/community.d2l.com\/brightspace\/categories\/higher-ed-postsecondary\"},0,0,true,true,null,true]}";
+	D2L.OR["d2l_1_71_968"] = {};
+	D2L.OR["d2l_1_71_968"]["select"]="{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.Html.Dom.OpenWindow\",\"P\":[\"https:\/\/openlab.sps.cuny.edu\/cuny-sps-lms-transition\/2024\/06\/20\/dedicated-toll-free-number-for-brightspace-support\/\",{\"_type\":\"url\",\"Url\":\"https:\/\/openlab.sps.cuny.edu\/cuny-sps-lms-transition\/2024\/06\/20\/dedicated-toll-free-number-for-brightspace-support\/\"},0,0,true,true,null,true]}";
+	D2L.OR["d2l_1_72_773"] = {};
+	D2L.OR["d2l_1_72_773"]["select"]="{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.Html.Dom.OpenWindow\",\"P\":[\"https:\/\/community.desire2learn.com\/d2l\/systemCheck\",{\"_type\":\"url\",\"Url\":\"https:\/\/community.desire2learn.com\/d2l\/systemCheck\"},0,0,true,true,null,true]}";
+	D2L.OR["d2l_1_73_227"] = {};
+	D2L.OR["d2l_1_73_227"]["select"]="{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.Html.Dom.OpenWindow\",\"P\":[\"https:\/\/openlab.sps.cuny.edu\/academic-affairs\/program-contacts\/\",{\"_type\":\"url\",\"Url\":\"https:\/\/openlab.sps.cuny.edu\/academic-affairs\/program-contacts\/\"},0,0,true,true,null,true]}";
+	D2L.OR["d2l_1_74_469"] = {};
+	D2L.OR["d2l_1_74_469"]["select"]="{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.Html.Dom.OpenWindow\",\"P\":[\"https:\/\/sps-cuny.campus.eab.com\/home\",{\"_type\":\"url\",\"Url\":\"https:\/\/sps-cuny.campus.eab.com\/home\"},0,0,true,true,null,true]}";
+	D2L.OR["d2l_1_75_465"] = {};
+	D2L.OR["d2l_1_75_465"]["select"]="{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.Html.Dom.OpenWindow\",\"P\":[\"https:\/\/sps.cuny.edu\/about\/policies\/academic-and-student-policies\/academic-integrity\",{\"_type\":\"url\",\"Url\":\"https:\/\/sps.cuny.edu\/about\/policies\/academic-and-student-policies\/academic-integrity\"},0,0,true,true,null,true]}";
+	D2L.OR["d2l_1_76_854"] = {};
+	D2L.OR["d2l_1_76_854"]["select"]="{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.Html.Dom.OpenWindow\",\"P\":[\"https:\/\/sps.cuny.edu\/academics\/academic-calendar\",{\"_type\":\"url\",\"Url\":\"https:\/\/sps.cuny.edu\/academics\/academic-calendar\"},0,0,true,true,null,true]}";
+	D2L.OR["d2l_1_77_829"] = {};
+	D2L.OR["d2l_1_77_829"]["select"]="{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.Html.Dom.OpenWindow\",\"P\":[\"https:\/\/sps.cuny.edu\/student-services\/academic-resources\",{\"_type\":\"url\",\"Url\":\"https:\/\/sps.cuny.edu\/student-services\/academic-resources\"},0,0,true,true,null,true]}";
+	D2L.OR["d2l_1_78_396"] = {};
+	D2L.OR["d2l_1_78_396"]["select"]="{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.Html.Dom.OpenWindow\",\"P\":[\"https:\/\/sps.cuny.edu\/student-services\/career-services\/cuny-sps-careerlink\",{\"_type\":\"url\",\"Url\":\"https:\/\/sps.cuny.edu\/student-services\/career-services\/cuny-sps-careerlink\"},0,0,true,true,null,true]}";
+	D2L.OR["d2l_1_79_205"] = {};
+	D2L.OR["d2l_1_79_205"]["select"]="{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.Html.Dom.OpenWindow\",\"P\":[\"https:\/\/sps.cuny.edu\/student-services\/student-counseling-services\",{\"_type\":\"url\",\"Url\":\"https:\/\/sps.cuny.edu\/student-services\/student-counseling-services\"},0,0,true,true,null,true]}";
+	D2L.OR["d2l_1_80_490"] = {};
+	D2L.OR["d2l_1_80_490"]["select"]="{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.Html.Dom.OpenWindow\",\"P\":[\"https:\/\/sps.cuny.edu\/student-services\/disability-services\",{\"_type\":\"url\",\"Url\":\"https:\/\/sps.cuny.edu\/student-services\/disability-services\"},0,0,true,true,null,true]}";
+	D2L.OR["d2l_1_81_582"] = {};
+	D2L.OR["d2l_1_81_582"]["select"]="{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.Html.Dom.OpenWindow\",\"P\":[\"https:\/\/sps.cuny.edu\/about\/events\",{\"_type\":\"url\",\"Url\":\"https:\/\/sps.cuny.edu\/about\/events\"},0,0,true,true,null,true]}";
+	D2L.OR["d2l_1_82_963"] = {};
+	D2L.OR["d2l_1_82_963"]["select"]="{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.Html.Dom.OpenWindow\",\"P\":[\"https:\/\/sps.cuny.edu\/student-services\/military-veteran\",{\"_type\":\"url\",\"Url\":\"https:\/\/sps.cuny.edu\/student-services\/military-veteran\"},0,0,true,true,null,true]}";
+	D2L.OR["d2l_1_83_389"] = {};
+	D2L.OR["d2l_1_83_389"]["select"]="{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.Html.Dom.OpenWindow\",\"P\":[\"https:\/\/sps.cuny.edu\/student-services\/student-life\/professional-development-grant\",{\"_type\":\"url\",\"Url\":\"https:\/\/sps.cuny.edu\/student-services\/student-life\/professional-development-grant\"},0,0,true,true,null,true]}";
+	D2L.OR["d2l_1_84_275"] = {};
+	D2L.OR["d2l_1_84_275"]["select"]="{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.Html.Dom.OpenWindow\",\"P\":[\"https:\/\/sps.cuny.edu\/student-services\/student-life\",{\"_type\":\"url\",\"Url\":\"https:\/\/sps.cuny.edu\/student-services\/student-life\"},0,0,true,true,null,true]}";
+	D2L.OR["d2l_1_85_703"] = {};
+	D2L.OR["d2l_1_85_703"]["select"]="{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.Html.Dom.OpenWindow\",\"P\":[\"https:\/\/sps.cuny.edu\/financial-aid-and-tuition\/important-dates\",{\"_type\":\"url\",\"Url\":\"https:\/\/sps.cuny.edu\/financial-aid-and-tuition\/important-dates\"},0,0,true,true,null,true]}";
+	D2L.OR["d2l_1_86_130"] = {};
+	D2L.OR["d2l_1_86_130"]["select"]="{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.Html.Dom.OpenWindow\",\"P\":[\"https:\/\/sps.cuny.edu\/financial-aid-and-tuition\/financial-aid\/disbursement-calendar\",{\"_type\":\"url\",\"Url\":\"https:\/\/sps.cuny.edu\/financial-aid-and-tuition\/financial-aid\/disbursement-calendar\"},0,0,true,true,null,true]}";
+	D2L.OR["d2l_1_87_618"] = {};
+	D2L.OR["d2l_1_87_618"]["select"]="{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.Html.Dom.OpenWindow\",\"P\":[\"https:\/\/sps.cuny.edu\/financial-aid-and-tuition\/short-term-assistance\",{\"_type\":\"url\",\"Url\":\"https:\/\/sps.cuny.edu\/financial-aid-and-tuition\/short-term-assistance\"},0,0,true,true,null,true]}";
+	D2L.OR["d2l_1_88_472"] = {};
+	D2L.OR["d2l_1_88_472"]["select"]="{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.Html.Dom.OpenWindow\",\"P\":[\"https:\/\/mycollegepaymentplan.com\/cuny\/\",{\"_type\":\"url\",\"Url\":\"https:\/\/mycollegepaymentplan.com\/cuny\/\"},0,0,true,true,null,true]}";
+	D2L.OR["d2l_1_89_995"] = {};
+	D2L.OR["d2l_1_89_995"]["select"]="{\"_type\":\"func\",\"N\":\"D2L.LP.Web.UI.Html.Dom.OpenWindow\",\"P\":[\"https:\/\/sps.cuny.edu\/financial-aid-and-tuition\/scholarships\",{\"_type\":\"url\",\"Url\":\"https:\/\/sps.cuny.edu\/financial-aid-and-tuition\/scholarships\"},0,0,true,true,null,true]}";
+	var isTextFileSubmission = false; 
+	var hasConfirm = false;
+	var hasSingleFileConfirm = true;
+
+</script>
+<script>D2L.LP.Web.UI.Html.Bsi.Init('prod', 'https://s.brightspace.com/lib/bsi/2026.3.232/', ['unbundled/floating-buttons.js','unbundled/icon.js','unbundled/html-block.js','unbundled/htmleditor.js','unbundled/navigation.js','unbundled/navigation-main-header.js','unbundled/navigation-button-icon.js','unbundled/navigation-link-icon.js','unbundled/navigation-separator.js','unbundled/navigation-link-image.js','unbundled/navigation-dropdown-button-icon.js','unbundled/dropdown-content.js','unbundled/navigation-dropdown-button-custom.js','unbundled/d2l-profile-image-base.js','unbundled/navigation-main-footer.js','unbundled/dropdown.js','unbundled/dropdown-menu.js','unbundled/menu.js','unbundled/menu-item-link.js','unbundled/menu-item.js','unbundled/navigation-band.js','unbundled/button-icon.js','unbundled/breadcrumbs.js','unbundled/breadcrumb.js','unbundled/breadcrumb-current-page.js']);</script>
+</body>
+</html>
